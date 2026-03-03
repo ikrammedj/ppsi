@@ -1,0 +1,929 @@
+h3_id,osm_type,osm_id,lat,lon,name,amenity,shop,tourism,office,building,building_levels,highway,landuse,natural,tags
+88382994abfffff,node,945315378,36.7084657,2.9114738,Sureté Urbaine,police,,,,,,,,,"{'amenity': 'police', 'name': 'Sureté Urbaine', 'name:ar': 'الأمن الوطني', 'name:ber': 'ⵜⴰⵎⵙⵓⵍⵜⴰ ⵜⴰⵖⴻⵍⵏⴰⵡⵜ', 'name:fr': 'Police nationale', 'name:kab': 'Tamsulta taɣelnawt', 'operator': 'Direction générale de la Sûreté nationale', 'operator:ar': 'المديرية العامة للأمن الوطني', 'operator:short': 'DGSN', 'operator:wikidata': 'Q12218510', 'operator:wikipedia': 'ar:المديرية العامة للأمن الوطني (الجزائر)', 'phone': '+213 17'}"
+88382994abfffff,node,945315396,36.7084741,2.9126707,Souidania Poste بريد السويدانية,post_office,,,,,,,,,"{'amenity': 'post_office', 'brand': 'Algérie Poste', 'brand:ar': 'بريد الجزائر', 'brand:email': 'clientalgerieposte@poste.dz', 'brand:fr': 'Algérie Poste', 'brand:website': 'https://www.poste.dz', 'brand:wikidata': 'Q2836029', 'brand:wikipedia': 'ar:بريد الجزائر', 'brand:wikipedia:ar': 'بريد الجزائر', 'currency:DZA': 'yes', 'description': 'bureau de poste', 'email': 'clientalgerieposte@poste.dz', 'fax': '+21323923170', 'language:ar': 'main', 'name': 'Souidania Poste بريد السويدانية', 'name:ar': 'بريد السويدانية', 'name:en': 'Souidania Post', 'name:es': 'Postal de Souidania', 'name:it': 'Postale di Souidania', 'opening_hours': '08:30-12:30,13:30-16:30', 'operator': 'Algérie Poste', 'operator:ar': 'بريد الجزائر', 'operator:email': 'clientalgerieposte@poste.dz', 'operator:fr': 'Algérie Poste', 'operator:website': 'https://www.poste.dz/', 'operator:wikidata': 'Q2836029', 'operator:wikipedia': 'fr:Algérie Poste', 'operator:wikipedia:ar': 'بريد الجزائر', 'phone': '+21323923200', 'source': 'Algerie Mapper Team (Superadlen)', 'website': 'https://www.poste.dz', 'wheelchair': 'yes', 'wikidata': 'Q3115007', 'wikipedia': 'fr:Algérie Poste'}"
+88382994abfffff,node,2712277535,36.7070936,2.910323,Epicerie,,convenience,,,,,,,,"{'addr:country': 'DZ', 'name': 'Epicerie', 'shop': 'convenience'}"
+88382994abfffff,node,2712277537,36.7072062,2.91058,,pharmacy,,,,,,,,,"{'addr:country': 'DZ', 'amenity': 'pharmacy'}"
+88382994abfffff,node,2712277538,36.7091378,2.9112267,cyber,,,,it,,,,,,"{'name': 'cyber', 'office': 'it'}"
+88382994abfffff,node,3036046268,36.7077253,2.9112207,,,kiosk,,,,,,,,{'shop': 'kiosk'}
+88382994abfffff,node,3036049349,36.7092465,2.9104887,,,convenience,,,,,,,,"{'addr:country': 'DZ', 'shop': 'convenience'}"
+88382994abfffff,node,3656359838,36.7086779,2.9109726,,pharmacy,,,,,,,,,"{'addr:country': 'DZ', 'amenity': 'pharmacy'}"
+88382994abfffff,node,4345509190,36.7043523,2.9095667,Polytechnique de Souidania,clinic,,,,,,,,,"{'addr:city': 'Souidania', 'amenity': 'clinic', 'name': 'Polytechnique de Souidania'}"
+88382994abfffff,node,5181376590,36.7028338,2.9121467,,parking,,,,,,,,,"{'amenity': 'parking', 'parking': 'surface'}"
+88382994abfffff,node,5379129829,36.7081108,2.911835,,,clothes,,,,,,,,{'shop': 'clothes'}
+88382994abfffff,node,5379135577,36.7082244,2.9116601,Anex état civil,townhall,,,,,,,,,"{'amenity': 'townhall', 'name': 'Anex état civil'}"
+88382994abfffff,node,6637033264,36.7082757,2.9124721,,,kiosk,,,,,,,,{'shop': 'kiosk'}
+88382994abfffff,node,6637036771,36.7082294,2.9126934,,,butcher,,,,,,,,{'shop': 'butcher'}
+88382994abfffff,node,6637044633,36.7082626,2.9126035,,,bakery,,,,,,,,{'shop': 'bakery'}
+88382994abfffff,node,6637045399,36.7083009,2.9124388,,,mobile_phone,,,,,,,,{'shop': 'mobile_phone'}
+88382994abfffff,node,6637051859,36.7082149,2.9124351,,,clothes,,,,,,,,{'shop': 'clothes'}
+88382994abfffff,node,6637052657,36.7083144,2.9124013,,,convenience,,,,,,,,{'shop': 'convenience'}
+88382994abfffff,node,6637061262,36.7082501,2.9126513,,,clothes,,,,,,,,{'shop': 'clothes'}
+88382994abfffff,node,6637061899,36.7078859,2.9121309,,,pet,,,,,,,,{'shop': 'pet'}
+88382994abfffff,node,6637066907,36.7080965,2.9124676,,,clothes,,,,,,,,{'shop': 'clothes'}
+88382994abfffff,node,9052747917,36.7072552,2.9179525,,pharmacy,,,,,,,,,"{'amenity': 'pharmacy', 'name:fr': 'Chawki pharmacie'}"
+88382994abfffff,node,9803819703,36.7070379,2.9104136,,cafe,,,,,,,,,{'amenity': 'cafe'}
+88382994abfffff,node,9803819704,36.7070233,2.9104522,,fast_food,,,,,,,,,"{'amenity': 'fast_food', 'cuisine': 'burger'}"
+88382994abfffff,node,9803819705,36.7066093,2.9119097,,doctors,,,,,,,,,"{'amenity': 'doctors', 'healthcare': 'doctor', 'healthcare:speciality': 'general'}"
+88382994abfffff,node,11207127754,36.7086231,2.9121903,,cafe,,,,,,,,,{'amenity': 'cafe'}
+88382994abfffff,node,11207127755,36.7086696,2.9128724,Parfumerie Primo عطر بريمو,,perfumery,,,,,,,,"{'name': 'Parfumerie Primo عطر بريمو', 'name:ar': 'عطر بريمو', 'name:en': 'Primo Perfumery', 'name:es': 'Perfumería Primo', 'name:fr': 'Parfumerie Primo', 'shop': 'perfumery'}"
+88382994abfffff,way,40092671,36.7089404,2.9097707,,,,,,,,residential,,,{'highway': 'residential'}
+88382994abfffff,way,40092686,36.7063607,2.9149708,,,,,,,,residential,,,{'highway': 'residential'}
+88382994abfffff,way,40092689,36.7071734,2.9125008,,,,,,,,service,,,{'highway': 'service'}
+88382994abfffff,way,40092693,36.7066025,2.9135888,,,,,,,,service,,,{'highway': 'service'}
+88382994abfffff,way,40092697,36.7069676,2.9132488,,,,,,,,service,,,{'highway': 'service'}
+88382994abfffff,way,40092700,36.7068184,2.9130661,,,,,,,,service,,,{'highway': 'service'}
+88382994abfffff,way,40092704,36.7099187,2.9158601,,,,,,,,residential,,,{'highway': 'residential'}
+88382994abfffff,way,40092708,36.7097252,2.9176906,,,,,,,,track,,,"{'highway': 'track', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,40092709,36.7064221,2.9164474,,,,,,,,residential,,,{'highway': 'residential'}
+88382994abfffff,way,40092718,36.7064563,2.9143656,,,,,,,,residential,,,{'highway': 'residential'}
+88382994abfffff,way,40092728,36.706363,2.9151425,,,,,,,,residential,,,{'highway': 'residential'}
+88382994abfffff,way,40092739,36.7077153,2.9170193,,,,,,,,residential,,,{'highway': 'residential'}
+88382994abfffff,way,40092747,36.707732,2.9159394,,,,,,,,residential,,,{'highway': 'residential'}
+88382994abfffff,way,40092756,36.7087882,2.9165649,,,,,,,,residential,,,{'highway': 'residential'}
+88382994abfffff,way,40092757,36.7093985,2.9170163,,,,,,,,residential,,,{'highway': 'residential'}
+88382994abfffff,way,40092759,36.7097389,2.9161078,,,,,,,,residential,,,{'highway': 'residential'}
+88382994abfffff,way,40092766,36.7098436,2.9104055,,,,,,,,residential,,,{'highway': 'residential'}
+88382994abfffff,way,40092770,36.7094391,2.9110326,,,,,,,,residential,,,{'highway': 'residential'}
+88382994abfffff,way,40092776,36.7075378,2.9166346,,,,,,,,residential,,,{'highway': 'residential'}
+88382994abfffff,way,40092778,36.7080441,2.9156199,,,,,,,,residential,,,{'highway': 'residential'}
+88382994abfffff,way,40092781,36.7078749,2.9173627,,,,,,,,residential,,,{'highway': 'residential'}
+88382994abfffff,way,40092789,36.7087166,2.9130065,Rue Mohand Said Djaout,,,,,,,residential,,,"{'highway': 'residential', 'name': 'Rue Mohand Said Djaout', 'oneway': 'yes'}"
+88382994abfffff,way,40092793,36.7090685,2.9122596,Rue Lebkaâ Benalia,,,,,,,residential,,,"{'highway': 'residential', 'name': 'Rue Lebkaâ Benalia', 'oneway': 'yes'}"
+88382994abfffff,way,40092796,36.7089209,2.912644,Rue Tahar Moulahem,,,,,,,residential,,,"{'highway': 'residential', 'name': 'Rue Tahar Moulahem', 'oneway': 'yes'}"
+88382994abfffff,way,40092800,36.7093246,2.9114977,,,,,,,,residential,,,{'highway': 'residential'}
+88382994abfffff,way,40092802,36.7096827,2.9118526,Rue Djouadi,,,,,,,residential,,,"{'highway': 'residential', 'name': 'Rue Djouadi'}"
+88382994abfffff,way,40092812,36.7089473,2.9194457,,,,,,,,residential,,,{'highway': 'residential'}
+88382994abfffff,way,40092819,36.7073396,2.9112894,,,,,,,,residential,,,{'highway': 'residential'}
+88382994abfffff,way,40092825,36.7072974,2.911301,,,,,,,,residential,,,{'highway': 'residential'}
+88382994abfffff,way,40092827,36.7080834,2.9118581,,,,,,,,residential,,,{'highway': 'residential'}
+88382994abfffff,way,40092862,36.7081856,2.918607,Rue Hocine Abziou,,,,,,,residential,,,"{'highway': 'residential', 'lanes': '2', 'name': 'Rue Hocine Abziou', 'surface': 'asphalt'}"
+88382994abfffff,way,40092874,36.7095379,2.9189896,,,,,,,,residential,,,{'highway': 'residential'}
+88382994abfffff,way,40118085,36.7047084,2.9101786,,,,,,,,residential,,,{'highway': 'residential'}
+88382994abfffff,way,40118086,36.7051662,2.9106289,,,,,,,,residential,,,{'highway': 'residential'}
+88382994abfffff,way,40118087,36.7052581,2.9101257,,,,,,,,residential,,,{'highway': 'residential'}
+88382994abfffff,way,42493193,36.7040607,2.9098714,,,,,,,,residential,,,{'highway': 'residential'}
+88382994abfffff,way,42493204,36.7041676,2.9109736,,,,,,,,residential,,,{'highway': 'residential'}
+88382994abfffff,way,42493205,36.7043244,2.9102105,,,,,,,,residential,,,{'highway': 'residential'}
+88382994abfffff,way,81115078,36.707178,2.9161773,,,,,,,,residential,,,{'highway': 'residential'}
+88382994abfffff,way,81115082,36.7091939,2.9118424,Rue Serrir Idir,,,,,,,residential,,,"{'highway': 'residential', 'name': 'Rue Serrir Idir', 'oneway': 'yes'}"
+88382994abfffff,way,81115084,36.7078458,2.9110227,Rue Aoual Amokrane,,,,,,,tertiary,,,"{'highway': 'tertiary', 'name': 'Rue Aoual Amokrane'}"
+88382994abfffff,way,81115090,36.7072751,2.9137265,Rue des Frères Mehdi,,,,,,,secondary,,,"{'highway': 'secondary', 'lanes': '2', 'name': 'Rue des Frères Mehdi', 'ref': 'CW 133', 'surface': 'asphalt'}"
+88382994abfffff,way,81115093,36.6986232,2.9278591,,,,,,,,secondary,,,"{'highway': 'secondary', 'lanes': '2', 'ref': 'CW 133', 'surface': 'asphalt'}"
+88382994abfffff,way,81115488,36.7058609,2.9168945,,,,,,,,,cemetery,,"{'landuse': 'cemetery', 'religion': 'christian'}"
+88382994abfffff,way,264945757,36.7021227,2.9118219,,,,,,,,residential,,,"{'highway': 'residential', 'oneway': 'yes'}"
+88382994abfffff,way,264945758,36.7027626,2.9120733,,,,,,,,service,,,{'highway': 'service'}
+88382994abfffff,way,264945759,36.7030994,2.9119854,,,,,,residential,,,,,{'building': 'residential'}
+88382994abfffff,way,264945760,36.7027562,2.912307,,,,,,residential,,,,,{'building': 'residential'}
+88382994abfffff,way,264945761,36.7024362,2.9112025,Lycée Hocine Ait Ahmed,college,,,,,,,,,"{'amenity': 'college', 'name': 'Lycée Hocine Ait Ahmed'}"
+88382994abfffff,way,264945762,36.7029315,2.9117733,,,,,,,,residential,,,{'highway': 'residential'}
+88382994abfffff,way,264945767,36.7028712,2.911597,,,,,,school,,,,,{'building': 'school'}
+88382994abfffff,way,264945786,36.7067011,2.9086723,,,,,,,,residential,,,{'highway': 'residential'}
+88382994abfffff,way,264945787,36.7068174,2.9081006,,,,,,,,residential,,,{'highway': 'residential'}
+88382994abfffff,way,264945790,36.7067186,2.9090218,,,,,,,,residential,,,{'highway': 'residential'}
+88382994abfffff,way,264945791,36.7043886,2.9098366,,,,,,,,tertiary,,,"{'highway': 'tertiary', 'lanes': '2'}"
+88382994abfffff,way,264945794,36.70537,2.9095403,,,,,,,,,,wood,{'natural': 'wood'}
+88382994abfffff,way,264945797,36.7068416,2.9081071,AADL Souidania,,,,,,,,residential,,"{'landuse': 'residential', 'name': 'AADL Souidania'}"
+88382994abfffff,way,264945799,36.7034133,2.911624,,,,,,house,,,,,{'building': 'house'}
+88382994abfffff,way,264945800,36.7035453,2.9114746,,,,,,house,,,,,{'building': 'house'}
+88382994abfffff,way,264945802,36.7035973,2.9119292,,,,,,house,,,,,{'building': 'house'}
+88382994abfffff,way,265587511,36.7087695,2.9117094,Mairie de Souidania قاعة مدينة السويدانية,townhall,,,,yes,,,,,"{'addr:city': 'Souidania ⵙⵡⵉⴷⴰⵏⵢⴰ السويدانية', 'addr:postcode': 'W1133', 'addr:street': 'Rue des Frères Mehdi', 'amenity': 'townhall', 'building': 'yes', 'name': 'Mairie de Souidania قاعة مدينة السويدانية', 'name:ar': 'قاعة مدينة السويدانية', 'name:en': 'Souidania Town Hall', 'name:es': 'Ayuntamiento de Souidanía', 'name:fr': 'Mairie de Souidania'}"
+88382994abfffff,way,265587512,36.7088952,2.910744,,,,,,,,service,,,{'highway': 'service'}
+88382994abfffff,way,271075962,36.7037573,2.9116362,,,,,,,,residential,,,{'highway': 'residential'}
+88382994abfffff,way,271077086,36.7053816,2.9089172,,,,,,,,residential,,,{'highway': 'residential'}
+88382994abfffff,way,271077087,36.7051474,2.909019,,,,,,,,residential,,,{'highway': 'residential'}
+88382994abfffff,way,271077088,36.7065529,2.9109656,,,,,,,,footway,,,{'highway': 'footway'}
+88382994abfffff,way,271077089,36.7059857,2.9116554,,,,,,,,residential,,,{'highway': 'residential'}
+88382994abfffff,way,271077090,36.7061117,2.9123519,,,,,,,,residential,,,{'highway': 'residential'}
+88382994abfffff,way,312191690,36.7083069,2.9137745,,,,,,,,,forest,,{'landuse': 'forest'}
+88382994abfffff,way,312191698,36.7072294,2.9199251,800 lgts LSP,,,,,,,,residential,,"{'landuse': 'residential', 'name': '800 lgts LSP'}"
+88382994abfffff,way,361113948,36.709926,2.9135054,,,,,,,,residential,,,{'highway': 'residential'}
+88382994abfffff,way,361113949,36.7095724,2.9129559,,,,,,,,residential,,,{'highway': 'residential'}
+88382994abfffff,way,361113950,36.709783,2.9128882,,,,,,,,track,,,{'highway': 'track'}
+88382994abfffff,way,361113951,36.7095936,2.9109489,,,,,,,,residential,,,{'highway': 'residential'}
+88382994abfffff,way,361113952,36.7066663,2.9133788,Centre National d' Etudes et de Recherches Intégrées du Bâtiment (CNERIB ),,,,research,yes,5.0,,,,"{'addr:city': 'Souidania', 'addr:street': 'Cité El Mokrani', 'building': 'yes', 'building:levels': '5', 'name': ""Centre National d' Etudes et de Recherches Intégrées du Bâtiment (CNERIB )"", 'office': 'research', 'phone': '+21321380119', 'website': 'https://www.cnerib.edu.dz/'}"
+88382994abfffff,way,361113953,36.7085997,2.9102993,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,361113954,36.7092986,2.9096568,,,,,,school,,,,,{'building': 'school'}
+88382994abfffff,way,361113955,36.709,2.9103195,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,361113957,36.708003,2.9142363,Mosquée Al Fath جامع الفتح,place_of_worship,,,,mosque,,,,,"{'addr:city': 'Souidania', 'amenity': 'place_of_worship', 'building': 'mosque', 'check_date': '2025-10-03', 'denomination': 'sunni', 'name': 'Mosquée Al Fath جامع الفتح', 'name:ar': 'جامع الفتح', 'name:en': 'Al-Fath Mosque', 'name:es': 'Mezquita de Al-Fath', 'name:fr': 'Mosquée Al Fath', 'name:it': 'Moschea Al-Fath', 'religion': 'muslim', 'source': 'FB: Algerie Mapper Team : (Superadlen)', 'website': 'https://www.marw.dz/'}"
+88382994abfffff,way,361114022,36.7092534,2.9106375,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,361115930,36.7073414,2.9103391,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,361115932,36.7090492,2.9109783,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,361115933,36.7094185,2.9104854,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,361115937,36.7097745,2.9101825,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,361115940,36.7071919,2.9106594,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,361115941,36.7095489,2.9111392,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,361115944,36.7086323,2.9133509,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,361115948,36.7082858,2.9117489,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,361115950,36.7094115,2.9113263,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,361115955,36.708376,2.9114237,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,361115956,36.708842,2.9133824,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,361115957,36.7092195,2.9098768,CEM Ahmed Mehdi,school,,,,,,,,,"{'amenity': 'school', 'name': 'CEM Ahmed Mehdi'}"
+88382994abfffff,way,361115963,36.7095806,2.9103412,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,361115964,36.707008,2.9104362,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,361115967,36.7091603,2.911186,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,361115968,36.708171,2.9113316,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,361115971,36.7094484,2.9108494,,parking,,,,,,,,,{'amenity': 'parking'}
+88382994abfffff,way,361115973,36.7086988,2.9105297,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,379431412,36.7055694,2.9198832,,,,,,,,residential,,,"{'highway': 'residential', 'oneway': 'yes'}"
+88382994abfffff,way,430382425,36.7058254,2.9134664,,,,,,residential,5.0,,,,"{'building': 'residential', 'building:levels': '5'}"
+88382994abfffff,way,430382426,36.7062786,2.9125233,,,,,,residential,5.0,,,,"{'building': 'residential', 'building:levels': '5'}"
+88382994abfffff,way,430382457,36.7059624,2.912522,,,,,,residential,4.0,,,,"{'building': 'residential', 'building:levels': '4'}"
+88382994abfffff,way,430382946,36.7055826,2.9143775,,,,,,residential,9.0,,,,"{'building': 'residential', 'building:levels': '9'}"
+88382994abfffff,way,482943247,36.7070237,2.9195136,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,482943248,36.7070948,2.9186846,CEM Djadi Abderahmane,school,,,,,,,,,"{'amenity': 'school', 'name': 'CEM Djadi Abderahmane'}"
+88382994abfffff,way,482943250,36.7086987,2.9132673,Ecole Fatma Zohra Achour,school,,,,,,,,,"{'amenity': 'school', 'name': 'Ecole Fatma Zohra Achour'}"
+88382994abfffff,way,482943251,36.7070328,2.9139196,,,,,,,,service,,,"{'highway': 'service', 'surface': 'asphalt'}"
+88382994abfffff,way,482943252,36.7083752,2.913965,,,,,,,,residential,,,"{'highway': 'residential', 'lanes': '2', 'surface': 'asphalt'}"
+88382994abfffff,way,482943253,36.7072724,2.9132148,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,482943256,36.7066303,2.9127784,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,482943257,36.7070085,2.9194132,Ecole Djouadi Salah,school,,,,,,,,,"{'amenity': 'school', 'name': 'Ecole Djouadi Salah'}"
+88382994abfffff,way,482943258,36.70724,2.9184721,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,482943259,36.7060941,2.9124529,,,,,,,,residential,,,{'highway': 'residential'}
+88382994abfffff,way,482943260,36.7069256,2.9134494,Centre National d'Études et de Recherches Intégrées du Bâtiment,,,,research,,,,commercial,,"{'addr:city': 'Souidania', 'landuse': 'commercial', 'name': ""Centre National d'Études et de Recherches Intégrées du Bâtiment"", 'name:ar': 'المركز الوطني للدراسات والابحاث المتكاملة للبناء', 'name:fr': ""Centre National d'Études et de Recherches Intégrées du Bâtiment"", 'office': 'research', 'short_name': 'CNERIB', 'website': 'https://www.cnerib.edu.dz/'}"
+88382994abfffff,way,482943261,36.7067723,2.9193067,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,482943262,36.7093051,2.9129305,,,,,,,,residential,,,"{'highway': 'residential', 'oneway': 'yes'}"
+88382994abfffff,way,482943263,36.7073297,2.9188549,,,,,,,,residential,,,{'highway': 'residential'}
+88382994abfffff,way,482943264,36.7061344,2.9167507,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,483129340,36.7116313,2.9116517,744 lgts LSP,,,,,,,,construction,,"{'landuse': 'construction', 'name': '744 lgts LSP'}"
+88382994abfffff,way,483327093,36.7057188,2.9186515,500 lgts LPP,,,,,,,,residential,,"{'landuse': 'residential', 'name': '500 lgts LPP'}"
+88382994abfffff,way,534213937,36.7041854,2.9098984,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534213939,36.7044015,2.9098018,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534213940,36.704348,2.9095579,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534213941,36.7042601,2.9094645,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534213942,36.7042176,2.9095912,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534213943,36.7060891,2.9111754,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534213944,36.7060476,2.9117665,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534213945,36.7063689,2.9116747,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534213946,36.708005,2.9103912,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534213947,36.7078818,2.9106427,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534213948,36.7079186,2.9105417,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534213949,36.707505,2.9111208,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534213950,36.7076727,2.9106783,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534213951,36.7076539,2.9107252,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534213952,36.7076507,2.9108995,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534213953,36.7075781,2.9107795,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534213954,36.7075206,2.9103034,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534213955,36.7075894,2.9103671,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534213956,36.7075134,2.9106363,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534213958,36.7069199,2.9109435,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534213959,36.707097,2.9107158,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534213960,36.7070434,2.910769,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534213961,36.7069233,2.9107855,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534213962,36.7069894,2.9108687,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534213963,36.7070828,2.9109766,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534213964,36.7071739,2.91088,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534213965,36.707236,2.9110007,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534213966,36.7072332,2.9112921,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534213967,36.7073183,2.911288,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534213968,36.7069988,2.9111651,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534213969,36.7070921,2.9110866,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534213970,36.7070341,2.9110591,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534213971,36.7068126,2.9112314,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534213974,36.7068846,2.9113287,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534213975,36.706941,2.9112234,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534213977,36.7069877,2.911437,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534213978,36.7071779,2.9115574,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534213988,36.7080915,2.912018,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534213990,36.7081334,2.9119053,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534213996,36.7079329,2.9116002,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534213997,36.7079216,2.9117263,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534213998,36.7079044,2.9116545,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534213999,36.7076771,2.9115174,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214000,36.7076367,2.9114722,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214001,36.70767,2.9113977,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214002,36.7077091,2.9113083,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214003,36.7077394,2.9114306,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214004,36.7077698,2.911364,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214005,36.7078404,2.9114132,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214006,36.7079607,2.9114749,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214007,36.7080227,2.9114984,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214008,36.708063,2.9115586,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214009,36.7081141,2.9115915,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214010,36.7077959,2.9120354,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214011,36.7078695,2.9120938,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214012,36.7079243,2.9120006,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214013,36.7079679,2.9118275,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214014,36.7079157,2.9118115,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214015,36.7078247,2.9118028,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214016,36.7077947,2.9117417,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214017,36.707627,2.9116297,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214018,36.7074949,2.9118153,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214019,36.7077034,2.9119469,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214021,36.7075297,2.9135174,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214022,36.7074039,2.9140149,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214023,36.7075604,2.9145809,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214024,36.7075066,2.9145446,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214025,36.7075884,2.9144729,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214026,36.7076254,2.9140068,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214027,36.7077488,2.9140856,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214028,36.7076786,2.9142952,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214029,36.7074754,2.914204,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214030,36.7075867,2.9142637,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214031,36.7076275,2.9142134,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214032,36.7075899,2.9141034,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214033,36.7078373,2.9138225,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214034,36.7077802,2.9140216,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214035,36.7076915,2.9139673,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214036,36.7076695,2.913874,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214037,36.7076188,2.9137844,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214038,36.7076997,2.9137359,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214039,36.7076711,2.9135824,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214041,36.7077985,2.9134826,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214042,36.7077781,2.9135361,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214043,36.7077794,2.9136708,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214044,36.7078534,2.9136803,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214045,36.7079404,2.9132116,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214046,36.7079614,2.9131264,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214047,36.7078346,2.9131284,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214048,36.7078221,2.9134241,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214049,36.7079334,2.9134965,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214050,36.7079839,2.9133819,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214051,36.7080254,2.9132331,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214052,36.70807,2.9130929,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214053,36.7079904,2.9128857,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214054,36.7078826,2.9126217,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214055,36.7079034,2.912541,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214056,36.7078593,2.9123747,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214057,36.7079743,2.9124934,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214058,36.7080662,2.9125283,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214059,36.7081985,2.9126329,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214065,36.7092807,2.9118477,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214066,36.709337,2.9116981,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214067,36.7095219,2.9117296,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214068,36.7094855,2.9117122,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214069,36.7094558,2.9117833,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214070,36.7094268,2.9119214,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214071,36.7091876,2.9120884,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214072,36.7092936,2.9120039,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214073,36.7092607,2.9121515,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214074,36.7093169,2.9121792,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214077,36.7091779,2.9122299,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214101,36.7090252,2.9115539,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214102,36.7089855,2.9116713,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214103,36.7091432,2.9114357,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214104,36.7091534,2.9116915,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214105,36.7090284,2.9119965,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214108,36.7089151,2.9119349,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214109,36.7090149,2.9118449,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214111,36.7078437,2.9109827,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214112,36.7078109,2.9110255,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214113,36.7079098,2.9110879,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214114,36.7079459,2.9109638,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214115,36.7083398,2.9106454,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214116,36.7084152,2.9106601,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214117,36.7084549,2.9107406,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214118,36.7084829,2.910811,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214119,36.7086371,2.9109209,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214120,36.708692,2.9108506,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214121,36.7086501,2.9108124,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214122,36.7086075,2.9107538,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214123,36.7085565,2.9108204,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214124,36.7085538,2.9109881,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214125,36.7084484,2.9110234,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214126,36.7084543,2.9110981,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214127,36.7082269,2.9110229,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214128,36.7082071,2.9111959,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214129,36.7083512,2.9111462,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214130,36.708421,2.9112878,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214131,36.7098096,2.9146526,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214133,36.7097064,2.9145178,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214134,36.7089444,2.9135389,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214135,36.7095181,2.9143067,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214136,36.7093918,2.9141111,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214137,36.7092166,2.913904,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214138,36.7090948,2.9136866,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,534214139,36.7104859,2.9123548,,,,,,,,,,wood,{'natural': 'wood'}
+88382994abfffff,way,534815023,36.7045559,2.9106787,,,,,,,,residential,,,{'highway': 'residential'}
+88382994abfffff,way,556347498,36.706143,2.913394,,,,,,residential,9.0,,,,"{'building': 'residential', 'building:levels': '9'}"
+88382994abfffff,way,556347499,36.705865,2.9139137,,,,,,residential,9.0,,,,"{'building': 'residential', 'building:levels': '9'}"
+88382994abfffff,way,558866128,36.7093893,2.9102606,Rue des Frères Mehdi,,,,,,,secondary,,,"{'highway': 'secondary', 'name': 'Rue des Frères Mehdi', 'ref': 'CW 133', 'surface': 'asphalt'}"
+88382994abfffff,way,558868546,36.7089168,2.9107475,Rue des Frères Mehdi,,,,,,,secondary,,,"{'highway': 'secondary', 'name': 'Rue des Frères Mehdi', 'ref': 'CW 133', 'surface': 'asphalt'}"
+88382994abfffff,way,902800023,36.7059896,2.917828,B5,,,,,apartments,9.0,,,,"{'building': 'apartments', 'building:levels': '9', 'name': 'B5'}"
+88382994abfffff,way,902800024,36.7057643,2.9180926,B4,,,,,apartments,9.0,,,,"{'building': 'apartments', 'building:levels': '9', 'name': 'B4'}"
+88382994abfffff,way,902800025,36.7055273,2.9185047,B3,,,,,apartments,9.0,,,,"{'building': 'apartments', 'building:levels': '9', 'name': 'B3'}"
+88382994abfffff,way,902800026,36.7069161,2.9178672,,,,,,,,residential,,,{'highway': 'residential'}
+88382994abfffff,way,902800027,36.7049319,2.9190768,B2,,,,,apartments,9.0,,,,"{'building': 'apartments', 'building:levels': '9', 'name': 'B2'}"
+88382994abfffff,way,902800028,36.7047702,2.9193817,B1,,,,,apartments,9.0,,,,"{'building': 'apartments', 'building:levels': '9', 'name': 'B1'}"
+88382994abfffff,way,902800029,36.706691,2.9180409,B6,,,,,apartments,9.0,,,,"{'building': 'apartments', 'building:levels': '9', 'name': 'B6'}"
+88382994abfffff,way,902800030,36.7064796,2.9182963,B7,,,,,apartments,9.0,,,,"{'building': 'apartments', 'building:levels': '9', 'name': 'B7'}"
+88382994abfffff,way,902800031,36.7062646,2.9185505,B8,,,,,apartments,9.0,,,,"{'building': 'apartments', 'building:levels': '9', 'name': 'B8'}"
+88382994abfffff,way,902800032,36.7060463,2.9188038,B9,,,,,apartments,9.0,,,,"{'building': 'apartments', 'building:levels': '9', 'name': 'B9'}"
+88382994abfffff,way,902800033,36.70621,2.9193773,B10,,,,,apartments,9.0,,,,"{'building': 'apartments', 'building:levels': '9', 'name': 'B10'}"
+88382994abfffff,way,902800034,36.7059385,2.9195306,B11,,,,,apartments,9.0,,,,"{'building': 'apartments', 'building:levels': '9', 'name': 'B11'}"
+88382994abfffff,way,902800037,36.7058849,2.9189771,,,,,,,,residential,,,{'highway': 'residential'}
+88382994abfffff,way,902800038,36.705718,2.9187636,,,,,,,,residential,,,{'highway': 'residential'}
+88382994abfffff,way,907028519,36.706347,2.9174849,,school,,,,,,,,,{'amenity': 'school'}
+88382994abfffff,way,907028520,36.7064741,2.9189837,,,,,,yes,,,,,"{'building': 'yes', 'content': 'water', 'man_made': 'storage_tank'}"
+88382994abfffff,way,907028521,36.7066372,2.9193393,Maison de jeunes,arts_centre,,,,yes,,,,,"{'amenity': 'arts_centre', 'building': 'yes', 'name': 'Maison de jeunes'}"
+88382994abfffff,way,907028524,36.7055829,2.9172904,,parking,,,,,,,,,"{'access': 'permit', 'amenity': 'parking'}"
+88382994abfffff,way,907028525,36.7056208,2.9182341,,,,,,,,residential,,,{'highway': 'residential'}
+88382994abfffff,way,907030293,36.7054627,2.9177227,,,,,,,,,industrial,,"{'landuse': 'industrial', 'plant:method': 'combustion', 'plant:output:electricity': 'yes', 'plant:source': 'gas', 'power': 'plant'}"
+88382994abfffff,way,930707403,36.7095888,2.914086,,,,,,,,residential,,,{'highway': 'residential'}
+88382994abfffff,way,930707404,36.7090554,2.9151701,,,,,,,,residential,,,{'highway': 'residential'}
+88382994abfffff,way,1067884445,36.7081613,2.9123768,,,,,,,,residential,,,"{'highway': 'residential', 'oneway': 'yes'}"
+88382994abfffff,way,1154595658,36.7080467,2.9183547,,,,,,,,residential,,,{'highway': 'residential'}
+88382994abfffff,way,1154595659,36.7082882,2.9187731,,,,,,,,service,,,{'highway': 'service'}
+88382994abfffff,way,1154595660,36.7078345,2.9189779,,,,,,,,service,,,{'highway': 'service'}
+88382994abfffff,way,1171638058,36.7027749,2.9165665,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171638941,36.7040922,2.9104348,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171638943,36.7034017,2.9126538,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171638947,36.7044995,2.9101669,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171638952,36.7060339,2.9156937,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171638953,36.7063199,2.9163417,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171638960,36.7063279,2.9147889,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171638963,36.7039767,2.9115399,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171638966,36.7034982,2.911386,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171638968,36.7062316,2.9146222,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171638969,36.706002,2.9147584,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171638976,36.7033797,2.917795,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171638978,36.70404,2.9099533,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171638979,36.7047021,2.9100981,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171638989,36.7062397,2.9147651,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171638991,36.7066767,2.9165982,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171638993,36.7041834,2.9117161,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171638996,36.7050559,2.9106854,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171638997,36.7058286,2.9174807,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171638999,36.7068583,2.918525,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639010,36.7043881,2.9107033,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639014,36.7066109,2.9143272,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639021,36.7070469,2.915747,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639026,36.7069581,2.9164387,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639027,36.7064558,2.9169817,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639028,36.7046444,2.9099559,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639029,36.7052658,2.9106944,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639030,36.70643,2.9146197,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639033,36.7065642,2.916495,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639037,36.7059622,2.9149774,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639038,36.7057108,2.9151333,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639044,36.7066971,2.9174055,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639046,36.7041141,2.915998,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639049,36.7048711,2.9105612,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639051,36.7041694,2.9139944,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639052,36.7049608,2.9186479,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639056,36.7054024,2.9105253,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639057,36.7057565,2.9153573,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639059,36.7063474,2.9149799,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639061,36.7070422,2.9162145,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639063,36.706889,2.9170777,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639067,36.7053164,2.9101758,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639068,36.7038292,2.9147114,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639069,36.7042203,2.9118235,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639071,36.7066598,2.914161,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639074,36.7044423,2.9102275,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639080,36.7044506,2.9097682,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639082,36.7043921,2.9115391,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639088,36.7057976,2.9151419,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639089,36.7056607,2.9132334,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639092,36.7057951,2.9154995,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639094,36.7055527,2.9165078,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639096,36.7056729,2.9151445,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639100,36.7051562,2.9174811,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639104,36.7050949,2.9127053,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639110,36.7071135,2.9175031,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639113,36.7052625,2.9136062,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639127,36.7045185,2.9107252,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639129,36.7054831,2.9131064,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639131,36.7070768,2.914878,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639133,36.7066081,2.9137296,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639135,36.7067116,2.9146949,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639136,36.7066404,2.9152074,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639141,36.7046296,2.9106325,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639142,36.7063444,2.9153441,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639143,36.7036839,2.9122117,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639146,36.7048218,2.9130826,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639150,36.7042262,2.9109949,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639152,36.7045466,2.9134766,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639157,36.706629,2.9149969,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639162,36.7051152,2.9173618,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639168,36.703915,2.9119749,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639170,36.7047682,2.9102248,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639171,36.7061457,2.914067,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639179,36.7038475,2.9119111,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639180,36.7065931,2.9144352,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639184,36.7054841,2.9106043,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639188,36.704826,2.909776,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639194,36.7036017,2.9178016,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639195,36.703987,2.9142587,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639199,36.7035121,2.9130838,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639202,36.7068473,2.9157025,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639205,36.7035381,2.9157319,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639209,36.7036229,2.9109149,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639210,36.7033093,2.918133,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639211,36.7051368,2.917236,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639214,36.7061381,2.914415,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639215,36.7037736,2.9185672,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639220,36.703453,2.9169357,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639221,36.7051113,2.9136376,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639223,36.7040624,2.9110924,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639233,36.7036323,2.9104901,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639239,36.7034977,2.9187683,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639241,36.7050274,2.9164258,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639244,36.7066108,2.9126702,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639249,36.7041944,2.9113511,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639251,36.7038427,2.9102791,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639252,36.7039647,2.9120838,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639253,36.7034643,2.9119086,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639254,36.7052055,2.9143009,,,,,,terrace,,,,,{'building': 'terrace'}
+88382994abfffff,way,1171639269,36.7067721,2.913823,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639278,36.7063001,2.916511,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639281,36.7046088,2.9110887,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639284,36.7060114,2.9154852,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639285,36.7054809,2.9101538,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639287,36.7048159,2.910364,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639293,36.7059659,2.9145139,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639294,36.7055309,2.9175014,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639301,36.7055561,2.9105032,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639302,36.7054128,2.9103194,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639306,36.7053781,2.9104129,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639310,36.7067619,2.915068,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639311,36.7060027,2.9148223,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639313,36.7051898,2.9151993,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,1171639314,36.7043354,2.9109627,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639315,36.7042604,2.9138697,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639319,36.7040599,2.9116389,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639323,36.7038176,2.9122535,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639324,36.7058996,2.9148221,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639328,36.7044089,2.918902,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639329,36.7057897,2.9155938,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639330,36.7045014,2.909976,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639333,36.7050647,2.9089317,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639334,36.7036895,2.9157876,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639338,36.7068825,2.9165827,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639340,36.7041641,2.9100412,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639341,36.7037965,2.9115715,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639343,36.7054462,2.9165456,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639346,36.7052052,2.9110444,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639348,36.7038903,2.9121761,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639350,36.7043565,2.9108168,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639351,36.7066743,2.9170953,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639353,36.7068017,2.9149134,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639354,36.7064558,2.9155897,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639355,36.7068867,2.9116894,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639357,36.7061741,2.9148251,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639360,36.7066956,2.916085,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639363,36.7056816,2.915364,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639365,36.7061782,2.9145462,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639367,36.7040355,2.9188933,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639368,36.7032533,2.9129068,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639371,36.7046741,2.9112286,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639372,36.7061327,2.9142246,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639375,36.7052001,2.911449,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639377,36.7051917,2.9112865,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639378,36.7057566,2.9146766,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639379,36.7059172,2.9157532,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639380,36.703933,2.9109935,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639383,36.7044318,2.9158889,,,,,,terrace,,,,,"{'building': 'terrace', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639385,36.7063369,2.9174702,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639394,36.7055645,2.9106832,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639396,36.7064712,2.913698,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639397,36.7035718,2.918786,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639403,36.7061913,2.9149775,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639404,36.703931,2.9155383,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639408,36.706944,2.915848,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639416,36.7041563,2.9105589,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639423,36.7051326,2.9099926,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639426,36.7064157,2.9138274,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639431,36.7058576,2.9145243,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639435,36.7055518,2.9134836,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639439,36.7040174,2.9118251,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639440,36.7055746,2.9103556,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639443,36.7057796,2.9158915,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639448,36.7045459,2.9186926,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639450,36.7068026,2.9146209,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639452,36.703293,2.9136712,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639454,36.7048497,2.9099834,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639455,36.7029722,2.9128008,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639457,36.7038718,2.9100594,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639460,36.7031099,2.9131639,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639462,36.7055249,2.9159989,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639465,36.7057164,2.9148464,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639469,36.7044823,2.911189,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639470,36.7067766,2.9169238,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639473,36.7057009,2.914998,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639475,36.7066146,2.9146679,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639476,36.705187,2.9102511,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639477,36.7053289,2.9107227,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639484,36.706554,2.9151215,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639485,36.7056846,2.9103831,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639486,36.7031935,2.9165368,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639488,36.7040419,2.910677,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639489,36.7054767,2.9104314,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639490,36.7038046,2.9183949,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639505,36.7069603,2.9149981,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639508,36.7051977,2.9169718,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639509,36.707002,2.915526,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639510,36.7066398,2.911653,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639511,36.7054665,2.9174668,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639512,36.7053084,2.9103967,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639514,36.7050766,2.9100766,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639518,36.7048429,2.9091935,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639519,36.704988,2.9112273,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639520,36.7032625,2.9123577,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639521,36.7064933,2.9108077,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639522,36.7046556,2.9107471,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639523,36.7041622,2.9108612,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639532,36.7054122,2.9132674,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639539,36.7059075,2.9144772,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639548,36.7052735,2.9148109,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639551,36.7034276,2.9109121,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639552,36.7052059,2.9107861,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639555,36.7054185,2.9136817,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639558,36.7030776,2.9173466,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639561,36.7047213,2.9106374,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639564,36.7067213,2.9177402,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639565,36.7051386,2.911122,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639567,36.7057382,2.9191591,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639569,36.7056044,2.9169554,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639572,36.7056411,2.9102434,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639573,36.7066392,2.9140592,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639575,36.7067898,2.9145224,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639577,36.7037365,2.9107965,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639578,36.7045733,2.9103223,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639581,36.702886,2.9170823,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639582,36.7058508,2.9150225,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639583,36.7058067,2.9148363,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639589,36.7057385,2.918632,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639591,36.7056312,2.9105777,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639594,36.7039527,2.9101573,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639597,36.7050879,2.9103383,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639607,36.7049213,2.9104204,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639611,36.7063989,2.9144988,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639612,36.7039237,2.9104601,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639616,36.7047152,2.9110518,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639622,36.705784,2.9173215,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639628,36.7058036,2.915398,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639635,36.7055575,2.9129374,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639639,36.7064026,2.9142652,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639643,36.7052028,2.9098674,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639644,36.7069487,2.9184586,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639648,36.7067316,2.9172387,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639654,36.7066988,2.9142412,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639655,36.7036413,2.9186066,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639656,36.7043216,2.9103538,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639659,36.7053387,2.9134355,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639662,36.70488,2.915739,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639665,36.7068275,2.9153122,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639669,36.7056305,2.9170518,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639673,36.7054082,2.9163707,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639675,36.7063852,2.9141904,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639677,36.7052904,2.9109682,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639678,36.7062957,2.9150815,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639684,36.7064195,2.9147662,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639686,36.7048483,2.9096594,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639689,36.7050502,2.9088344,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639691,36.7066213,2.914098,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639692,36.7037289,2.9112719,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639693,36.7057788,2.914998,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639694,36.7049612,2.9160889,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639698,36.705351,2.9099804,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639699,36.7059094,2.9151942,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639702,36.7039506,2.9107462,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171639705,36.7047807,2.9109072,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771549,36.7073269,2.9190256,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771554,36.7094391,2.9181465,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771574,36.7079222,2.9178445,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771579,36.709071,2.9188726,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771587,36.70935,2.91828,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771601,36.7083134,2.9189427,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771608,36.7072689,2.9185201,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771625,36.7091393,2.9189109,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771639,36.7087665,2.918204,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771659,36.70869,2.9183795,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771670,36.7076703,2.9194993,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771680,36.7090343,2.9190575,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771686,36.7072671,2.9192285,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771689,36.7090826,2.9187831,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771696,36.7077647,2.9184173,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771708,36.7092322,2.9181477,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771728,36.708411,2.9182679,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771737,36.7087353,2.9190138,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771738,36.7082012,2.9183884,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771744,36.7088441,2.9175613,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771748,36.7088502,2.9163729,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771749,36.7097162,2.915554,,,,,,,,residential,,,"{'highway': 'residential', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771750,36.7100791,2.9114359,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771751,36.7097445,2.9132958,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771752,36.7098527,2.913204,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771753,36.7072767,2.9159963,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771756,36.7104366,2.9158205,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771758,36.7092395,2.9180238,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771759,36.7096248,2.9159464,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771760,36.7075805,2.9166576,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771761,36.7089941,2.9126573,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771762,36.7075695,2.9173208,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771763,36.7079122,2.9163208,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771765,36.7084082,2.9167855,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771767,36.7090937,2.9177041,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771768,36.7098112,2.9139052,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771769,36.7092854,2.9142239,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771770,36.7085499,2.9099918,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771771,36.707749,2.9164981,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771772,36.7086054,2.9152332,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771773,36.7075187,2.9127066,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771774,36.7083795,2.915224,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771778,36.7073562,2.9144047,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771779,36.7096572,2.9139633,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771781,36.709415,2.9125672,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771784,36.7079156,2.9146089,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771785,36.7094279,2.916272,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771786,36.7098958,2.9131655,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771788,36.7078639,2.9154114,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771789,36.7102993,2.9119944,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771790,36.7093491,2.9173818,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771794,36.7086142,2.914016,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771796,36.7088126,2.9119167,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771797,36.7073027,2.9153703,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771801,36.7102093,2.9136979,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771804,36.7090078,2.9130711,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771805,36.7091074,2.916746,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771806,36.7094637,2.914796,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771807,36.7101209,2.9153204,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771811,36.7088933,2.9140298,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771813,36.7085216,2.9147757,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771818,36.7080343,2.9169269,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771819,36.7107738,2.9138511,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771820,36.7078873,2.9170777,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771823,36.7089839,2.9127968,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771824,36.7095702,2.9138894,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771827,36.7089827,2.916024,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771830,36.7083027,2.9166613,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771831,36.7059745,2.9147224,,,,,,,,residential,,,"{'highway': 'residential', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771832,36.7097432,2.9172898,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771834,36.7091141,2.9173145,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771835,36.709865,2.9112162,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771836,36.7094981,2.9153243,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771837,36.709489,2.9164816,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771839,36.708289,2.9107499,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771841,36.7074554,2.9138564,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771844,36.707231,2.9151942,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771846,36.7089344,2.9139466,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771847,36.708927,2.91503,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771849,36.7090034,2.9165782,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771850,36.7095476,2.9156866,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771851,36.7087323,2.9151247,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771853,36.709818,2.9130567,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771854,36.7073946,2.9141134,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771856,36.7101651,2.9137621,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771857,36.7079331,2.9159152,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771858,36.7079156,2.9148564,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771861,36.7100395,2.9156606,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771862,36.7056479,2.9114796,,,,,,,,service,,,"{'highway': 'service', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771867,36.7090959,2.9169874,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771868,36.7073898,2.9147237,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771869,36.7094896,2.9166688,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771870,36.7076196,2.9169617,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771871,36.7086371,2.9143931,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771872,36.7095013,2.9171769,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771875,36.7091476,2.9128134,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771878,36.7083995,2.9154554,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771881,36.7083914,2.911226,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771882,36.704973,2.9146751,,,,,,,,residential,,,"{'highway': 'residential', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771883,36.7091028,2.9125531,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771886,36.7072003,2.917129,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771887,36.708878,2.9117898,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771890,36.7080542,2.9165257,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771891,36.7088188,2.9177527,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771893,36.709233,2.9126949,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771895,36.7089293,2.9170909,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771896,36.7076184,2.9160036,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771897,36.707482,2.9157664,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771898,36.7099677,2.9154267,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771900,36.7101095,2.9136802,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771903,36.7089906,2.9162926,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771904,36.7097068,2.9162344,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771905,36.7093296,2.9124994,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771907,36.7076909,2.9156338,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771911,36.7101898,2.9156272,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771912,36.7097401,2.9168027,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771915,36.7098771,2.916215,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771916,36.7073496,2.9146171,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771919,36.7088278,2.9148591,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771923,36.7082197,2.9163743,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771924,36.7088287,2.9142362,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771925,36.707266,2.9177177,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771926,36.7087863,2.9140438,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771927,36.7079152,2.9151942,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771929,36.7100921,2.9129366,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771932,36.7074708,2.9167815,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771933,36.7094431,2.9129637,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771935,36.7101063,2.9157733,,,,,,,,residential,,,"{'highway': 'residential', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771938,36.708746,2.9138116,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771939,36.7087689,2.9179272,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771940,36.7089905,2.9137462,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771941,36.7091298,2.9130319,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771942,36.7087139,2.9155899,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771943,36.7075094,2.9128217,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771944,36.7088526,2.9104576,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771945,36.7075961,2.9156297,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771946,36.7084623,2.9165025,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771947,36.7093317,2.9165738,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771948,36.7088962,2.9166697,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771951,36.709294,2.9158872,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771954,36.7099793,2.9126727,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771955,36.708565,2.916575,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771957,36.7089033,2.9179561,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771959,36.7072702,2.9170217,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771960,36.7095929,2.9127762,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771966,36.709907,2.9121238,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771971,36.7076701,2.9141581,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771974,36.7091124,2.9174764,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771978,36.7082686,2.916962,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771980,36.7092953,2.9147439,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771982,36.7082178,2.9127688,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771983,36.709727,2.9154421,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771985,36.7093362,2.9126959,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771986,36.7076973,2.9161367,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771987,36.7085459,2.9145133,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771988,36.708188,2.9144444,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771989,36.709303,2.9145819,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771990,36.7081205,2.912821,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771992,36.710142,2.9115228,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771993,36.7089859,2.915382,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771995,36.7079391,2.9172618,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771996,36.7082933,2.9177625,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771997,36.7100789,2.9119721,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171771999,36.70823,2.9161617,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772000,36.7101704,2.9166948,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772001,36.7092473,2.9126263,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772006,36.7076802,2.9130084,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772013,36.7087554,2.9146329,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772016,36.7078148,2.9153249,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772018,36.7099192,2.9164078,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772019,36.7097135,2.9174921,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772020,36.7098667,2.9117174,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772021,36.7081491,2.9167961,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772024,36.7092463,2.9128143,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772025,36.709502,2.9173639,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772026,36.7097302,2.9164715,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772028,36.7098068,2.9122979,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772029,36.7074856,2.9176648,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772030,36.7093913,2.9132939,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772031,36.708949,2.9157551,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772032,36.7080433,2.9153298,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772033,36.7082651,2.9145506,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772037,36.7068718,2.9114606,,,,,,,,residential,,,"{'highway': 'residential', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772039,36.7091438,2.916824,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772040,36.7079521,2.9166073,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772043,36.7076698,2.9154978,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772044,36.7076584,2.9175306,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772046,36.7089704,2.917824,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772047,36.7077622,2.9148681,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772049,36.7076336,2.9149198,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772051,36.7102771,2.9163539,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772052,36.7099588,2.9110248,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772055,36.7099175,2.9151876,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772057,36.7090305,2.9180538,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772062,36.7097536,2.9133752,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772063,36.7074026,2.9099698,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772065,36.7090682,2.9138685,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772066,36.7077472,2.917209,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772067,36.7075044,2.9152093,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772068,36.707854,2.9155361,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772069,36.7098253,2.9133116,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772070,36.709042,2.9171693,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772072,36.7083367,2.9144461,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772075,36.7071302,2.9152348,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772077,36.708188,2.9128581,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772080,36.707138,2.91566,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772081,36.7070889,2.9140127,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772085,36.7077671,2.9147381,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772086,36.7098571,2.9126039,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772087,36.7088387,2.913998,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772088,36.7074656,2.9170872,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772090,36.7080411,2.9172078,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772095,36.7071422,2.9167125,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772096,36.7091627,2.9124318,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772098,36.7081534,2.9104184,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772100,36.7077231,2.9150767,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772101,36.7089036,2.9172604,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772102,36.7075961,2.9162438,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772103,36.7098872,2.9150436,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772106,36.7090656,2.9142187,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772107,36.7071944,2.9147438,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772108,36.7099043,2.9109618,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772110,36.7087262,2.9159623,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772111,36.708044,2.9148745,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772112,36.7099526,2.9167715,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772114,36.7074735,2.9130194,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772118,36.7103992,2.9153423,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772119,36.7089067,2.9129754,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772120,36.7094197,2.9169421,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772121,36.7094799,2.9175496,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772123,36.7085914,2.9149794,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772124,36.7085372,2.9106867,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772125,36.7080829,2.9137372,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772128,36.7102362,2.9118644,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772131,36.7100457,2.9116215,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772134,36.7096828,2.912521,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772135,36.7076974,2.9168384,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772136,36.7073405,2.9151291,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772138,36.7099961,2.9140577,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772139,36.7101204,2.913525,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772141,36.7095668,2.9131333,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772142,36.7089232,2.9168857,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772143,36.7091936,2.915552,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772146,36.7031039,2.9138401,,,,,,,,construction,,,"{'construction': 'residential', 'highway': 'construction', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772147,36.708154,2.9170687,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772152,36.7075881,2.9152249,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772153,36.7092001,2.9143902,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772154,36.708354,2.9145851,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772155,36.707355,2.9164376,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772156,36.70955,2.9133218,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772158,36.7078298,2.9167547,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772159,36.7081457,2.916079,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772160,36.7093113,2.9163402,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772161,36.7097766,2.9108481,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772162,36.7101609,2.9161981,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772163,36.707521,2.9149014,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772164,36.7052561,2.9146707,,,,,,,,residential,,,"{'highway': 'residential', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772166,36.7097407,2.9170531,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772168,36.7088076,2.9139308,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772169,36.7093775,2.9171689,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772170,36.709484,2.9123859,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772173,36.7071484,2.916099,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772174,36.7072852,2.91744,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772175,36.709437,2.913556,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772177,36.7085259,2.9143497,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772180,36.7078108,2.9154655,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772183,36.7074302,2.9174046,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772185,36.7101596,2.9154587,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772187,36.7081062,2.9157384,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772190,36.7101811,2.9117876,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1171772191,36.7093056,2.9131747,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1184129062,36.7026392,2.9126858,,,,,,,,residential,,,"{'highway': 'residential', 'junction': 'roundabout'}"
+88382994abfffff,way,1184129063,36.7020632,2.9118906,,,,,,,,residential,,,"{'highway': 'residential', 'oneway': 'yes'}"
+88382994abfffff,way,1184129064,36.7030159,2.9130075,,,,,,,,service,,,{'highway': 'service'}
+88382994abfffff,way,1208343068,36.7084086,2.912021,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,1208343069,36.7083358,2.912322,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,1208343070,36.7048631,2.914867,,,,,,yes,10.0,,,,"{'building': 'yes', 'building:levels': '10'}"
+88382994abfffff,way,1208343071,36.7047841,2.9152961,,,,,,yes,10.0,,,,"{'building': 'yes', 'building:levels': '10'}"
+88382994abfffff,way,1208343072,36.7045781,2.9158797,,,,,,terrace,,,,,"{'building': 'terrace', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1209665497,36.7070485,2.911841,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,1209665498,36.7071533,2.9136629,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,1209665499,36.7070553,2.9137149,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,1209665500,36.7077198,2.912401,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,1209665501,36.7077091,2.9124886,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,1209665502,36.7077355,2.9122621,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,1209667630,36.7076169,2.9079212,,,,,,,,,,grassland,{'natural': 'grassland'}
+88382994abfffff,way,1209668319,36.7064613,2.9091797,,,,,,residential,,,,,{'building': 'residential'}
+88382994abfffff,way,1209668321,36.706252,2.9093699,,,,,,,,residential,,,{'highway': 'residential'}
+88382994abfffff,way,1209670728,36.7085065,2.9126512,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,1209670729,36.7086053,2.9125142,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,1209670730,36.7086305,2.9123291,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,1209670731,36.7086708,2.9122031,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,1209670732,36.7087716,2.9121843,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,1209670733,36.7087714,2.9122108,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,1209671735,36.7086967,2.9128308,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,1209671736,36.7086894,2.9127219,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,1209671737,36.708599,2.9127442,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,1209671738,36.7084222,2.9130066,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,1209673367,36.7098763,2.9121023,,,,,,,,residential,,,{'highway': 'residential'}
+88382994abfffff,way,1209673368,36.7096483,2.9118372,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,1209673369,36.7097064,2.9118814,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,1209673370,36.7097868,2.9119339,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,1209673371,36.7097131,2.9120443,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,1209673372,36.7096354,2.9121951,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,1209673373,36.7095556,2.9121087,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,1209673374,36.7096178,2.9119864,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,1209673375,36.7094937,2.9122204,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,1209673376,36.7088687,2.9112012,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,1209673377,36.7089651,2.9113387,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,1209673378,36.7088289,2.9112714,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,1209673379,36.708774,2.9113782,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,1209673380,36.7087594,2.9118723,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,1209675926,36.7088086,2.9126104,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,1209675927,36.7088784,2.9125203,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,1209675928,36.708861,2.91228,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,1209675929,36.7089622,2.912267,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,1209675930,36.7089266,2.9123645,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,1209675931,36.7089022,2.9124489,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,1209675932,36.7087707,2.9124094,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,1209675933,36.7082738,2.9137692,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,1209678412,36.708523,2.9123821,,,,,,,,,,tree_row,{'natural': 'tree_row'}
+88382994abfffff,way,1209678413,36.7087085,2.9132789,,,,,,,,,,tree_row,{'natural': 'tree_row'}
+88382994abfffff,way,1209678414,36.7090345,2.9131843,,,,,,,,,,tree_row,{'natural': 'tree_row'}
+88382994abfffff,way,1209678415,36.7098868,2.9135478,,,,,,,,,,wood,{'natural': 'wood'}
+88382994abfffff,way,1209678416,36.7104589,2.9143606,,,,,,,,,,scrub,{'natural': 'scrub'}
+88382994abfffff,way,1209678417,36.7103629,2.9151843,,,,,,,,service,,,"{'highway': 'service', 'service': 'driveway'}"
+88382994abfffff,way,1209678418,36.7089287,2.9165164,,,,,,,,service,,,"{'highway': 'service', 'service': 'alley'}"
+88382994abfffff,way,1209678419,36.7084849,2.9159983,,,,,,residential,,,,,{'building': 'residential'}
+88382994abfffff,way,1209678420,36.7083596,2.9158945,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,1209678421,36.7082584,2.9159114,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,1209678422,36.7085037,2.9156915,,,,,,yes,,,,,{'building': 'yes'}
+88382994abfffff,way,1209678423,36.709318,2.9157001,,,,,,,,track,,,{'highway': 'track'}
+88382994abfffff,way,1209678424,36.7090767,2.914697,,,,,,,,,,wood,{'natural': 'wood'}
+88382994abfffff,way,1209678425,36.7080858,2.9150474,,,,,,,,,,wood,{'natural': 'wood'}
+88382994abfffff,way,1210967783,36.7068559,2.9203436,,,,,,,,residential,,,{'highway': 'residential'}
+88382994abfffff,way,1323297437,36.7073685,2.9097377,,,,,,,,construction,,,"{'construction': 'secondary', 'highway': 'construction', 'oneway': 'yes'}"
+88382994abfffff,way,1408877224,36.7035897,2.9122916,,,,,,,,residential,,,{'highway': 'residential'}
+88382994abfffff,way,1408877225,36.7050256,2.9139698,,,,,,,,residential,,,{'highway': 'residential'}
+88382994abfffff,way,1408877226,36.7047558,2.915954,,,,,,,,residential,,,{'highway': 'residential'}
+88382994abfffff,way,1408877227,36.7029641,2.9120466,,,,,,,,residential,,,{'highway': 'residential'}
+88382994abfffff,way,1408877228,36.7045026,2.913412,,,,,,,,service,,,{'highway': 'service'}
+88382994abfffff,way,1453329181,36.7073634,2.9096572,,,,,,,,construction,,,"{'construction': 'secondary', 'highway': 'construction', 'oneway': 'yes'}"
+88382994abfffff,way,1457075920,36.7078546,2.920269,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1457075921,36.7079403,2.9196447,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88382994abfffff,way,1466529734,36.7067773,2.9188578,,,,,,,,residential,,,{'highway': 'residential'}
+88382994abfffff,way,1466529735,36.7056019,2.91983,,,,,,,,residential,,,"{'highway': 'residential', 'oneway': 'yes'}"
+88382994abfffff,way,1466529736,36.7045306,2.9194875,,,,,,,,residential,,,"{'highway': 'residential', 'oneway': 'yes'}"
+88382994abfffff,way,1466529737,36.7044863,2.9195277,,,,,,,,residential,,,"{'highway': 'residential', 'oneway': 'yes'}"

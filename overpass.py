@@ -23,16 +23,16 @@ def overpass_query(poly_str: str) -> str:
       // Bâtiments
       nwr(poly:"{poly_str}")["building"];
 
-      // ✅ building:levels (souvent sur des buildings)
+      // building:levels (souvent sur des buildings)
       nwr(poly:"{poly_str}")["building:levels"];
 
       // Routes
       way(poly:"{poly_str}")["highway"];
 
-      // ✅ Landuse (résidentiel, commercial, etc.)
+      // Landuse (résidentiel, commercial, etc.)
       nwr(poly:"{poly_str}")["landuse"];
 
-      // ✅ Natural (water, woodland, etc.)
+      // Natural (water, woodland, etc.)
       nwr(poly:"{poly_str}")["natural"];
     );
     out tags center;
@@ -93,7 +93,7 @@ def osm_tabular_from_h3(h3_id: str, sleep_sec: float = 0.2) -> pd.DataFrame:
     return elements_to_table(data, h3_id)
 
 if __name__ == "__main__":
-    h3_id = "88395a4b2dfffff"
+    h3_id = "88382994abfffff"
 
     df = osm_tabular_from_h3(h3_id)
 
