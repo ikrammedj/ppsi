@@ -1,0 +1,346 @@
+h3_id,osm_type,osm_id,lat,lon,name,amenity,shop,tourism,office,building,highway,tags
+88382995c5fffff,node,7098263885,36.6858544,2.8524823,المدينة الجديدة سيدي عبد الله,,,apartment,,,,"{'name': 'المدينة الجديدة سيدي عبد الله', 'name:ar': 'المدينة الجديدة سيدي عبد الله', 'name:en': 'B16', 'name:fr': 'Nouvelle Ville Sidi Abdellah', 'tourism': 'apartment'}"
+88382995c5fffff,node,8417470917,36.6860353,2.8506731,,,,apartment,,,,{'tourism': 'apartment'}
+88382995c5fffff,node,13304483410,36.6826583,2.8511909,,,convenience,,,,,{'shop': 'convenience'}
+88382995c5fffff,way,312093684,36.6821309,2.8466957,,,,,,,unclassified,"{'highway': 'unclassified', 'surface': 'dirt'}"
+88382995c5fffff,way,398629841,36.6878812,2.8561496,Bouelvard Hocine Ait Ahmed,,,,,,primary,"{'highway': 'primary', 'name': 'Bouelvard Hocine Ait Ahmed', 'oneway': 'yes', 'surface': 'asphalt'}"
+88382995c5fffff,way,398629843,36.6891951,2.8461336,,,,,,,tertiary,{'highway': 'tertiary'}
+88382995c5fffff,way,482113307,36.6882785,2.8525608,,,,,,,residential,{'highway': 'residential'}
+88382995c5fffff,way,482936110,36.689572,2.8474981,Rue Asmani Rachid,,,,,,tertiary,"{'highway': 'tertiary', 'lanes': '2', 'name': 'Rue Asmani Rachid', 'oneway': 'no', 'ref': 'CW 112'}"
+88382995c5fffff,way,482936612,36.6869712,2.8506061,Rue Mohamed Doghmane,,,,,,residential,"{'construction': 'residential', 'highway': 'residential', 'name': 'Rue Mohamed Doghmane'}"
+88382995c5fffff,way,552624685,36.6883323,2.8488758,,,,,,,residential,{'highway': 'residential'}
+88382995c5fffff,way,552624686,36.6903236,2.8467361,,,,,,,residential,{'highway': 'residential'}
+88382995c5fffff,way,552624687,36.6849964,2.852219,,,,,,,service,{'highway': 'service'}
+88382995c5fffff,way,553129893,36.6849292,2.851844,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,666205563,36.6877074,2.8506288,,,,,,,primary,"{'highway': 'primary', 'oneway': 'yes', 'surface': 'asphalt'}"
+88382995c5fffff,way,666205569,36.6860693,2.8461893,,,,,,,unclassified,"{'highway': 'unclassified', 'lanes': '2', 'oneway': 'no', 'ref': 'CW 112', 'ref:ar': 'ط ء 112', 'surface': 'dirt'}"
+88382995c5fffff,way,666205572,36.6876503,2.8504858,,,,,,,primary,"{'highway': 'primary', 'oneway': 'yes', 'surface': 'asphalt'}"
+88382995c5fffff,way,669611450,36.6830462,2.8509569,Bouelvard Hocine Ait Ahmed,,,,,,primary,"{'highway': 'primary', 'name': 'Bouelvard Hocine Ait Ahmed', 'oneway': 'yes', 'surface': 'asphalt'}"
+88382995c5fffff,way,669611451,36.6842628,2.8520761,,,,,,,primary,"{'highway': 'primary', 'junction': 'roundabout', 'oneway': 'yes', 'surface': 'asphalt'}"
+88382995c5fffff,way,669613997,36.6889646,2.8445972,,,,,,,residential,"{'highway': 'residential', 'junction': 'roundabout'}"
+88382995c5fffff,way,669613998,36.6871627,2.8516474,,,,,,,service,{'highway': 'service'}
+88382995c5fffff,way,669614001,36.6882905,2.8503615,,,,,,,residential,{'highway': 'residential'}
+88382995c5fffff,way,669614002,36.690206,2.8476128,,,,,,,residential,{'highway': 'residential'}
+88382995c5fffff,way,669614003,36.6902161,2.8457671,,,,,,,residential,{'highway': 'residential'}
+88382995c5fffff,way,669614004,36.6899372,2.8466934,,,,,,,residential,{'highway': 'residential'}
+88382995c5fffff,way,669614005,36.6890784,2.850524,,,,,,,residential,{'highway': 'residential'}
+88382995c5fffff,way,669614006,36.6905996,2.8484064,,,,,,,residential,{'highway': 'residential'}
+88382995c5fffff,way,669614010,36.6884127,2.8452498,,,,,,,service,{'highway': 'service'}
+88382995c5fffff,way,736816858,36.6898483,2.8465051,,parking,,,,,,"{'amenity': 'parking', 'parking': 'underground', 'source': 'superadlen'}"
+88382995c5fffff,way,736816859,36.6900588,2.8475123,,parking,,,,,,"{'amenity': 'parking', 'parking': 'underground', 'source': 'superadlen'}"
+88382995c5fffff,way,736816860,36.6897632,2.8473894,,,,,,,service,{'highway': 'service'}
+88382995c5fffff,way,737882634,36.6865413,2.8502869,,,,,,yes,,"{'building': 'yes', 'source': 'superadlen'}"
+88382995c5fffff,way,737882635,36.6871266,2.8512019,,,,,,yes,,"{'building': 'yes', 'source': 'superadlen'}"
+88382995c5fffff,way,737882639,36.6865596,2.8522903,,,,,,yes,,"{'building': 'yes', 'source': 'superadlen'}"
+88382995c5fffff,way,737882640,36.6859083,2.8512705,,,,,,yes,,"{'building': 'yes', 'source': 'superadlen'}"
+88382995c5fffff,way,737882641,36.6859072,2.8506718,,,,,,yes,,"{'building': 'yes', 'source': 'superadlen'}"
+88382995c5fffff,way,737882642,36.6861555,2.8504238,,,,,,yes,,"{'building': 'yes', 'source': 'superadlen'}"
+88382995c5fffff,way,737882643,36.6866527,2.8511976,,,,,,yes,,"{'building': 'yes', 'source': 'superadlen'}"
+88382995c5fffff,way,737882644,36.6874327,2.8524601,,,,,,yes,,"{'building': 'yes', 'source': 'superadlen'}"
+88382995c5fffff,way,737882645,36.6854088,2.8518446,,,,,,yes,,"{'building': 'yes', 'source': 'superadlen'}"
+88382995c5fffff,way,737882647,36.6864421,2.8508517,,,,,,yes,,"{'building': 'yes', 'source': 'superadlen'}"
+88382995c5fffff,way,737882648,36.6870294,2.8522909,,,,,,yes,,"{'building': 'yes', 'source': 'superadlen'}"
+88382995c5fffff,way,737882649,36.6872862,2.8520538,,,,,,yes,,"{'building': 'yes', 'source': 'superadlen'}"
+88382995c5fffff,way,737882652,36.6877735,2.8501242,,,,,,yes,,"{'building': 'yes', 'source': 'superadlen'}"
+88382995c5fffff,way,737882653,36.6875164,2.8503597,,,,,,yes,,"{'building': 'yes', 'source': 'superadlen'}"
+88382995c5fffff,way,737882654,36.6877147,2.8508505,,,,,,yes,,"{'building': 'yes', 'source': 'superadlen'}"
+88382995c5fffff,way,737882655,36.687973,2.8506079,,,,,,yes,,"{'building': 'yes', 'source': 'superadlen'}"
+88382995c5fffff,way,737882656,36.688214,2.850917,,,,,,yes,,"{'building': 'yes', 'source': 'superadlen'}"
+88382995c5fffff,way,737882657,36.6887801,2.8509639,,,,,,yes,,"{'building': 'yes', 'source': 'superadlen'}"
+88382995c5fffff,way,737882660,36.6885764,2.8489938,,,,,,yes,,"{'building': 'yes', 'source': 'superadlen'}"
+88382995c5fffff,way,737882669,36.6896586,2.8475946,,,,,,yes,,"{'building': 'yes', 'source': 'superadlen'}"
+88382995c5fffff,way,737882679,36.6901965,2.8481743,,,,,,yes,,"{'building': 'yes', 'source': 'superadlen'}"
+88382995c5fffff,way,737882680,36.6900936,2.8478014,,,,,,yes,,"{'building': 'yes', 'source': 'superadlen'}"
+88382995c5fffff,way,737882682,36.6899648,2.8472067,,,,,,yes,,"{'building': 'yes', 'source': 'superadlen'}"
+88382995c5fffff,way,737882684,36.6899843,2.8467186,,,,,,yes,,"{'building': 'yes', 'source': 'superadlen'}"
+88382995c5fffff,way,737882685,36.6897025,2.8469058,,,,,,yes,,"{'building': 'yes', 'source': 'superadlen'}"
+88382995c5fffff,way,737882686,36.6892671,2.8467019,,,,,,yes,,"{'building': 'yes', 'source': 'superadlen'}"
+88382995c5fffff,way,737882689,36.6895766,2.8463129,,,,,,yes,,"{'building': 'yes', 'source': 'superadlen'}"
+88382995c5fffff,way,737882690,36.6883001,2.8479596,,,,,,yes,,"{'building': 'yes', 'source': 'superadlen'}"
+88382995c5fffff,way,737882691,36.6886645,2.8477503,,,,,,yes,,"{'building': 'yes', 'source': 'superadlen'}"
+88382995c5fffff,way,737882692,36.6889787,2.8476811,,,,,,yes,,"{'building': 'yes', 'source': 'superadlen'}"
+88382995c5fffff,way,737882693,36.6894463,2.8479986,,,,,,yes,,"{'building': 'yes', 'source': 'superadlen'}"
+88382995c5fffff,way,737882694,36.6891113,2.8470987,,,,,,yes,,"{'building': 'yes', 'source': 'superadlen'}"
+88382995c5fffff,way,737882695,36.6886884,2.8465584,,,,,,yes,,"{'building': 'yes', 'source': 'superadlen'}"
+88382995c5fffff,way,737882696,36.6884131,2.8463655,,,,,,yes,,"{'building': 'yes', 'source': 'superadlen'}"
+88382995c5fffff,way,737882698,36.6881018,2.8467173,,,,,,yes,,"{'building': 'yes', 'source': 'superadlen'}"
+88382995c5fffff,way,737882699,36.6885652,2.8473592,,,,,,yes,,"{'building': 'yes', 'source': 'superadlen'}"
+88382995c5fffff,way,737882700,36.6889634,2.8482214,,,,,,yes,,"{'building': 'yes', 'source': 'superadlen'}"
+88382995c5fffff,way,737882701,36.6886503,2.8482956,,,,,,yes,,"{'building': 'yes', 'source': 'superadlen'}"
+88382995c5fffff,way,775641334,36.6874124,2.84973,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,775851490,36.6855749,2.852564,,,,,,yes,,"{'building': 'yes', 'source': 'superadlen'}"
+88382995c5fffff,way,775851491,36.6860809,2.852181,,,,,,yes,,"{'building': 'yes', 'source': 'superadlen'}"
+88382995c5fffff,way,775851493,36.6858614,2.8519239,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,775851495,36.686275,2.8525044,,,,,,yes,,"{'building': 'yes', 'source': 'superadlen'}"
+88382995c5fffff,way,775851498,36.687689,2.8522215,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,775851499,36.6872307,2.8528149,,parking,,,,,,{'amenity': 'parking'}
+88382995c5fffff,way,775851500,36.6872486,2.8526869,,,,,,,service,{'highway': 'service'}
+88382995c5fffff,way,775851501,36.6858859,2.8525826,,parking,,,,,,{'amenity': 'parking'}
+88382995c5fffff,way,775851502,36.6857975,2.8523936,,,,,,,service,{'highway': 'service'}
+88382995c5fffff,way,775851503,36.6856445,2.8515835,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,775851504,36.6854927,2.8512906,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,775851505,36.6867282,2.8538765,,,,,,,residential,{'highway': 'residential'}
+88382995c5fffff,way,775851506,36.6848463,2.8521586,,parking,,,,,,{'amenity': 'parking'}
+88382995c5fffff,way,775851507,36.6852593,2.8514264,,parking,,,,,,{'amenity': 'parking'}
+88382995c5fffff,way,775851508,36.685206,2.8514593,,,,,,,service,{'highway': 'service'}
+88382995c5fffff,way,775851511,36.6866779,2.8505943,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,775851512,36.6857108,2.8509483,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,775851513,36.6861239,2.8510348,,parking,,,,,,{'amenity': 'parking'}
+88382995c5fffff,way,775851514,36.6861303,2.8511546,,,,,,,service,{'highway': 'service'}
+88382995c5fffff,way,775851515,36.6869107,2.8509581,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,775851516,36.6874936,2.8517855,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,775851517,36.6867698,2.8525304,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,775851518,36.6870061,2.8518286,,parking,,,,,,{'amenity': 'parking'}
+88382995c5fffff,way,775851520,36.6862925,2.851673,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,775851521,36.6862925,2.851673,Ecole Sidi Abdellah 5,school,,,,,,"{'amenity': 'school', 'name': 'Ecole Sidi Abdellah 5'}"
+88382995c5fffff,way,775851522,36.6863106,2.8521245,,parking,,,,,,{'amenity': 'parking'}
+88382995c5fffff,way,775851524,36.6857433,2.8512123,,parking,,,,,,{'amenity': 'parking'}
+88382995c5fffff,way,775851525,36.6855844,2.8518666,,parking,,,,,,{'amenity': 'parking'}
+88382995c5fffff,way,775851529,36.68728,2.8506173,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,775851530,36.6874605,2.8510174,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,775851531,36.6880277,2.8499556,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,775851532,36.6875735,2.8505761,,parking,,,,,,{'amenity': 'parking'}
+88382995c5fffff,way,775851533,36.6874779,2.8507401,,,,,,,service,{'highway': 'service'}
+88382995c5fffff,way,775851534,36.6882867,2.851289,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,775851553,36.6878922,2.8515176,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,775851554,36.6878836,2.8511232,,parking,,,,,,{'amenity': 'parking'}
+88382995c5fffff,way,775851555,36.6879276,2.8510297,,,,,,,service,{'highway': 'service'}
+88382995c5fffff,way,775851556,36.6894493,2.8498807,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,775851557,36.6894493,2.8498807,Ecole Sidi Abdellah 3,school,,,,,,"{'amenity': 'school', 'name': 'Ecole Sidi Abdellah 3'}"
+88382995c5fffff,way,775851558,36.6888845,2.8498474,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,775851559,36.6889112,2.850268,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,775851560,36.6888845,2.8499298,CEM Sidi Abdellah Nouveau,school,,,,,,"{'amenity': 'school', 'name': 'CEM Sidi Abdellah Nouveau'}"
+88382995c5fffff,way,775862716,36.6895416,2.8492923,,,,,,yes,,"{'building': 'yes', 'source': 'superadlen'}"
+88382995c5fffff,way,775862717,36.689209,2.8491981,,,,,,yes,,"{'building': 'yes', 'source': 'superadlen'}"
+88382995c5fffff,way,775862718,36.6888798,2.8491034,,,,,,yes,,"{'building': 'yes', 'source': 'superadlen'}"
+88382995c5fffff,way,775862722,36.6893897,2.8485734,,,,,,yes,,"{'building': 'yes', 'source': 'superadlen'}"
+88382995c5fffff,way,775862723,36.6890815,2.8486582,,,,,,yes,,"{'building': 'yes', 'source': 'superadlen'}"
+88382995c5fffff,way,775862724,36.6881607,2.8471092,,,,,,yes,,"{'building': 'yes', 'source': 'superadlen'}"
+88382995c5fffff,way,775862732,36.6885974,2.8461041,,,,,,yes,,"{'building': 'yes', 'source': 'superadlen'}"
+88382995c5fffff,way,775862733,36.6883214,2.8459031,,,,,,yes,,"{'building': 'yes', 'source': 'superadlen'}"
+88382995c5fffff,way,775862734,36.6887886,2.8456919,,,,,,yes,,"{'building': 'yes', 'source': 'superadlen'}"
+88382995c5fffff,way,775862735,36.6889152,2.8454141,,,,,,yes,,"{'building': 'yes', 'source': 'superadlen'}"
+88382995c5fffff,way,775862736,36.6893496,2.8453137,,,,,,yes,,"{'building': 'yes', 'source': 'superadlen'}"
+88382995c5fffff,way,775862738,36.6883847,2.8483193,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,775862739,36.688269,2.8474265,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,775862740,36.6899648,2.8484043,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,775862751,36.6891566,2.8456054,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,775862752,36.6888715,2.8463138,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,775862755,36.6894365,2.8470243,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,775862756,36.6898275,2.8479215,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,775871415,36.6829286,2.8512268,,,,,,,primary,"{'highway': 'primary', 'oneway': 'yes', 'surface': 'asphalt'}"
+88382995c5fffff,way,776087923,36.6893994,2.8488649,,parking,,,,,,{'amenity': 'parking'}
+88382995c5fffff,way,776087924,36.6890184,2.8487041,,,,,,,service,{'highway': 'service'}
+88382995c5fffff,way,776087925,36.6888858,2.8479798,,parking,,,,,,{'amenity': 'parking'}
+88382995c5fffff,way,776087926,36.6885246,2.8478179,,,,,,,service,{'highway': 'service'}
+88382995c5fffff,way,776087929,36.6905538,2.8483439,,parking,,,,,,{'amenity': 'parking'}
+88382995c5fffff,way,776087941,36.6892127,2.8440937,,,,,,,residential,{'highway': 'residential'}
+88382995c5fffff,way,776087944,36.688954,2.8453229,,,,,,,residential,{'highway': 'residential'}
+88382995c5fffff,way,776087945,36.6890676,2.8451621,,parking,,,,,,{'amenity': 'parking'}
+88382995c5fffff,way,776087946,36.6881782,2.845471,,parking,,,,,,{'amenity': 'parking'}
+88382995c5fffff,way,776087947,36.6884704,2.8470021,,parking,,,,,,{'amenity': 'parking'}
+88382995c5fffff,way,776087948,36.6887027,2.8471803,,,,,,,service,{'highway': 'service'}
+88382995c5fffff,way,776087949,36.688681,2.8470544,,,,,,,service,{'highway': 'service'}
+88382995c5fffff,way,776087950,36.6897061,2.8455535,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776087951,36.6897061,2.8455535,Ecole Sidi Abdellah 6,school,,,,,,"{'amenity': 'school', 'name': 'Ecole Sidi Abdellah 6'}"
+88382995c5fffff,way,776397938,36.6825573,2.8512516,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776397939,36.6822259,2.8509804,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776397954,36.6883884,2.8449425,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776397955,36.6882527,2.8445025,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776397956,36.6885757,2.8438193,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776397957,36.6889345,2.8437676,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776397958,36.6882097,2.8440264,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776397959,36.6845272,2.8476759,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776397960,36.6846025,2.8471898,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776397961,36.6848585,2.8469229,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776397962,36.6852424,2.8469149,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776397963,36.6815905,2.8493321,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776397964,36.6816709,2.8489509,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776397965,36.6816513,2.8484546,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776397966,36.6815492,2.8480839,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776397967,36.6823895,2.8490705,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776397968,36.6823825,2.8486737,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776405643,36.6863886,2.8461549,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776405644,36.6864043,2.845764,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776405645,36.686338,2.8444608,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776405646,36.6863638,2.8440692,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776405647,36.6867213,2.8441617,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776405648,36.6867052,2.844552,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776405649,36.6866262,2.8449798,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776405650,36.6864346,2.8436386,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776405651,36.686537,2.8432658,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776405652,36.6867923,2.8437311,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776405653,36.6868924,2.843361,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776405654,36.6866887,2.8428741,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776405655,36.6869127,2.8425992,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776405656,36.6870556,2.8429763,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776405657,36.6872792,2.8427041,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776405658,36.6871201,2.8469469,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776405659,36.6870245,2.8473225,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776405660,36.6868476,2.847777,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776405661,36.6866803,2.848111,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776405662,36.6864535,2.8485133,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776405663,36.6862588,2.8488258,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776405664,36.685887,2.849423,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776405665,36.6856923,2.8497337,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776405666,36.6854124,2.8492785,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776405667,36.6851675,2.8495251,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776405668,36.684921,2.8497717,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776405669,36.6845736,2.8500751,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776405670,36.6843242,2.8503122,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776405671,36.6840748,2.8505531,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776405672,36.6836281,2.8498354,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776405673,36.6838775,2.8495945,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776405674,36.684124,2.8493517,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776405675,36.6844733,2.8490109,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776405676,36.6847262,2.8487698,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776405677,36.6849711,2.8485251,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776405678,36.6851542,2.848838,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776405679,36.6849044,2.8490817,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776405680,36.6846459,2.8493055,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776405681,36.6843138,2.8496415,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776405682,36.6840643,2.8498843,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776405683,36.6838134,2.8501213,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776405684,36.6842058,2.8486553,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776405685,36.6838864,2.8489734,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776405686,36.6836415,2.8492199,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776405687,36.6833966,2.8494646,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776405688,36.6832053,2.8506616,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776405689,36.6835289,2.8509336,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776405690,36.6838468,2.8511954,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776405691,36.6841496,2.8513747,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776405692,36.6844897,2.8512468,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776405693,36.6847719,2.8509193,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776405694,36.685067,2.8506025,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776405695,36.6853489,2.8501822,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776405697,36.6853553,2.8498772,,,,,,,service,{'highway': 'service'}
+88382995c5fffff,way,776405698,36.6840643,2.850158,,,,,,,service,{'highway': 'service'}
+88382995c5fffff,way,776405699,36.6848704,2.850198,,,,,,,residential,{'highway': 'residential'}
+88382995c5fffff,way,776405700,36.6857892,2.8477092,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776405701,36.6860423,2.847478,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776405702,36.6862919,2.8472343,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776405703,36.6859862,2.8480191,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776405704,36.6862359,2.8477823,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776405705,36.6862552,2.8476335,,,,,,,residential,{'highway': 'residential'}
+88382995c5fffff,way,776405706,36.6862223,2.8475733,,,,,,,residential,{'highway': 'residential'}
+88382995c5fffff,way,776405707,36.6864651,2.8477077,,,,,,,residential,{'highway': 'residential'}
+88382995c5fffff,way,776578813,36.6850752,2.8479988,,,,,,,residential,{'highway': 'residential'}
+88382995c5fffff,way,776578814,36.6845679,2.8504649,,,,,,,service,{'highway': 'service'}
+88382995c5fffff,way,776578815,36.6843478,2.8505869,,,,,,,service,{'highway': 'service'}
+88382995c5fffff,way,776578816,36.6855889,2.8498624,,,,,,,service,{'highway': 'service'}
+88382995c5fffff,way,776578817,36.6849698,2.8507401,,,,,,,service,{'highway': 'service'}
+88382995c5fffff,way,776578818,36.6844444,2.8506936,,parking,,,,,,{'amenity': 'parking'}
+88382995c5fffff,way,776578819,36.6844725,2.8509111,,,,,,,service,{'highway': 'service'}
+88382995c5fffff,way,776578820,36.6843613,2.8513641,,,,,,,service,{'highway': 'service'}
+88382995c5fffff,way,776578821,36.6842001,2.8502147,,,,,,,service,{'highway': 'service'}
+88382995c5fffff,way,776578822,36.6839657,2.8495149,,,,,,,service,{'highway': 'service'}
+88382995c5fffff,way,776578823,36.6848974,2.8491039,,,,,,,residential,{'highway': 'residential'}
+88382995c5fffff,way,776578824,36.6839225,2.8490398,,,,,,,service,{'highway': 'service'}
+88382995c5fffff,way,776578825,36.684895,2.8486121,,,,,,,service,{'highway': 'service'}
+88382995c5fffff,way,776578826,36.6866937,2.8480192,,,,,,,residential,{'highway': 'residential'}
+88382995c5fffff,way,776578827,36.6869809,2.8476413,,,,,,,residential,{'highway': 'residential'}
+88382995c5fffff,way,776578828,36.6865264,2.8435962,,,,,,,service,{'highway': 'service'}
+88382995c5fffff,way,776578829,36.6858552,2.8456633,,,,,,,residential,{'highway': 'residential'}
+88382995c5fffff,way,776578830,36.6860968,2.8458235,,,,,,,residential,{'highway': 'residential'}
+88382995c5fffff,way,776578831,36.6861402,2.845286,,,,,,,residential,{'highway': 'residential'}
+88382995c5fffff,way,776578832,36.6852698,2.8455031,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776578833,36.6869283,2.8438671,,,,,,,service,{'highway': 'service'}
+88382995c5fffff,way,776578834,36.6863898,2.8460198,,,,,,,service,{'highway': 'service'}
+88382995c5fffff,way,776578835,36.6861759,2.849261,,,,,,,track,{'highway': 'track'}
+88382995c5fffff,way,776578836,36.6876269,2.848649,,,,,,school,,{'building': 'school'}
+88382995c5fffff,way,776578837,36.6877196,2.8479197,,,,,,school,,{'building': 'school'}
+88382995c5fffff,way,776578838,36.6876633,2.8474763,,,,,,school,,{'building': 'school'}
+88382995c5fffff,way,776578839,36.6875841,2.8481851,Lycée Beradi Mohamed,school,,,,,,"{'amenity': 'school', 'education': 'school', 'name': 'Lycée Beradi Mohamed'}"
+88382995c5fffff,way,776578840,36.6874628,2.8490407,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776578841,36.6873728,2.8489382,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776578842,36.6873746,2.8499052,,school,,,,,,{'amenity': 'school'}
+88382995c5fffff,way,776578846,36.6887068,2.8430007,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776578847,36.6889815,2.8429153,Lycée Daoud Boualem Ben Ahmed,school,,,,,,"{'amenity': 'school', 'name': 'Lycée Daoud Boualem Ben Ahmed'}"
+88382995c5fffff,way,776578848,36.6890705,2.8460273,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776578852,36.6889434,2.8467746,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776578853,36.6892759,2.8476627,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776578854,36.6896831,2.8485557,,,,,,yes,,{'building': 'yes'}
+88382995c5fffff,way,776578872,36.6821746,2.8495916,,,,,,,residential,{'highway': 'residential'}
+88382995c5fffff,way,776578873,36.682389,2.8488738,,,,,,,service,{'highway': 'service'}
+88382995c5fffff,way,776578881,36.6821294,2.8520841,,,,,,,residential,{'highway': 'residential'}
+88382995c5fffff,way,776578882,36.6821076,2.851685,,,,,,,service,{'highway': 'service'}
+88382995c5fffff,way,777175974,36.6851325,2.8518418,,parking,,,,,,{'amenity': 'parking'}
+88382995c5fffff,way,777175975,36.6854523,2.8521599,,parking,,,,,,{'amenity': 'parking'}
+88382995c5fffff,way,777175976,36.6857579,2.85188,,parking,,,,,,{'amenity': 'parking'}
+88382995c5fffff,way,777175977,36.6866036,2.8508911,,parking,,,,,,{'amenity': 'parking'}
+88382995c5fffff,way,777175978,36.6866669,2.8510067,,parking,,,,,,{'amenity': 'parking'}
+88382995c5fffff,way,777182769,36.6867045,2.8509049,,,,,,,residential,{'highway': 'residential'}
+88382995c5fffff,way,777182770,36.6882142,2.852634,Rue Mohamed Doghmane,,,,,,residential,"{'construction': 'residential', 'highway': 'residential', 'name': 'Rue Mohamed Doghmane'}"
+88382995c5fffff,way,777182771,36.6878825,2.8509414,,,,,,,residential,{'highway': 'residential'}
+88382995c5fffff,way,777182772,36.6883473,2.8452528,,,,,,,service,{'highway': 'service'}
+88382995c5fffff,way,777182773,36.6886231,2.8443105,,,,,,,service,{'highway': 'service'}
+88382995c5fffff,way,777182776,36.6888409,2.8450646,,,,,,,service,{'highway': 'service'}
+88382995c5fffff,way,777182777,36.6892655,2.8449252,,,,,,,service,{'highway': 'service'}
+88382995c5fffff,way,777182779,36.6894936,2.8453979,,,,,,,residential,{'highway': 'residential'}
+88382995c5fffff,way,777188557,36.6848479,2.8488374,,,,,,,residential,{'highway': 'residential'}
+88382995c5fffff,way,778937063,36.688167,2.8437623,,,,,,,steps,{'highway': 'steps'}
+88382995c5fffff,way,778937064,36.6882618,2.8434173,,parking,,,,,,{'amenity': 'parking'}
+88382995c5fffff,way,778937065,36.687975,2.844863,,,,,,,steps,{'highway': 'steps'}
+88382995c5fffff,way,778941049,36.6861308,2.8459382,,parking,,,,,,{'amenity': 'parking'}
+88382995c5fffff,way,778941050,36.6865318,2.843803,,,,,,,service,{'highway': 'service'}
+88382995c5fffff,way,778941051,36.6867868,2.8439154,,,,,,,service,{'highway': 'service'}
+88382995c5fffff,way,778941052,36.6851743,2.8453839,Ecole,school,,,,,,"{'amenity': 'school', 'name': 'Ecole'}"
+88382995c5fffff,way,778941053,36.6851185,2.8492605,,parking,,,,,,{'amenity': 'parking'}
+88382995c5fffff,way,778941054,36.6857176,2.847171,,parking,,,,,,{'amenity': 'parking'}
+88382995c5fffff,way,778941055,36.6850065,2.8490159,,,,,,,service,{'highway': 'service'}
+88382995c5fffff,way,778941056,36.6847391,2.8470408,,,,,,,service,{'highway': 'service'}
+88382995c5fffff,way,778941057,36.6844166,2.8477571,,,,,,,service,{'highway': 'service'}
+88382995c5fffff,way,778949242,36.6814974,2.8487824,,,,,,,service,{'highway': 'service'}
+88382995c5fffff,way,778949243,36.6816816,2.8487036,,,,,,,service,{'highway': 'service'}
+88382995c5fffff,way,778949244,36.6816416,2.849156,,,,,,,service,{'highway': 'service'}
+88382995c5fffff,way,778949245,36.6816087,2.8482723,,,,,,,service,{'highway': 'service'}
+88382995c5fffff,way,778949246,36.6815609,2.8488337,,,,,,,residential,{'highway': 'residential'}
+88382995c5fffff,way,1094409185,36.6863205,2.8497669,,,,,,,primary_link,"{'highway': 'primary_link', 'oneway': 'yes'}"
+88382995c5fffff,way,1173972314,36.6830808,2.8421475,,,,,,,residential,{'highway': 'residential'}
+88382995c5fffff,way,1173972315,36.6840453,2.8415596,,,,,,,residential,{'highway': 'residential'}
+88382995c5fffff,way,1173972316,36.6838873,2.8416955,,,,,,,residential,{'highway': 'residential'}
+88382995c5fffff,way,1173972319,36.6832769,2.8438833,,,,,,,residential,{'highway': 'residential'}
+88382995c5fffff,way,1173972320,36.6831817,2.8434243,,,,,,,residential,{'highway': 'residential'}
+88382995c5fffff,way,1173972321,36.6828166,2.8438885,,,,,,,residential,{'highway': 'residential'}
+88382995c5fffff,way,1173972338,36.6835941,2.8446085,,,,,,,residential,{'highway': 'residential'}
+88382995c5fffff,way,1173972339,36.6836124,2.8435144,,,,,,,service,{'highway': 'service'}
+88382995c5fffff,way,1173972340,36.683574,2.8429663,,,,,,,service,{'highway': 'service'}
+88382995c5fffff,way,1173972341,36.6835506,2.8425718,,,,,,,residential,{'highway': 'residential'}
+88382995c5fffff,way,1173972342,36.6857277,2.8413296,,,,,,,service,{'highway': 'service'}
+88382995c5fffff,way,1173972343,36.6856018,2.8411517,,,,,,,service,{'highway': 'service'}
+88382995c5fffff,way,1173972350,36.6820473,2.8436902,,,,,,,service,{'highway': 'service'}
+88382995c5fffff,way,1173972351,36.6820568,2.8441238,,,,,,,service,{'highway': 'service'}
+88382995c5fffff,way,1174298309,36.6820472,2.8443352,,,,,,apartments,,{'building': 'apartments'}
+88382995c5fffff,way,1174298310,36.6827841,2.8443822,,,,,,apartments,,{'building': 'apartments'}
+88382995c5fffff,way,1174298311,36.682975,2.844359,,,,,,,service,{'highway': 'service'}
+88382995c5fffff,way,1174298312,36.6828199,2.8452503,,,,,,apartments,,{'building': 'apartments'}
+88382995c5fffff,way,1174298313,36.6836424,2.8452021,,,,,,apartments,,{'building': 'apartments'}
+88382995c5fffff,way,1174298314,36.6835856,2.8435716,,,,,,apartments,,{'building': 'apartments'}
+88382995c5fffff,way,1174298315,36.6835657,2.8427594,,,,,,apartments,,{'building': 'apartments'}
+88382995c5fffff,way,1174298316,36.6835697,2.8431591,,,,,,apartments,,{'building': 'apartments'}
+88382995c5fffff,way,1174298317,36.6836145,2.844748,,,,,,apartments,,{'building': 'apartments'}
+88382995c5fffff,way,1174298318,36.6827992,2.8447959,,,,,,apartments,,{'building': 'apartments'}
+88382995c5fffff,way,1174298319,36.682036,2.8438817,,,,,,apartments,,{'building': 'apartments'}
+88382995c5fffff,way,1174298329,36.6858109,2.8420192,,,,,,apartments,,{'building': 'apartments'}
+88382995c5fffff,way,1174298330,36.685575,2.8427605,,,,,,apartments,,{'building': 'apartments'}
+88382995c5fffff,way,1174298331,36.6853249,2.8435249,,,,,,apartments,,{'building': 'apartments'}
+88382995c5fffff,way,1174298332,36.6849473,2.8441471,,,,,,apartments,,{'building': 'apartments'}
+88382995c5fffff,way,1175362461,36.6846666,2.841927,,,,,,apartments,,{'building': 'apartments'}
+88382995c5fffff,way,1175362462,36.6845553,2.8424195,,,,,,apartments,,{'building': 'apartments'}
+88382995c5fffff,way,1175362463,36.684243,2.842748,,,,,,apartments,,{'building': 'apartments'}
+88382995c5fffff,way,1175362468,36.6844737,2.8424078,,,,,,,service,{'highway': 'service'}
+88382995c5fffff,way,1175362472,36.6843096,2.8426669,,,,,,,service,{'highway': 'service'}
+88382995c5fffff,way,1175362473,36.6846018,2.8424423,,,,,,,service,{'highway': 'service'}
+88382995c5fffff,way,1175362474,36.6846886,2.8419618,,,,,,,service,{'highway': 'service'}
+88382995c5fffff,way,1270055732,36.6883191,2.8455544,,,,,,,footway,{'highway': 'footway'}
+88382995c5fffff,way,1270055733,36.6886743,2.8457391,,,,,,,footway,{'highway': 'footway'}
+88382995c5fffff,way,1270055734,36.6885029,2.8453227,,,,,,,footway,{'highway': 'footway'}
+88382995c5fffff,way,1270055735,36.6885816,2.8458877,,,,,,,footway,{'highway': 'footway'}
+88382995c5fffff,way,1270055736,36.6886753,2.8458837,,,,,,,footway,{'highway': 'footway'}
+88382995c5fffff,way,1270055737,36.6885846,2.8456282,,,,,,,footway,{'highway': 'footway'}
+88382995c5fffff,way,1270055738,36.6886158,2.8445704,,,,,,,footway,{'highway': 'footway'}
+88382995c5fffff,way,1410034902,36.6835171,2.8484577,,,,,,,service,{'highway': 'service'}
+88382995c5fffff,way,1410034903,36.6843479,2.8467212,,,,,,,service,{'highway': 'service'}
+88382995c5fffff,way,1410034906,36.68278,2.84196,,,,,,,residential,{'highway': 'residential'}
+88382995c5fffff,way,1410034907,36.6814169,2.845408,,,,,,,residential,{'highway': 'residential'}
+88382995c5fffff,way,1452662108,36.6898792,2.8492319,,,,,,,footway,{'highway': 'footway'}

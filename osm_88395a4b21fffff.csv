@@ -1,0 +1,351 @@
+h3_id,osm_type,osm_id,lat,lon,name,amenity,shop,tourism,office,building,building_levels,highway,landuse,natural,tags
+88395a4b21fffff,node,3019088016,36.7462633,2.954334,Mondial Auto,,car_parts,,,,,,,,"{'name': 'Mondial Auto', 'name:ar': 'Mondial Auto et cima motora', 'shop': 'car_parts'}"
+88395a4b21fffff,node,3402231474,36.7430246,2.9533268,Algérie Télécom,,,,telecommunication,,,,,,"{'addr:city': 'Ouled Fayet', 'addr:postcode': '16094', 'addr:street': 'Cité AADL 1530', 'brand': 'ACTEL', 'email': 'contact@algerietelecom.dz', 'name': 'Algérie Télécom', 'name:ar': 'اتصالات الجزائر', 'name:fr': 'Algérie Télécom', 'office': 'telecommunication', 'operator': 'Algérie Télécom', 'website': 'http://www.algerietelecom.dz/'}"
+88395a4b21fffff,node,3483909132,36.7438069,2.9539541,,place_of_worship,,,,,,,,,"{'amenity': 'place_of_worship', 'denomination': 'sunni', 'language:ar': 'main', 'religion': 'muslim', 'source': 'FB: Algerie Mapper Team : (Superadlen)', 'website': 'https://www.marw.dz/'}"
+88395a4b21fffff,node,3645056773,36.7428694,2.9538971,Office National des Droits d’Auteur et Droits Voisins,,,,government,,,,,,"{'name': 'Office National des Droits d’Auteur et Droits Voisins', 'office': 'government', 'website': 'http://www.onda.dz/'}"
+88395a4b21fffff,node,3645068986,36.7429573,2.9533005,ANEM: Agence Nationale de l'emploi,,,,employment_agency,,,,,,"{'name': ""ANEM: Agence Nationale de l'emploi"", 'office': 'employment_agency', 'website': 'http://www.anem.dz/#'}"
+88395a4b21fffff,node,4408853558,36.7440862,2.9503927,Resto,restaurant,,,,,,,,,"{'addr:country': 'DZ', 'amenity': 'restaurant', 'name': 'Resto', 'name:fr': 'Resto'}"
+88395a4b21fffff,node,4548568391,36.7450587,2.9498115,Ooredoo,,,,telecommunication,,,,,,"{'name': 'Ooredoo', 'name:ar': 'أوريدو', 'name:de': 'Ooredoo', 'name:en': 'Ooredoo', 'name:fr': 'Ooredoo', 'office': 'telecommunication'}"
+88395a4b21fffff,node,4565368541,36.7459745,2.9505801,,car_wash,,,,,,,,,{'amenity': 'car_wash'}
+88395a4b21fffff,node,4565368542,36.7452815,2.950484,Vulcanisateur,,car_repair,,,,,,,,"{'name': 'Vulcanisateur', 'shop': 'car_repair'}"
+88395a4b21fffff,node,4742496721,36.7459137,2.9528365,,doctors,,,,,,,,,"{'addr:street': 'cité 95 logements', 'amenity': 'doctors', 'name:fr': 'Pneumo phtisyologie et chirurgie'}"
+88395a4b21fffff,node,4886556341,36.7460107,2.9553742,Renault Trucks,,truck,,,,,,,,"{'addr:city': 'Dély Brahim', 'addr:street': 'Première Rocade Sud', 'brand': 'Renault Trucks', 'brand:wikidata': 'Q840045', 'description': 'algerie.renault-trucks.com', 'name': 'Renault Trucks', 'opening_hours': 'Mo 08:00-12:00,13:00-16:30, Tu 08:00-12:00,13:00-16:30, We 08:00-12:00,13:00-16:30, Th 08:00-12:00,13:00-16:30, Fr-Su 08:00-12:00,13:00-16:30', 'second_hand': 'no', 'service:vehicle:batteries': 'yes', 'service:vehicle:body_repair': 'yes', 'service:vehicle:truck_repair': 'yes', 'service:vehicle:truck_sales': 'yes', 'shop': 'truck'}"
+88395a4b21fffff,node,6368912883,36.7416281,2.9539572,"Ansej, ouled fayet",,,,company,,,,,,"{'name': 'Ansej, ouled fayet', 'office': 'company'}"
+88395a4b21fffff,node,8618828519,36.7438182,2.9539392,مسجد الزبير بن العوام,place_of_worship,,,,,,,,,"{'amenity': 'place_of_worship', 'name': 'مسجد الزبير بن العوام'}"
+88395a4b21fffff,node,10922182358,36.7461809,2.9602571,,,,,,,,,,tree,{'natural': 'tree'}
+88395a4b21fffff,node,10922182359,36.7461779,2.9601466,,,,,,,,,,tree,{'natural': 'tree'}
+88395a4b21fffff,node,10922182360,36.7462049,2.9600529,,,,,,,,,,tree,{'natural': 'tree'}
+88395a4b21fffff,node,10922182361,36.7462275,2.9599424,,,,,,,,,,tree,{'natural': 'tree'}
+88395a4b21fffff,node,10922182362,36.746256,2.9598226,,,,,,,,,,tree,{'natural': 'tree'}
+88395a4b21fffff,node,10922182363,36.7462845,2.9597233,,,,,,,,,,tree,{'natural': 'tree'}
+88395a4b21fffff,node,10922182364,36.7463055,2.959639,,,,,,,,,,tree,{'natural': 'tree'}
+88395a4b21fffff,node,10922182365,36.746337,2.9595248,,,,,,,,,,tree,{'natural': 'tree'}
+88395a4b21fffff,node,10922182366,36.7463775,2.9594386,,,,,,,,,,tree,{'natural': 'tree'}
+88395a4b21fffff,node,10922182367,36.7464151,2.9593262,,,,,,,,,,tree,{'natural': 'tree'}
+88395a4b21fffff,node,10922182368,36.7464466,2.9592213,,,,,,,,,,tree,{'natural': 'tree'}
+88395a4b21fffff,node,10922182369,36.7464676,2.9591333,,,,,,,,,,tree,{'natural': 'tree'}
+88395a4b21fffff,node,10922182370,36.7464916,2.9590434,,,,,,,,,,tree,{'natural': 'tree'}
+88395a4b21fffff,node,10922182371,36.7465336,2.9588992,,,,,,,,,,tree,{'natural': 'tree'}
+88395a4b21fffff,node,10922182372,36.7465471,2.9587943,,,,,,,,,,tree,{'natural': 'tree'}
+88395a4b21fffff,node,10922182373,36.7465711,2.9586894,,,,,,,,,,tree,{'natural': 'tree'}
+88395a4b21fffff,node,10922182374,36.7465786,2.9585826,,,,,,,,,,tree,{'natural': 'tree'}
+88395a4b21fffff,node,10922182375,36.7465952,2.958489,,,,,,,,,,tree,{'natural': 'tree'}
+88395a4b21fffff,node,10922182376,36.7466042,2.958371,,,,,,,,,,tree,{'natural': 'tree'}
+88395a4b21fffff,node,10922182377,36.7466237,2.958253,,,,,,,,,,tree,{'natural': 'tree'}
+88395a4b21fffff,node,10922182378,36.7466372,2.9581799,,,,,,,,,,tree,{'natural': 'tree'}
+88395a4b21fffff,node,10922182379,36.7466582,2.9580732,,,,,,,,,,tree,{'natural': 'tree'}
+88395a4b21fffff,node,10922182380,36.7466702,2.9579982,,,,,,,,,,tree,{'natural': 'tree'}
+88395a4b21fffff,node,10922182381,36.7466837,2.9579046,,,,,,,,,,tree,{'natural': 'tree'}
+88395a4b21fffff,node,10922182382,36.7467107,2.9578297,,,,,,,,,,tree,{'natural': 'tree'}
+88395a4b21fffff,node,10922182383,36.7467332,2.9577079,,,,,,,,,,tree,{'natural': 'tree'}
+88395a4b21fffff,node,10922182384,36.7467437,2.957618,,,,,,,,,,tree,{'natural': 'tree'}
+88395a4b21fffff,node,10922182385,36.7467542,2.9574738,,,,,,,,,,tree,{'natural': 'tree'}
+88395a4b21fffff,node,10922182386,36.7467768,2.9573483,,,,,,,,,,tree,{'natural': 'tree'}
+88395a4b21fffff,node,10922182387,36.7467933,2.9572153,,,,,,,,,,tree,{'natural': 'tree'}
+88395a4b21fffff,node,10922182388,36.7468053,2.9571123,,,,,,,,,,tree,{'natural': 'tree'}
+88395a4b21fffff,node,10922182389,36.7468233,2.9569849,,,,,,,,,,tree,{'natural': 'tree'}
+88395a4b21fffff,node,10922182390,36.7468323,2.9568913,,,,,,,,,,tree,{'natural': 'tree'}
+88395a4b21fffff,node,10922182391,36.7468488,2.9567845,,,,,,,,,,tree,{'natural': 'tree'}
+88395a4b21fffff,node,10922182392,36.7468653,2.956659,,,,,,,,,,tree,{'natural': 'tree'}
+88395a4b21fffff,node,10922182393,36.7468773,2.9565523,,,,,,,,,,tree,{'natural': 'tree'}
+88395a4b21fffff,node,10922182394,36.7468803,2.9564492,,,,,,,,,,tree,{'natural': 'tree'}
+88395a4b21fffff,node,10922182395,36.7468878,2.9563331,,,,,,,,,,tree,{'natural': 'tree'}
+88395a4b21fffff,node,10922182396,36.7468908,2.9562451,,,,,,,,,,tree,{'natural': 'tree'}
+88395a4b21fffff,node,10922182397,36.7468833,2.9561252,,,,,,,,,,tree,{'natural': 'tree'}
+88395a4b21fffff,node,10922182398,36.7468878,2.9560016,,,,,,,,,,tree,{'natural': 'tree'}
+88395a4b21fffff,node,10922182399,36.7468998,2.9558855,,,,,,,,,,tree,{'natural': 'tree'}
+88395a4b21fffff,node,10922182400,36.7469028,2.9557937,,,,,,,,,,tree,{'natural': 'tree'}
+88395a4b21fffff,node,10922182401,36.7468968,2.955657,,,,,,,,,,tree,{'natural': 'tree'}
+88395a4b21fffff,node,10922182402,36.7468923,2.9555614,,,,,,,,,,tree,{'natural': 'tree'}
+88395a4b21fffff,node,10922182403,36.7468893,2.9554416,,,,,,,,,,tree,{'natural': 'tree'}
+88395a4b21fffff,node,10922182404,36.7468803,2.9553498,,,,,,,,,,tree,{'natural': 'tree'}
+88395a4b21fffff,node,11920100896,36.750103,2.9530894,Pull & Bear,,clothes,,,,,,,,"{'brand': 'Pull & Bear', 'brand:wikidata': 'Q691029', 'name': 'Pull & Bear', 'shop': 'clothes'}"
+88395a4b21fffff,node,11920100898,36.7499053,2.9529365,U.S. Polo Assn.,,clothes,,,,,,,,"{'brand': 'U.S. Polo Assn.', 'brand:wikidata': 'Q7863282', 'name': 'U.S. Polo Assn.', 'shop': 'clothes'}"
+88395a4b21fffff,node,11920100902,36.7500198,2.9529095,Bershka,,clothes,,,,,,,,"{'brand': 'Bershka', 'brand:wikidata': 'Q827258', 'name': 'Bershka', 'shop': 'clothes'}"
+88395a4b21fffff,node,11920100912,36.7499891,2.9528534,Aldo,,shoes,,,,,,,,"{'brand': 'Aldo', 'brand:wikidata': 'Q2832297', 'name': 'Aldo', 'shop': 'shoes'}"
+88395a4b21fffff,node,11920100914,36.749656,2.9534891,Mango,,clothes,,,,,,,,"{'brand': 'Mango', 'brand:wikidata': 'Q136503', 'name': 'Mango', 'shop': 'clothes'}"
+88395a4b21fffff,node,11920100915,36.7497849,2.9530143,Camper,,shoes,,,,,,,,"{'brand': 'Camper', 'brand:wikidata': 'Q1030922', 'name': 'Camper', 'shop': 'shoes'}"
+88395a4b21fffff,node,11920100926,36.7497269,2.9536875,,cafe,,,,,,,,,{'amenity': 'cafe'}
+88395a4b21fffff,node,11920100927,36.7499053,2.9531967,,fountain,,,,,,,,,{'amenity': 'fountain'}
+88395a4b21fffff,way,42497136,36.7440472,2.9521835,,,,,,,,residential,,,{'highway': 'residential'}
+88395a4b21fffff,way,42497198,36.7419027,2.9539929,,,,,,,,residential,,,{'highway': 'residential'}
+88395a4b21fffff,way,42497199,36.7420098,2.9535576,,,,,,,,residential,,,{'highway': 'residential'}
+88395a4b21fffff,way,42497200,36.7423092,2.9540467,,,,,,,,residential,,,{'highway': 'residential'}
+88395a4b21fffff,way,42497202,36.742953,2.9520479,,,,,,,,path,,,{'highway': 'path'}
+88395a4b21fffff,way,42497203,36.7435606,2.9513276,,,,,,,,residential,,,{'highway': 'residential'}
+88395a4b21fffff,way,42497205,36.7419054,2.9543311,,,,,,,,residential,,,{'highway': 'residential'}
+88395a4b21fffff,way,42497212,36.7426017,2.9531654,,,,,,,,residential,,,{'highway': 'residential'}
+88395a4b21fffff,way,42497287,36.7424786,2.95041,,,,,,,,residential,,,{'highway': 'residential'}
+88395a4b21fffff,way,42497288,36.7433654,2.9523135,,,,,,,,residential,,,{'highway': 'residential'}
+88395a4b21fffff,way,42497291,36.7437325,2.9556056,,,,,,,,residential,,,{'highway': 'residential'}
+88395a4b21fffff,way,42497292,36.7439045,2.9557212,,,,,,,,residential,,,{'highway': 'residential'}
+88395a4b21fffff,way,42497293,36.7450964,2.9558163,,,,,,,,residential,,,{'highway': 'residential'}
+88395a4b21fffff,way,42497294,36.7444757,2.9550177,,,,,,,,residential,,,{'highway': 'residential'}
+88395a4b21fffff,way,42497295,36.7446843,2.9544124,,,,,,,,residential,,,{'highway': 'residential'}
+88395a4b21fffff,way,42497313,36.7447586,2.952756,,,,,,,,residential,,,{'highway': 'residential'}
+88395a4b21fffff,way,42497316,36.7445501,2.9531574,,,,,,,,residential,,,{'highway': 'residential'}
+88395a4b21fffff,way,42497317,36.745562,2.9523031,,,,,,,,residential,,,{'highway': 'residential'}
+88395a4b21fffff,way,42497318,36.7449417,2.953359,,,,,,,,residential,,,{'highway': 'residential'}
+88395a4b21fffff,way,137431525,36.7475953,2.9520867,,,,,,,,service,,,"{'brand': 'Naftal', 'brand:ar': 'نفطال', 'brand:fr': 'Naftal', 'brand:website': 'https://www.naftal.dz/fr/', 'brand:wikidata': 'Q3335043', 'brand:wikipedia': 'fr:Naftal', 'highway': 'service', 'operator': 'نفطال', 'operator:ar': 'نفطال', 'operator:wikidata': 'Q3335043', 'operator:wikipedia': 'ar:نفطال'}"
+88395a4b21fffff,way,160720092,36.7460067,2.957339,,,,,,,,motorway_link,,,"{'highway': 'motorway_link', 'lanes': '4', 'oneway': 'yes', 'surface': 'asphalt'}"
+88395a4b21fffff,way,189876441,36.7475613,2.9515238,,,,,,,,service,,,"{'brand': 'Naftal', 'brand:ar': 'نفطال', 'brand:fr': 'Naftal', 'brand:website': 'https://www.naftal.dz/fr/', 'brand:wikidata': 'Q3335043', 'brand:wikipedia': 'fr:Naftal', 'highway': 'service', 'maxspeed': '20', 'oneway': 'yes', 'operator': 'نفطال', 'operator:ar': 'نفطال', 'operator:wikidata': 'Q3335043', 'operator:wikipedia': 'ar:نفطال'}"
+88395a4b21fffff,way,189876443,36.747692,2.9515581,,,,,,,,service,,,"{'brand': 'Naftal', 'brand:ar': 'نفطال', 'brand:fr': 'Naftal', 'brand:website': 'https://www.naftal.dz/fr/', 'brand:wikidata': 'Q3335043', 'brand:wikipedia': 'fr:Naftal', 'highway': 'service', 'operator': 'نفطال', 'operator:ar': 'نفطال', 'operator:wikidata': 'Q3335043', 'operator:wikipedia': 'ar:نفطال'}"
+88395a4b21fffff,way,196547668,36.7416244,2.9328182,Première Rocade Sud التجنب الجنوبي الأول,,,,,,,motorway,,,"{'agricultural': 'no', 'alt_name': 'الطريق الاجتنابي الجنوبي للجزائر', 'alt_name:ar': 'الطريق الاجتنابي الجنوبي للجزائر', 'bicycle': 'no', 'destination': 'الشراقة;زرالدة;تيبازة', 'destination:lang:ar': 'الشراقة;زرالدة;تيبازة', 'foot': 'no', 'highway': 'motorway', 'lanes': '3', 'lit': 'yes', 'maxspeed': '80', 'name': 'Première Rocade Sud التجنب الجنوبي الأول', 'name:ar': 'التجنب الجنوبي الأول', 'name:en': 'First Southern Ring Road', 'name:es': 'Primera Circunvalación Sur', 'name:fr': 'Première Rocade Sud', 'oneway': 'yes', 'surface': 'asphalt'}"
+88395a4b21fffff,way,223338304,36.7417808,2.9554447,,,,,,,,residential,,,{'highway': 'residential'}
+88395a4b21fffff,way,232206006,36.7484377,2.958888,,,,,,,,,,water,{'natural': 'water'}
+88395a4b21fffff,way,238167916,36.746167,2.9493251,Ooredoo,,,,telecommunication,,,,commercial,,"{'addr:city': 'Ouled Fayet', 'addr:housenumber': '66', 'addr:postcode': '16094', 'addr:street': 'Route de Ouled Fayet', 'alt_name': 'Nedjma', 'brand': 'Ooredoo', 'description': 'Ooredoo précédemment connu sous le nom Nedjma est le troisième opérateur de téléphonie mobile en Algérie.', 'int_name': 'Ooredoo', 'landuse': 'commercial', 'name': 'Ooredoo', 'name:ar': 'أوريدو', 'name:de': 'Ooredoo', 'name:en': 'Ooredoo', 'name:fr': 'Ooredoo', 'office': 'telecommunication', 'official_name': 'Ooredoo', 'old_name': 'Nedjma', 'opening_hours': '08:00-17:30', 'operator': 'Ooredoo Algérie', 'phone': '+213 550000333', 'source': 'Algerie Mapper Team', 'website': 'https://www.ooredoo.dz/', 'wheelchair': 'limited', 'wikipedia': 'fr:Ooredoo Algérie'}"
+88395a4b21fffff,way,244632089,36.7454266,2.948986,,,,,,residential,5.0,,,,"{'addr:city': 'Ouled fayet', 'addr:housename': 'residence des pins ouled fayet', 'addr:housenumber': '66', 'addr:postcode': '16094', 'addr:street': 'route Ouled Faye', 'building': 'residential', 'building:levels': '5', 'phone': '+213 (0) 23 29 22 00;+213 (0) 560 90 22 00', 'source': 'http://www.residencedespins.com/site/index.php?page=1', 'website': 'http://www.residencedespins.com'}"
+88395a4b21fffff,way,244632090,36.7457032,2.9498388,,,,,,commercial,,,,,{'building': 'commercial'}
+88395a4b21fffff,way,244633422,36.7492656,2.9508963,,,,,,commercial,,,,,"{'addr:city': 'دالي إبراھيم', 'addr:city:ar': 'دالي إبراھيم', 'brand': 'شنايدر إليكتريك', 'brand:ar': 'شنايدر إليكتريك', 'brand:wikidata': 'Q49053', 'brand:wikipedia': 'ar:شنايدر إليكتريك', 'brand:wikipedia:ar': 'شنايدر إليكتريك', 'building': 'commercial', 'name:fr': 'Schneider Electric', 'operator': 'شنايدر إليكتريك', 'operator:ar': 'شنايدر إليكتريك', 'operator:wikidata': 'Q49053', 'operator:wikipedia': 'ar:شنايدر إليكتريك', 'operator:wikipedia:ar': 'شنايدر إليكتريك'}"
+88395a4b21fffff,way,244633423,36.7493751,2.9509329,شنايدر إليكتريك,,,,company,,,,commercial,,"{'addr:city': 'دالي إبراھيم', 'addr:city:ar': 'دالي إبراھيم', 'brand': 'شنايدر إليكتريك', 'brand:ar': 'شنايدر إليكتريك', 'brand:wikidata': 'Q49053', 'brand:wikipedia': 'ar:شنايدر إليكتريك', 'brand:wikipedia:ar': 'شنايدر إليكتريك', 'landuse': 'commercial', 'name': 'شنايدر إليكتريك', 'name:ar': 'شنايدر إليكتريك', 'name:de': 'Schneider Electric', 'name:en': 'Schneider Electric', 'name:fr': 'Schneider Electric', 'office': 'company', 'operator': 'شنايدر إليكتريك', 'operator:ar': 'شنايدر إليكتريك', 'operator:wikidata': 'Q49053', 'operator:wikipedia': 'ar:شنايدر إليكتريك', 'operator:wikipedia:ar': 'شنايدر إليكتريك'}"
+88395a4b21fffff,way,244633424,36.7480143,2.9505523,,,,,,apartments,,,,,"{'addr:city': 'دالي إبراھيم', 'addr:city:ar': 'دالي إبراھيم', 'addr:neighbourhood': 'مسكن الأبراج', 'addr:neighbourhood:ar': 'مسكن الأبراج', 'addr:street': 'مسكن الأبراج', 'addr:street:ar': 'مسكن الأبراج', 'building': 'apartments'}"
+88395a4b21fffff,way,257135267,36.745975,2.9501488,,,,,,,,secondary,,,"{'highway': 'secondary', 'ref': 'CW 142', 'ref:ar': 'ط ء 142', 'surface': 'asphalt'}"
+88395a4b21fffff,way,257135269,36.7467442,2.9507033,,,,,,,,motorway_link,,,"{'highway': 'motorway_link', 'oneway': 'yes', 'surface': 'asphalt'}"
+88395a4b21fffff,way,290507945,36.7444343,2.9533098,,,,,,,,residential,,,{'highway': 'residential'}
+88395a4b21fffff,way,290507946,36.7439545,2.9557318,,,,,,,,residential,,,{'highway': 'residential'}
+88395a4b21fffff,way,296778048,36.7454463,2.954668,,,,,,,,,industrial,,{'landuse': 'industrial'}
+88395a4b21fffff,way,296778049,36.7450092,2.9542434,Cité des Grands-Vents,,,,,,,,residential,,"{'landuse': 'residential', 'name': 'Cité des Grands-Vents'}"
+88395a4b21fffff,way,296815577,36.7420215,2.9529543,,,,,,yes,,,,,{'building': 'yes'}
+88395a4b21fffff,way,296815585,36.7445115,2.9531498,,,,,,yes,,,,,"{'building': 'yes', 'ref': 'W142'}"
+88395a4b21fffff,way,296815589,36.7434283,2.9523981,,,,,,yes,,,,,{'building': 'yes'}
+88395a4b21fffff,way,296815591,36.7452779,2.9545999,,,,,,industrial,,,,,"{'building': 'industrial', 'ref': 'W142'}"
+88395a4b21fffff,way,296815594,36.744911,2.9537791,,,,,,residential,,,,,"{'building': 'residential', 'ref': 'W142'}"
+88395a4b21fffff,way,296815599,36.7422935,2.952501,,,,,,yes,,,,,{'building': 'yes'}
+88395a4b21fffff,way,296815600,36.7429882,2.953366,,,,,,yes,,,,,{'building': 'yes'}
+88395a4b21fffff,way,296815603,36.7417978,2.9540173,,,,,,yes,,,,,{'building': 'yes'}
+88395a4b21fffff,way,296815604,36.7440298,2.954923,,,,,,residential,,,,,{'building': 'residential'}
+88395a4b21fffff,way,296815608,36.743707,2.9511448,,,,,,yes,,,,,{'building': 'yes'}
+88395a4b21fffff,way,296815615,36.7460157,2.9540011,,,,,,yes,,,,,"{'building': 'yes', 'ref': 'W142'}"
+88395a4b21fffff,way,296815620,36.7425276,2.9540223,,,,,,yes,,,,,{'building': 'yes'}
+88395a4b21fffff,way,296815623,36.743201,2.9515036,,,,,,yes,,,,,{'building': 'yes'}
+88395a4b21fffff,way,296815624,36.7438011,2.9505498,,,,,,yes,,,,,{'building': 'yes'}
+88395a4b21fffff,way,296815634,36.7442886,2.9550181,,,,,,residential,,,,,{'building': 'residential'}
+88395a4b21fffff,way,296815635,36.7429934,2.9527612,,,,,,yes,,,,,{'building': 'yes'}
+88395a4b21fffff,way,296815637,36.7435341,2.9515575,,,,,,yes,,,,,{'building': 'yes'}
+88395a4b21fffff,way,296815648,36.7424833,2.9522028,,,,,,,,residential,,,{'highway': 'residential'}
+88395a4b21fffff,way,296815654,36.7433213,2.9528527,,,,,,yes,,,,,{'building': 'yes'}
+88395a4b21fffff,way,296815662,36.7425257,2.952574,,,,,,,,residential,,,{'highway': 'residential'}
+88395a4b21fffff,way,296815675,36.7418146,2.9549127,,,,,,yes,,,,,{'building': 'yes'}
+88395a4b21fffff,way,296815683,36.7423374,2.9531025,,,,,,yes,,,,,{'building': 'yes'}
+88395a4b21fffff,way,296815690,36.7454879,2.9542412,,,,,,industrial,,,,,"{'building': 'industrial', 'ref': 'W142'}"
+88395a4b21fffff,way,296815692,36.7440304,2.9502052,,,,,,yes,,,,,{'building': 'yes'}
+88395a4b21fffff,way,296815695,36.7426805,2.9526102,,,,,,yes,,,,,{'building': 'yes'}
+88395a4b21fffff,way,296815699,36.7426539,2.9520799,,,,,,yes,,,,,{'building': 'yes'}
+88395a4b21fffff,way,296815701,36.7434301,2.951046,,,,,,yes,,,,,{'building': 'yes'}
+88395a4b21fffff,way,296815702,36.7448349,2.9540483,,,,,,,,residential,,,{'highway': 'residential'}
+88395a4b21fffff,way,296815704,36.7434858,2.9519776,,,,,,yes,,,,,{'building': 'yes'}
+88395a4b21fffff,way,296815726,36.7429305,2.9517956,,,,,,yes,,,,,{'building': 'yes'}
+88395a4b21fffff,way,296815729,36.7421844,2.9545007,,,,,,yes,,,,,{'building': 'yes'}
+88395a4b21fffff,way,296815734,36.7437558,2.9564506,,,,,,residential,,,,,{'building': 'residential'}
+88395a4b21fffff,way,296815739,36.7426557,2.9532237,,,,,,yes,,,,,{'building': 'yes'}
+88395a4b21fffff,way,313676639,36.7482548,2.9508829,,,,,,apartments,,,,,"{'addr:city': 'دالي إبراھيم', 'addr:city:ar': 'دالي إبراھيم', 'addr:neighbourhood': 'مسكن الأبراج', 'addr:neighbourhood:ar': 'مسكن الأبراج', 'addr:street': 'مسكن الأبراج', 'addr:street:ar': 'مسكن الأبراج', 'building': 'apartments'}"
+88395a4b21fffff,way,339752458,36.7465974,2.9644299,,,,,,,,track,,,{'highway': 'track'}
+88395a4b21fffff,way,339752459,36.747486,2.9650483,,,,,,,,track,,,{'highway': 'track'}
+88395a4b21fffff,way,359874138,36.7444459,2.9531421,,school,,,,,,,,,"{'amenity': 'school', 'name:ar': 'مدرسة الشهيد احمد بويدر', 'name:fr': 'Ecole Ahmed Bouider'}"
+88395a4b21fffff,way,359875725,36.7420106,2.9505301,Cité Oulami Ahmed (AADL 1530 lgts),,,,,,,,residential,,"{'landuse': 'residential', 'name': 'Cité Oulami Ahmed (AADL 1530 lgts)'}"
+88395a4b21fffff,way,399227616,36.7311351,2.9708343,Dounya Parc ⴹⵓⵏⵢⴰ ⵒⴰⵔⴽ دنيا بارك,,,,,,,,greenery,,"{'addr:city': 'دالي إبراهيم', 'landuse': 'greenery', 'leisure': 'park', 'name': 'Dounya Parc ⴹⵓⵏⵢⴰ ⵒⴰⵔⴽ دنيا بارك', 'name:ar': 'دنيا بارك', 'name:ber': 'ⴹⵓⵏⵢⴰ ⵒⴰⵔⴽ', 'name:en': 'Dounya Parc', 'name:fa': 'پارک دنیا', 'name:fr': 'Dounya Parc', 'name:kab': 'Dunya Park', 'opening_hours': '24/7', 'operator': 'شركة الإمارات الدولية للاستثمار', 'operator:ar': 'شركة الإمارات الدولية للاستثمار', 'surface': 'grass', 'wikidata': 'Q54900632', 'wikipedia': 'ar:دنيا بارك (الجزائر)'}"
+88395a4b21fffff,way,399330558,36.7487022,2.9509519,هليدي إن الجزائر - برج الشراقة,,,hotel,,,,,,,"{'addr:city': 'دالي إبراھيم', 'addr:city:ar': 'دالي إبراھيم', 'addr:postcode': '16002', 'addr:street': 'طريق أولاد فايت', 'addr:street:ar': 'طريق أولاد فايت', 'brand': 'Holiday Inn', 'brand:ar': 'هليدي إن', 'brand:wikidata': 'Q2717882', 'brand:wikipedia': 'ar:هليدي إن', 'brand:wikipedia:ar': 'هليدي إن', 'diet:halal': 'yes', 'internet_access': 'wlan', 'language:ar': 'main', 'name': 'هليدي إن الجزائر - برج الشراقة', 'name:ar': 'هليدي إن الجزائر - برج الشراقة', 'name:en': 'Holiday Inn Algiers - Cheraga Tower', 'name:fr': 'Holiday Inn', 'phone': '213-23-285858', 'smoking': 'outside', 'tourism': 'hotel', 'website': 'https://www.ihg.com/holidayinn/hotels/ae/ar/cheraga-alger/algct/hoteldetail'}"
+88395a4b21fffff,way,399330560,36.7482629,2.9520221,قاعدة الموقع,,,,,,,,industrial,,"{'addr:city': 'دالي إبراھيم', 'addr:city:ar': 'دالي إبراھيم', 'landuse': 'industrial', 'name': 'قاعدة الموقع', 'name:ar': 'قاعدة الموقع', 'name:fr': 'Base de Chantier'}"
+88395a4b21fffff,way,399330565,36.7480704,2.9507846,Résidence Les Tours,,,,,,,,residential,,"{'landuse': 'residential', 'name': 'Résidence Les Tours', 'name:ar': 'مسكن الأبراج', 'name:en': 'Towers residence', 'name:fr': 'Résidence Les Tours', 'place': 'neighbourhood'}"
+88395a4b21fffff,way,399330567,36.7494673,2.9527952,غاردن ستي,,,,,,,,residential,,"{'landuse': 'residential', 'layer': '-2', 'name': 'غاردن ستي', 'name:ar': 'غاردن ستي', 'name:en': 'Garden City', 'name:fr': 'Garden City', 'residential': 'apartments'}"
+88395a4b21fffff,way,449249339,36.7429967,2.9578729,,,,,,yes,,,,,{'building': 'yes'}
+88395a4b21fffff,way,460967857,36.7459941,2.9505775,,,,,,garage,,,,,{'building': 'garage'}
+88395a4b21fffff,way,473307586,36.7414933,2.9323685,Première Rocade Sud التجنب الجنوبي الأول,,,,,,,motorway,,,"{'agricultural': 'no', 'alt_name': 'الطريق الاجتنابي الجنوبي للجزائر', 'alt_name:ar': 'الطريق الاجتنابي الجنوبي للجزائر', 'bicycle': 'no', 'destination': 'المطار', 'destination:lang:ar': 'المطار', 'foot': 'no', 'highway': 'motorway', 'lanes': '3', 'lit': 'yes', 'maxheight': '5.20', 'maxspeed': '80', 'name': 'Première Rocade Sud التجنب الجنوبي الأول', 'name:ar': 'التجنب الجنوبي الأول', 'name:en': 'First Southern Ring Road', 'name:es': 'Primera Circunvalación Sur', 'name:fr': 'Première Rocade Sud', 'oneway': 'yes', 'surface': 'asphalt'}"
+88395a4b21fffff,way,482737647,36.7447097,2.9485952,,,,,,,,tertiary,,,"{'highway': 'tertiary', 'oneway': 'yes'}"
+88395a4b21fffff,way,482737649,36.7447862,2.9497725,,,,,,,,residential,,,{'highway': 'residential'}
+88395a4b21fffff,way,482737655,36.7454319,2.9488796,Résidence des Pins,,,,,,,,residential,,"{'landuse': 'residential', 'name': 'Résidence des Pins'}"
+88395a4b21fffff,way,482737677,36.7443324,2.9498892,,,,,,,,secondary,,,"{'highway': 'secondary', 'oneway': 'yes', 'ref': 'CW 142', 'ref:ar': 'ط ء 142', 'surface': 'asphalt'}"
+88395a4b21fffff,way,482737684,36.7448482,2.9486442,,,,,,,,tertiary,,,"{'highway': 'tertiary', 'oneway': 'yes'}"
+88395a4b21fffff,way,482737690,36.7443324,2.9498892,,,,,,,,secondary,,,"{'highway': 'secondary', 'oneway': 'yes', 'ref': 'CW 142', 'ref:ar': 'ط ء 142', 'surface': 'asphalt'}"
+88395a4b21fffff,way,483798867,36.7432642,2.9565729,Ecole Mohamed Ighil,school,,,,,,,,,"{'amenity': 'school', 'name': 'Ecole Mohamed Ighil'}"
+88395a4b21fffff,way,483799511,36.7433766,2.956565,,,,,,yes,,,,,{'building': 'yes'}
+88395a4b21fffff,way,483806667,36.7417493,2.9543291,حي عدل 588 مسكن,,,,,,,,residential,,"{'landuse': 'residential', 'name': 'حي عدل 588 مسكن', 'name:ar': 'حي عدل 588 مسكن', 'name:fr': 'Cité AADL 588 logements'}"
+88395a4b21fffff,way,497020370,36.7454634,2.9550804,RENAULT DES GRANDS VENTS,,car,,,commercial,,,,,"{'addr:city': 'Dély Brahim', 'addr:street': 'Première Rocade Sud', 'building': 'commercial', 'description': 'http://www.renault.dz/', 'fax': '+21323 25 41 41', 'name': 'RENAULT DES GRANDS VENTS', 'shop': 'car'}"
+88395a4b21fffff,way,497020371,36.7457101,2.9554167,Renault MINUTE,,car_repair,,,yes,,,,,"{'addr:city': 'Dély Brahim', 'addr:street': 'Première Rocade Sud', 'building': 'yes', 'name': 'Renault MINUTE', 'operator': 'vidange filtre air filtre gasoil...... etc', 'service:vehicle:diagnostics': 'yes', 'service:vehicle:electrical': 'yes', 'service:vehicle:oil_change': 'yes', 'shop': 'car_repair'}"
+88395a4b21fffff,way,497020372,36.7455343,2.955183,RENAULT DES GRANDS VENTS,,car,,,commercial,,,,,"{'addr:city': 'Dély Brahim', 'addr:street': 'Première Rocade Sud', 'building': 'commercial', 'description': 'http://www.renault.dz', 'fax': '023 25 41 41', 'name': 'RENAULT DES GRANDS VENTS', 'phone': '023 25 48 71/76', 'ref': 'RENAULT DES GRANDS VENTS', 'second_hand': 'yes', 'shop': 'car'}"
+88395a4b21fffff,way,561840253,36.7487728,2.9507851,,,,,,hotel,,,,,"{'addr:city': 'دالي إبراھيم', 'addr:city:ar': 'دالي إبراھيم', 'addr:postcode': '16002', 'addr:street': 'طريق أولاد فايت', 'addr:street:ar': 'طريق أولاد فايت', 'brand': 'هليدي إن', 'brand:ar': 'هليدي إن', 'brand:wikidata': 'Q2717882', 'brand:wikipedia': 'ar:هليدي إن', 'brand:wikipedia:ar': 'هليدي إن', 'building': 'hotel'}"
+88395a4b21fffff,way,561840255,36.7487411,2.9510997,,,,,,hotel,,,,,"{'addr:city': 'دالي إبراھيم', 'addr:city:ar': 'دالي إبراھيم', 'addr:postcode': '16002', 'addr:street': 'طريق أولاد فايت', 'addr:street:ar': 'طريق أولاد فايت', 'brand': 'هليدي إن', 'brand:ar': 'هليدي إن', 'brand:wikidata': 'Q2717882', 'brand:wikipedia': 'ar:هليدي إن', 'brand:wikipedia:ar': 'هليدي إن', 'building': 'hotel'}"
+88395a4b21fffff,way,561840256,36.7485996,2.9510943,,,,,,hotel,,,,,"{'addr:city': 'دالي إبراھيم', 'addr:city:ar': 'دالي إبراھيم', 'addr:postcode': '16002', 'addr:street': 'طريق أولاد فايت', 'addr:street:ar': 'طريق أولاد فايت', 'brand': 'هليدي إن', 'brand:ar': 'هليدي إن', 'brand:wikidata': 'Q2717882', 'brand:wikipedia': 'ar:هليدي إن', 'brand:wikipedia:ar': 'هليدي إن', 'building': 'hotel'}"
+88395a4b21fffff,way,561840257,36.7486745,2.9507109,,,,,,hotel,,,,,"{'addr:city': 'دالي إبراھيم', 'addr:city:ar': 'دالي إبراھيم', 'addr:postcode': '16002', 'addr:street': 'طريق أولاد فايت', 'addr:street:ar': 'طريق أولاد فايت', 'brand': 'هليدي إن', 'brand:ar': 'هليدي إن', 'brand:wikidata': 'Q2717882', 'brand:wikipedia': 'ar:هليدي إن', 'brand:wikipedia:ar': 'هليدي إن', 'building': 'hotel'}"
+88395a4b21fffff,way,561840258,36.7484938,2.9510384,,,,,,hotel,,,,,"{'addr:city': 'دالي إبراھيم', 'addr:city:ar': 'دالي إبراھيم', 'addr:postcode': '16002', 'addr:street': 'طريق أولاد فايت', 'addr:street:ar': 'طريق أولاد فايت', 'brand': 'هليدي إن', 'brand:ar': 'هليدي إن', 'brand:wikidata': 'Q2717882', 'brand:wikipedia': 'ar:هليدي إن', 'brand:wikipedia:ar': 'هليدي إن', 'building': 'hotel'}"
+88395a4b21fffff,way,677477879,36.7437986,2.9571512,,,,,,,,service,,,{'highway': 'service'}
+88395a4b21fffff,way,781191355,36.746965,2.9546263,,,,,,,,track,,,{'highway': 'track'}
+88395a4b21fffff,way,781191358,36.7491102,2.9540647,,,,,,,,motorway_link,,,"{'highway': 'motorway_link', 'oneway': 'yes', 'surface': 'asphalt'}"
+88395a4b21fffff,way,781191359,36.7487416,2.9564188,,,,,,,,motorway_link,,,"{'highway': 'motorway_link', 'oneway': 'yes', 'surface': 'asphalt'}"
+88395a4b21fffff,way,784961768,36.7481323,2.9506233,مسكن الأبراج,,,,,,,residential,,,"{'highway': 'residential', 'name': 'مسكن الأبراج', 'name:ar': 'مسكن الأبراج', 'name:fr': 'Allée du Phare', 'name:kab': 'Abrid n Tafat'}"
+88395a4b21fffff,way,785473464,36.7472359,2.9520127,,,,,,,,service,,,"{'brand': 'Naftal', 'brand:ar': 'نفطال', 'brand:fr': 'Naftal', 'brand:website': 'https://www.naftal.dz/fr/', 'brand:wikidata': 'Q3335043', 'brand:wikipedia': 'fr:Naftal', 'highway': 'service', 'oneway': 'yes', 'operator': 'نفطال', 'operator:ar': 'نفطال', 'operator:wikidata': 'Q3335043', 'operator:wikipedia': 'ar:نفطال'}"
+88395a4b21fffff,way,785473465,36.7462726,2.9548001,,,,,,,,motorway_link,,,"{'highway': 'motorway_link', 'oneway': 'yes', 'surface': 'asphalt'}"
+88395a4b21fffff,way,785811919,36.7492238,2.9509523,,,,,,,,service,,,{'highway': 'service'}
+88395a4b21fffff,way,1031657718,36.7463575,2.9483923,,,,,,,,residential,,,{'highway': 'residential'}
+88395a4b21fffff,way,1171780107,36.7477168,2.9519492,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171780110,36.7456116,2.9517373,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171780116,36.7449221,2.9529261,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171780127,36.7451673,2.9524538,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171780134,36.7441914,2.9516161,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171780154,36.7464912,2.9510678,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171780165,36.7482236,2.9526702,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171780172,36.7443148,2.9531248,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171780173,36.7457828,2.952241,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171780185,36.7441863,2.9538921,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171780192,36.7448552,2.9545913,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171780198,36.7458465,2.952731,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171780202,36.7453438,2.9508352,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171780208,36.7464066,2.9505837,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171780213,36.7446959,2.9533338,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171780221,36.7453019,2.9532817,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171780223,36.7462845,2.955125,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171780225,36.7455497,2.9517316,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171780227,36.7462831,2.9509033,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171780230,36.7447077,2.9517711,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171780239,36.7437184,2.9538518,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171780266,36.7454234,2.949895,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171780285,36.7457169,2.952389,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171780292,36.7477543,2.9523038,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171780327,36.7479454,2.9511825,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171780344,36.7475342,2.9519483,محطة وقود البهجة,fuel,,,,yes,,,,,"{'addr:city': 'دالي إبراھيم', 'addr:city:ar': 'دالي إبراھيم', 'addr:street': 'التجنب الجنوبي الأول', 'addr:street:ar': 'التجنب الجنوبي الأول', 'amenity': 'fuel', 'brand': 'Naftal', 'brand:ar': 'نفطال', 'brand:fr': 'Naftal', 'brand:website': 'https://www.naftal.dz/fr/', 'brand:wikidata': 'Q3335043', 'brand:wikipedia': 'fr:Naftal', 'building': 'yes', 'language:ar': 'main', 'name': 'محطة وقود البهجة', 'name:ar': 'محطة وقود البهجة', 'name:fr': 'Naftal', 'opening_hours': '24/7', 'operator': 'نفطال', 'operator:ar': 'نفطال', 'operator:wikidata': 'Q3335043', 'operator:wikipedia': 'ar:نفطال'}"
+88395a4b21fffff,way,1171780360,36.7454431,2.9530313,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171780376,36.7455863,2.9527651,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171780380,36.7466725,2.9510645,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171780385,36.7441308,2.9514245,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171780389,36.7478392,2.9511491,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171780390,36.746821,2.9582537,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171780395,36.7454386,2.9526798,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171780410,36.7434893,2.9563857,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171780428,36.7456346,2.9514601,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171780442,36.7467196,2.9508469,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171780443,36.7442681,2.9531694,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171780444,36.7483219,2.9505766,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171780447,36.7465523,2.9517426,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171780448,36.7458683,2.9525233,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171780452,36.745944,2.9531981,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171780453,36.7464015,2.9508857,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171780479,36.7463108,2.9505369,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171780488,36.7476967,2.9522061,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171780492,36.7455757,2.9521703,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171780504,36.7469534,2.9587987,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171780505,36.7455834,2.9515607,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171780506,36.7440697,2.9512918,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171780515,36.7461824,2.9526018,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171780518,36.7435044,2.9563129,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171780521,36.7452567,2.9507391,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171780523,36.7431484,2.9565005,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171780524,36.7432002,2.954289,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171780527,36.7450781,2.9505863,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171780531,36.7457401,2.9534622,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171780535,36.746683,2.9509382,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171780540,36.7452442,2.9535932,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171780564,36.7461883,2.9529253,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171780567,36.7481278,2.9521747,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171780572,36.7454057,2.9512943,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171780625,36.7434678,2.9575577,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171780627,36.7444656,2.9522866,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171780634,36.7450681,2.9507641,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171780635,36.7442936,2.9556765,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171780642,36.7462425,2.9542481,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171782137,36.74427,2.9557987,,,,,,,,residential,,,"{'highway': 'residential', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+88395a4b21fffff,way,1171782149,36.7444227,2.9508212,,,,,,,,residential,,,{'highway': 'residential'}
+88395a4b21fffff,way,1174102021,36.749177,2.9527166,,,,,,yes,,,,,"{'building': 'yes', 'source': 'Algerie Mapper Team'}"
+88395a4b21fffff,way,1174102025,36.748968,2.9528701,,,,,,yes,,,,,"{'building': 'yes', 'source': 'Algerie Mapper Team'}"
+88395a4b21fffff,way,1174102028,36.7487148,2.9524627,,,,,,yes,,,,,"{'building': 'yes', 'source': 'Algerie Mapper Team'}"
+88395a4b21fffff,way,1174102032,36.7489802,2.9525232,,,,,,yes,,,,,"{'building': 'yes', 'source': 'Algerie Mapper Team'}"
+88395a4b21fffff,way,1174102042,36.7489305,2.9531778,,,,,,yes,,,,,"{'building': 'yes', 'source': 'Algerie Mapper Team'}"
+88395a4b21fffff,way,1174102067,36.7485007,2.95271,,,,,,yes,,,,,"{'building': 'yes', 'source': 'Algerie Mapper Team'}"
+88395a4b21fffff,way,1174102072,36.7488578,2.9536203,,,,,,yes,,,,,"{'building': 'yes', 'source': 'Algerie Mapper Team'}"
+88395a4b21fffff,way,1174102073,36.748405,2.9516948,,,,,,yes,,,,,"{'building': 'yes', 'source': 'Algerie Mapper Team'}"
+88395a4b21fffff,way,1174102082,36.7496323,2.9535381,,,,,,yes,,,,,"{'building': 'yes', 'source': 'Algerie Mapper Team'}"
+88395a4b21fffff,way,1174102090,36.7493997,2.9510725,,,,,,yes,,,,,"{'building': 'yes', 'source': 'Algerie Mapper Team'}"
+88395a4b21fffff,way,1174102093,36.7487699,2.9526834,,,,,,yes,,,,,"{'building': 'yes', 'source': 'Algerie Mapper Team'}"
+88395a4b21fffff,way,1174102102,36.7493794,2.9520489,,,,,,yes,,,,,"{'building': 'yes', 'source': 'Algerie Mapper Team'}"
+88395a4b21fffff,way,1174102104,36.7491532,2.9523713,,,,,,yes,,,,,"{'building': 'yes', 'source': 'Algerie Mapper Team'}"
+88395a4b21fffff,way,1174102106,36.748323,2.9513257,,,,,,yes,,,,,"{'building': 'yes', 'source': 'Algerie Mapper Team'}"
+88395a4b21fffff,way,1174102113,36.7491502,2.9530009,,,,,,yes,,,,,"{'building': 'yes', 'source': 'Algerie Mapper Team'}"
+88395a4b21fffff,way,1174102120,36.7491202,2.9510816,,,,,,yes,,,,,"{'building': 'yes', 'source': 'Algerie Mapper Team'}"
+88395a4b21fffff,way,1194214073,36.747507,2.9519424,,,,,,,,service,,,"{'highway': 'service', 'oneway': 'yes'}"
+88395a4b21fffff,way,1194214074,36.7474433,2.9523103,,,,,,,,service,,,"{'highway': 'service', 'oneway': 'yes'}"
+88395a4b21fffff,way,1284894885,36.7489211,2.9522857,,,,,,yes,,,,,"{'building': 'yes', 'source': 'Algerie Mapper Team'}"
+88395a4b21fffff,way,1284894886,36.7491403,2.952114,,,,,,yes,,,,,"{'building': 'yes', 'source': 'Algerie Mapper Team'}"
+88395a4b21fffff,way,1284894887,36.7487449,2.9530421,,,,,,yes,,,,,"{'building': 'yes', 'source': 'Algerie Mapper Team'}"
+88395a4b21fffff,way,1284894888,36.7490974,2.9517859,,,,,,yes,,,,,"{'building': 'yes', 'source': 'Algerie Mapper Team'}"
+88395a4b21fffff,way,1284894889,36.748891,2.9519522,,,,,,yes,,,,,"{'building': 'yes', 'source': 'Algerie Mapper Team'}"
+88395a4b21fffff,way,1284894890,36.7486998,2.9521131,,,,,,yes,,,,,"{'building': 'yes', 'source': 'Algerie Mapper Team'}"
+88395a4b21fffff,way,1284894891,36.7494955,2.9520516,,,,,,yes,,,,,"{'building': 'yes', 'source': 'Algerie Mapper Team'}"
+88395a4b21fffff,way,1284894892,36.749603,2.9520489,,,,,,yes,,,,,"{'building': 'yes', 'source': 'Algerie Mapper Team'}"
+88395a4b21fffff,way,1284894893,36.7493557,2.9515661,,,,,,yes,,,,,"{'building': 'yes', 'source': 'Algerie Mapper Team'}"
+88395a4b21fffff,way,1284894894,36.7494675,2.9515661,,,,,,yes,,,,,"{'building': 'yes', 'source': 'Algerie Mapper Team'}"
+88395a4b21fffff,way,1284894895,36.7495433,2.9515654,,,,,,yes,,,,,"{'building': 'yes', 'source': 'Algerie Mapper Team'}"
+88395a4b21fffff,way,1284894897,36.7496588,2.9515661,,,,,,yes,,,,,"{'building': 'yes', 'source': 'Algerie Mapper Team'}"
+88395a4b21fffff,way,1284894900,36.7496004,2.9515322,,,,,,yes,,,,,{'building': 'yes'}
+88395a4b21fffff,way,1284894901,36.7494113,2.9515348,,,,,,yes,,,,,{'building': 'yes'}
+88395a4b21fffff,way,1284906190,36.7501153,2.9521064,,,,,,,,service,,,"{'highway': 'service', 'oneway': 'yes'}"
+88395a4b21fffff,way,1284906196,36.7492358,2.9521502,,,,,,,,service,,,{'highway': 'service'}
+88395a4b21fffff,way,1284906197,36.7489221,2.9529771,,,,,,,,residential,,,{'highway': 'residential'}
+88395a4b21fffff,way,1284906198,36.7487414,2.9533414,,,,,,yes,,,,,"{'building': 'yes', 'source': 'Algerie Mapper Team'}"
+88395a4b21fffff,way,1284906199,36.7488995,2.9523377,,,,,,,,residential,,,{'highway': 'residential'}
+88395a4b21fffff,way,1284906200,36.7497426,2.9526772,,,,,,,,service,,,{'highway': 'service'}
+88395a4b21fffff,way,1284906208,36.7500665,2.9527082,,,mall,,,yes,,,,,"{'building': 'yes', 'shop': 'mall', 'website': 'https://gardencityalgeria.com/'}"
+88395a4b21fffff,way,1284906212,36.750262,2.953063,,,,,,yes,,,,,{'building': 'yes'}
+88395a4b21fffff,way,1284906214,36.7498363,2.9535145,,,,,,yes,,,,,{'building': 'yes'}
+88395a4b21fffff,way,1284906215,36.7498363,2.9536214,,,,,,yes,,,,,{'building': 'yes'}
+88395a4b21fffff,way,1284906216,36.7497097,2.9533581,,,,,,roof,,,,,"{'building': 'roof', 'layer': '1'}"
+88395a4b21fffff,way,1284906217,36.7501087,2.952815,,,,,,yes,,,,,{'building': 'yes'}
+88395a4b21fffff,way,1284906224,36.7504395,2.9528036,,,,,,,,service,,,{'highway': 'service'}
+88395a4b21fffff,way,1284906225,36.7494459,2.9531881,,parking,,,,,,,,,{'amenity': 'parking'}
+88395a4b21fffff,way,1284906226,36.7500938,2.9519984,,,,,,apartments,,,,,{'building': 'apartments'}
+88395a4b21fffff,way,1284906228,36.7498636,2.9521445,,,,,,,,service,,,{'highway': 'service'}
+88395a4b21fffff,way,1284906229,36.7497671,2.952357,,,,,,,,service,,,{'highway': 'service'}
+88395a4b21fffff,way,1284906230,36.7497709,2.9526017,,,,,,yes,,,,,{'building': 'yes'}
+88395a4b21fffff,way,1284906231,36.7496547,2.9525291,,,,,,,,service,,,{'highway': 'service'}
+88395a4b21fffff,way,1284906232,36.749727,2.9524248,,,,,,,,service,,,{'highway': 'service'}
+88395a4b21fffff,way,1284906233,36.7495811,2.9523256,,,,,,,,footway,,,{'highway': 'footway'}
+88395a4b21fffff,way,1284906234,36.7493662,2.9527052,,,,,,,,service,,,{'highway': 'service'}
+88395a4b21fffff,way,1284906235,36.7493583,2.9529168,,,,,,,,service,,,{'highway': 'service'}
+88395a4b21fffff,way,1284906238,36.7488691,2.9517308,,parking,,,,,,,,,{'amenity': 'parking'}
+88395a4b21fffff,way,1284906239,36.7488665,2.9515957,,,,,,roof,,,,,"{'building': 'roof', 'layer': '1'}"
+88395a4b21fffff,way,1284906240,36.7495497,2.9520983,,,,,,yes,,,,,{'building': 'yes'}
+88395a4b21fffff,way,1284906241,36.749438,2.9520997,,,,,,yes,,,,,{'building': 'yes'}
+88395a4b21fffff,way,1284906250,36.7498182,2.95136,,,,,,,,service,,,{'highway': 'service'}
+88395a4b21fffff,way,1284906251,36.7497833,2.9519636,,,,,,,,service,,,{'highway': 'service'}
+88395a4b21fffff,way,1284907305,36.7495591,2.9517948,,,,,,,,pedestrian,,,"{'area': 'yes', 'highway': 'pedestrian'}"
+88395a4b21fffff,way,1284907306,36.7493052,2.9517981,,,,,,,,footway,,,{'highway': 'footway'}
+88395a4b21fffff,way,1284907308,36.7499103,2.9531731,,,,,,,,pedestrian,,,"{'area': 'yes', 'highway': 'pedestrian', 'lit': 'yes'}"
+88395a4b21fffff,way,1284907313,36.7496843,2.9533907,,,,,,,,pedestrian,,,"{'area': 'yes', 'highway': 'pedestrian'}"
+88395a4b21fffff,way,1284907314,36.7492654,2.9537924,,,,,,yes,,,,,{'building': 'yes'}
+88395a4b21fffff,way,1284907315,36.7493213,2.9538963,,,,,,yes,,,,,{'building': 'yes'}
+88395a4b21fffff,way,1284907316,36.7494061,2.9539151,,,,,,yes,,,,,{'building': 'yes'}
+88395a4b21fffff,way,1284907317,36.7494921,2.9539352,,,,,,yes,,,,,{'building': 'yes'}
+88395a4b21fffff,way,1284911100,36.7489059,2.9523789,,,,,,,,,grass,,{'landuse': 'grass'}
+88395a4b21fffff,way,1284911101,36.7489269,2.9530132,,,,,,,,,grass,,{'landuse': 'grass'}
+88395a4b21fffff,way,1284911102,36.7489016,2.953538,,,,,,,,,grass,,{'landuse': 'grass'}
+88395a4b21fffff,way,1284911103,36.7488825,2.9519304,,,,,,,,,grass,,{'landuse': 'grass'}
+88395a4b21fffff,way,1284911104,36.7485773,2.9530901,,,,,,,,,grass,,{'landuse': 'grass'}
+88395a4b21fffff,way,1284911105,36.7491638,2.9533692,,,,,,,,,grass,,{'landuse': 'grass'}
+88395a4b21fffff,way,1284911106,36.7494385,2.9537334,,,,,,,,,grass,,{'landuse': 'grass'}
+88395a4b21fffff,way,1284911553,36.7505328,2.9526113,Garden City Mall,,,,,,,,retail,,"{'landuse': 'retail', 'name': 'Garden City Mall', 'name:ar': 'المركز التجاري غاردن سيتي'}"
+88395a4b21fffff,way,1323799422,36.7492968,2.9563574,,,,,,,,track,,,{'highway': 'track'}
+88395a4b21fffff,way,1323799423,36.747999,2.9543921,,,,,,,,motorway_link,,,"{'highway': 'motorway_link', 'oneway': 'no'}"
+88395a4b21fffff,way,1425918363,36.7495612,2.9530047,,,,,,,,service,,,"{'highway': 'service', 'oneway': 'yes'}"
+88395a4b21fffff,way,1425920129,36.7504748,2.9536491,,,,,,,,,construction,,{'landuse': 'construction'}
+88395a4b21fffff,way,1425920130,36.7503222,2.9538382,,,,,,construction,,,,,{'building': 'construction'}
+88395a4b21fffff,way,1471778113,36.7488832,2.9542487,,,,,,,,,construction,,{'landuse': 'construction'}
+88395a4b21fffff,way,1471778133,36.7421492,2.9653649,,,,,,,,track,,,{'highway': 'track'}
+88395a4b21fffff,way,1471778135,36.7429732,2.9646704,,,,,,,,track,,,{'highway': 'track'}
+88395a4b21fffff,way,1471778137,36.7425864,2.9641922,,,,,,,,track,,,{'highway': 'track'}
+88395a4b21fffff,way,1471778146,36.7441182,2.9634383,,,,,,,,track,,,{'highway': 'track'}
+88395a4b21fffff,way,1471778147,36.7445855,2.9641803,,,,,,,,track,,,{'highway': 'track'}
+88395a4b21fffff,way,1471778150,36.7449228,2.9589655,,,,,,,,track,,,{'highway': 'track'}
+88395a4b21fffff,way,1471778151,36.745142,2.9571018,,,,,,,,track,,,{'highway': 'track'}
+88395a4b21fffff,way,1471779961,36.7461212,2.9580662,,,,,,,,footway,,,"{'bridge': 'yes', 'highway': 'footway', 'layer': '1'}"
+88395a4b21fffff,way,1471779962,36.746585,2.9581886,,,,,,,,footway,,,{'highway': 'footway'}
+88395a4b21fffff,way,1471779963,36.7457024,2.9579243,,,,,,,,footway,,,{'highway': 'footway'}
+88395a4b21fffff,way,1471779964,36.7455955,2.9582166,,,,,,,,track,,,{'highway': 'track'}
+88395a4b21fffff,way,1471787718,36.7502398,2.9553657,,parking,,,,,,,,,{'amenity': 'parking'}
+88395a4b21fffff,way,1471787719,36.749348,2.9552369,,parking,,,,,,,,,{'amenity': 'parking'}
+88395a4b21fffff,way,1471787720,36.7471405,2.9546601,,parking,,,,,,,,,{'amenity': 'parking'}
+88395a4b21fffff,way,1480682206,36.7462908,2.951494,,,,,,,,service,,,{'highway': 'service'}
+88395a4b21fffff,way,1480682207,36.7455444,2.9508946,,,,,,,,service,,,{'highway': 'service'}
+88395a4b21fffff,way,1480682209,36.7461328,2.9514753,,,,,,,,service,,,{'highway': 'service'}
+88395a4b21fffff,way,1480682210,36.7461091,2.951376,,,,,,,,service,,,{'highway': 'service'}
+88395a4b21fffff,way,1480682211,36.7459325,2.9505522,,,,,,,,residential,,,{'highway': 'residential'}
+88395a4b21fffff,way,1481072151,36.743107,2.9525572,,,,,,,,residential,,,{'highway': 'residential'}
+88395a4b21fffff,way,1481072152,36.7425118,2.9530921,,,,,,,,residential,,,{'highway': 'residential'}
+88395a4b21fffff,relation,17614897,36.7504428,2.9525968,,,,,,jj,,,,,"{'building': 'jj', 'type': 'building'}"

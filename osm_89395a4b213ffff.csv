@@ -1,0 +1,140 @@
+h3_id,osm_type,osm_id,lat,lon,name,amenity,shop,tourism,office,building,building_levels,highway,landuse,natural,tags
+89395a4b213ffff,node,11920100693,36.7501868,2.9527371,Stradivarius,,clothes,,,,,,,,"{'brand': 'Stradivarius', 'brand:wikidata': 'Q3322945', 'clothes': 'women', 'name': 'Stradivarius', 'shop': 'clothes'}"
+89395a4b213ffff,node,11920100896,36.750103,2.9530894,Pull & Bear,,clothes,,,,,,,,"{'brand': 'Pull & Bear', 'brand:wikidata': 'Q691029', 'name': 'Pull & Bear', 'shop': 'clothes'}"
+89395a4b213ffff,node,11920100898,36.7499053,2.9529365,U.S. Polo Assn.,,clothes,,,,,,,,"{'brand': 'U.S. Polo Assn.', 'brand:wikidata': 'Q7863282', 'name': 'U.S. Polo Assn.', 'shop': 'clothes'}"
+89395a4b213ffff,node,11920100900,36.7502556,2.9525637,Lacoste,,clothes,,,,,,,,"{'brand': 'Lacoste', 'brand:wikidata': 'Q309031', 'name': 'Lacoste', 'shop': 'clothes'}"
+89395a4b213ffff,node,11920100902,36.7500198,2.9529095,Bershka,,clothes,,,,,,,,"{'brand': 'Bershka', 'brand:wikidata': 'Q827258', 'name': 'Bershka', 'shop': 'clothes'}"
+89395a4b213ffff,node,11920100904,36.7501589,2.9531404,La Vie en Rose,,clothes,,,,,,,,"{'brand': 'La Vie en Rose', 'brand:wikidata': 'Q4950452', 'clothes': 'underwear;women', 'name': 'La Vie en Rose', 'shop': 'clothes'}"
+89395a4b213ffff,node,11920100905,36.7500708,2.9527461,Nike,,clothes,,,,,,,,"{'brand': 'Nike', 'brand:wikidata': 'Q483915', 'name': 'Nike', 'shop': 'clothes'}"
+89395a4b213ffff,node,11920100911,36.7504984,2.9527059,Zara Home,,interior_decoration,,,,,,,,"{'brand': 'Zara Home', 'brand:wikidata': 'Q3114054', 'name': 'Zara Home', 'shop': 'interior_decoration'}"
+89395a4b213ffff,node,11920100912,36.7499891,2.9528534,Aldo,,shoes,,,,,,,,"{'brand': 'Aldo', 'brand:wikidata': 'Q2832297', 'name': 'Aldo', 'shop': 'shoes'}"
+89395a4b213ffff,node,11920100914,36.749656,2.9534891,Mango,,clothes,,,,,,,,"{'brand': 'Mango', 'brand:wikidata': 'Q136503', 'name': 'Mango', 'shop': 'clothes'}"
+89395a4b213ffff,node,11920100915,36.7497849,2.9530143,Camper,,shoes,,,,,,,,"{'brand': 'Camper', 'brand:wikidata': 'Q1030922', 'name': 'Camper', 'shop': 'shoes'}"
+89395a4b213ffff,node,11920100918,36.7504254,2.9527488,Oysho,,clothes,,,,,,,,"{'brand': 'Oysho', 'brand:wikidata': 'Q3327046', 'name': 'Oysho', 'shop': 'clothes'}"
+89395a4b213ffff,node,11920100919,36.7503587,2.9525664,Etam,,clothes,,,,,,,,"{'brand': 'Etam', 'brand:wikidata': 'Q3059202', 'clothes': 'underwear', 'name': 'Etam', 'shop': 'clothes'}"
+89395a4b213ffff,node,11920100926,36.7497269,2.9536875,,cafe,,,,,,,,,{'amenity': 'cafe'}
+89395a4b213ffff,node,11920100927,36.7499053,2.9531967,,fountain,,,,,,,,,{'amenity': 'fountain'}
+89395a4b213ffff,node,11920100928,36.7503329,2.9526039,,fountain,,,,,,,,,{'amenity': 'fountain'}
+89395a4b213ffff,node,11943367389,36.7503618,2.9527125,المركز التجاري غاردن سيتي,,mall,,,,3.0,,,,"{'addr:city': 'Dély Brahim ⴷⴻⵍⵉ ⴱⵔⴰⵀⵉⵎ دالي إبراھيم', 'addr:housenumber': '2', 'addr:postcode': '16002', 'addr:street': 'Route Ouled Fayet', 'air_conditioning': 'yes', 'building:levels': '3', 'currency:DZA': 'yes', 'currency:DZD': 'yes', 'currency:dzd': 'yes', 'email': 'office@gardencityalgeria.com', 'name': 'المركز التجاري غاردن سيتي', 'name:ar': 'المركز التجاري غاردن سيتي', 'name:en': 'Garden City Lifestyle Mall', 'name:fr': 'Centre Commercial Garden City', 'opening_hours': '09:00-23:00', 'operator': 'Garden City Lifestyle Mall', 'payment:cash': 'yes', 'payment:coins': 'yes', 'payment:credit_cards': 'yes', 'payment:debit_cards': 'yes', 'phone': '023 07 65 12', 'shop': 'mall', 'start_date': '2021-04-27', 'stroller': 'yes', 'toilets': 'yes', 'website': 'https://gardencityalgeria.com/'}"
+89395a4b213ffff,way,137431525,36.7475953,2.9520867,,,,,,,,service,,,"{'brand': 'Naftal', 'brand:ar': 'نفطال', 'brand:fr': 'Naftal', 'brand:website': 'https://www.naftal.dz/fr/', 'brand:wikidata': 'Q3335043', 'brand:wikipedia': 'fr:Naftal', 'highway': 'service', 'operator': 'نفطال', 'operator:ar': 'نفطال', 'operator:wikidata': 'Q3335043', 'operator:wikipedia': 'ar:نفطال'}"
+89395a4b213ffff,way,189876441,36.7475613,2.9515238,,,,,,,,service,,,"{'brand': 'Naftal', 'brand:ar': 'نفطال', 'brand:fr': 'Naftal', 'brand:website': 'https://www.naftal.dz/fr/', 'brand:wikidata': 'Q3335043', 'brand:wikipedia': 'fr:Naftal', 'highway': 'service', 'maxspeed': '20', 'oneway': 'yes', 'operator': 'نفطال', 'operator:ar': 'نفطال', 'operator:wikidata': 'Q3335043', 'operator:wikipedia': 'ar:نفطال'}"
+89395a4b213ffff,way,189876443,36.747692,2.9515581,,,,,,,,service,,,"{'brand': 'Naftal', 'brand:ar': 'نفطال', 'brand:fr': 'Naftal', 'brand:website': 'https://www.naftal.dz/fr/', 'brand:wikidata': 'Q3335043', 'brand:wikipedia': 'fr:Naftal', 'highway': 'service', 'operator': 'نفطال', 'operator:ar': 'نفطال', 'operator:wikidata': 'Q3335043', 'operator:wikipedia': 'ar:نفطال'}"
+89395a4b213ffff,way,196547668,36.7416244,2.9328182,Première Rocade Sud التجنب الجنوبي الأول,,,,,,,motorway,,,"{'agricultural': 'no', 'alt_name': 'الطريق الاجتنابي الجنوبي للجزائر', 'alt_name:ar': 'الطريق الاجتنابي الجنوبي للجزائر', 'bicycle': 'no', 'destination': 'الشراقة;زرالدة;تيبازة', 'destination:lang:ar': 'الشراقة;زرالدة;تيبازة', 'foot': 'no', 'highway': 'motorway', 'lanes': '3', 'lit': 'yes', 'maxspeed': '80', 'name': 'Première Rocade Sud التجنب الجنوبي الأول', 'name:ar': 'التجنب الجنوبي الأول', 'name:en': 'First Southern Ring Road', 'name:es': 'Primera Circunvalación Sur', 'name:fr': 'Première Rocade Sud', 'oneway': 'yes', 'surface': 'asphalt'}"
+89395a4b213ffff,way,244633422,36.7492656,2.9508963,,,,,,commercial,,,,,"{'addr:city': 'دالي إبراھيم', 'addr:city:ar': 'دالي إبراھيم', 'brand': 'شنايدر إليكتريك', 'brand:ar': 'شنايدر إليكتريك', 'brand:wikidata': 'Q49053', 'brand:wikipedia': 'ar:شنايدر إليكتريك', 'brand:wikipedia:ar': 'شنايدر إليكتريك', 'building': 'commercial', 'name:fr': 'Schneider Electric', 'operator': 'شنايدر إليكتريك', 'operator:ar': 'شنايدر إليكتريك', 'operator:wikidata': 'Q49053', 'operator:wikipedia': 'ar:شنايدر إليكتريك', 'operator:wikipedia:ar': 'شنايدر إليكتريك'}"
+89395a4b213ffff,way,244633423,36.7493751,2.9509329,شنايدر إليكتريك,,,,company,,,,commercial,,"{'addr:city': 'دالي إبراھيم', 'addr:city:ar': 'دالي إبراھيم', 'brand': 'شنايدر إليكتريك', 'brand:ar': 'شنايدر إليكتريك', 'brand:wikidata': 'Q49053', 'brand:wikipedia': 'ar:شنايدر إليكتريك', 'brand:wikipedia:ar': 'شنايدر إليكتريك', 'landuse': 'commercial', 'name': 'شنايدر إليكتريك', 'name:ar': 'شنايدر إليكتريك', 'name:de': 'Schneider Electric', 'name:en': 'Schneider Electric', 'name:fr': 'Schneider Electric', 'office': 'company', 'operator': 'شنايدر إليكتريك', 'operator:ar': 'شنايدر إليكتريك', 'operator:wikidata': 'Q49053', 'operator:wikipedia': 'ar:شنايدر إليكتريك', 'operator:wikipedia:ar': 'شنايدر إليكتريك'}"
+89395a4b213ffff,way,313676639,36.7482548,2.9508829,,,,,,apartments,,,,,"{'addr:city': 'دالي إبراھيم', 'addr:city:ar': 'دالي إبراھيم', 'addr:neighbourhood': 'مسكن الأبراج', 'addr:neighbourhood:ar': 'مسكن الأبراج', 'addr:street': 'مسكن الأبراج', 'addr:street:ar': 'مسكن الأبراج', 'building': 'apartments'}"
+89395a4b213ffff,way,399227616,36.7311351,2.9708343,Dounya Parc ⴹⵓⵏⵢⴰ ⵒⴰⵔⴽ دنيا بارك,,,,,,,,greenery,,"{'addr:city': 'دالي إبراهيم', 'landuse': 'greenery', 'leisure': 'park', 'name': 'Dounya Parc ⴹⵓⵏⵢⴰ ⵒⴰⵔⴽ دنيا بارك', 'name:ar': 'دنيا بارك', 'name:ber': 'ⴹⵓⵏⵢⴰ ⵒⴰⵔⴽ', 'name:en': 'Dounya Parc', 'name:fa': 'پارک دنیا', 'name:fr': 'Dounya Parc', 'name:kab': 'Dunya Park', 'opening_hours': '24/7', 'operator': 'شركة الإمارات الدولية للاستثمار', 'operator:ar': 'شركة الإمارات الدولية للاستثمار', 'surface': 'grass', 'wikidata': 'Q54900632', 'wikipedia': 'ar:دنيا بارك (الجزائر)'}"
+89395a4b213ffff,way,399330558,36.7487022,2.9509519,هليدي إن الجزائر - برج الشراقة,,,hotel,,,,,,,"{'addr:city': 'دالي إبراھيم', 'addr:city:ar': 'دالي إبراھيم', 'addr:postcode': '16002', 'addr:street': 'طريق أولاد فايت', 'addr:street:ar': 'طريق أولاد فايت', 'brand': 'Holiday Inn', 'brand:ar': 'هليدي إن', 'brand:wikidata': 'Q2717882', 'brand:wikipedia': 'ar:هليدي إن', 'brand:wikipedia:ar': 'هليدي إن', 'diet:halal': 'yes', 'internet_access': 'wlan', 'language:ar': 'main', 'name': 'هليدي إن الجزائر - برج الشراقة', 'name:ar': 'هليدي إن الجزائر - برج الشراقة', 'name:en': 'Holiday Inn Algiers - Cheraga Tower', 'name:fr': 'Holiday Inn', 'phone': '213-23-285858', 'smoking': 'outside', 'tourism': 'hotel', 'website': 'https://www.ihg.com/holidayinn/hotels/ae/ar/cheraga-alger/algct/hoteldetail'}"
+89395a4b213ffff,way,399330560,36.7482629,2.9520221,قاعدة الموقع,,,,,,,,industrial,,"{'addr:city': 'دالي إبراھيم', 'addr:city:ar': 'دالي إبراھيم', 'landuse': 'industrial', 'name': 'قاعدة الموقع', 'name:ar': 'قاعدة الموقع', 'name:fr': 'Base de Chantier'}"
+89395a4b213ffff,way,399330565,36.7480704,2.9507846,Résidence Les Tours,,,,,,,,residential,,"{'landuse': 'residential', 'name': 'Résidence Les Tours', 'name:ar': 'مسكن الأبراج', 'name:en': 'Towers residence', 'name:fr': 'Résidence Les Tours', 'place': 'neighbourhood'}"
+89395a4b213ffff,way,399330567,36.7494673,2.9527952,غاردن ستي,,,,,,,,residential,,"{'landuse': 'residential', 'layer': '-2', 'name': 'غاردن ستي', 'name:ar': 'غاردن ستي', 'name:en': 'Garden City', 'name:fr': 'Garden City', 'residential': 'apartments'}"
+89395a4b213ffff,way,561840253,36.7487728,2.9507851,,,,,,hotel,,,,,"{'addr:city': 'دالي إبراھيم', 'addr:city:ar': 'دالي إبراھيم', 'addr:postcode': '16002', 'addr:street': 'طريق أولاد فايت', 'addr:street:ar': 'طريق أولاد فايت', 'brand': 'هليدي إن', 'brand:ar': 'هليدي إن', 'brand:wikidata': 'Q2717882', 'brand:wikipedia': 'ar:هليدي إن', 'brand:wikipedia:ar': 'هليدي إن', 'building': 'hotel'}"
+89395a4b213ffff,way,561840255,36.7487411,2.9510997,,,,,,hotel,,,,,"{'addr:city': 'دالي إبراھيم', 'addr:city:ar': 'دالي إبراھيم', 'addr:postcode': '16002', 'addr:street': 'طريق أولاد فايت', 'addr:street:ar': 'طريق أولاد فايت', 'brand': 'هليدي إن', 'brand:ar': 'هليدي إن', 'brand:wikidata': 'Q2717882', 'brand:wikipedia': 'ar:هليدي إن', 'brand:wikipedia:ar': 'هليدي إن', 'building': 'hotel'}"
+89395a4b213ffff,way,561840256,36.7485996,2.9510943,,,,,,hotel,,,,,"{'addr:city': 'دالي إبراھيم', 'addr:city:ar': 'دالي إبراھيم', 'addr:postcode': '16002', 'addr:street': 'طريق أولاد فايت', 'addr:street:ar': 'طريق أولاد فايت', 'brand': 'هليدي إن', 'brand:ar': 'هليدي إن', 'brand:wikidata': 'Q2717882', 'brand:wikipedia': 'ar:هليدي إن', 'brand:wikipedia:ar': 'هليدي إن', 'building': 'hotel'}"
+89395a4b213ffff,way,561840257,36.7486745,2.9507109,,,,,,hotel,,,,,"{'addr:city': 'دالي إبراھيم', 'addr:city:ar': 'دالي إبراھيم', 'addr:postcode': '16002', 'addr:street': 'طريق أولاد فايت', 'addr:street:ar': 'طريق أولاد فايت', 'brand': 'هليدي إن', 'brand:ar': 'هليدي إن', 'brand:wikidata': 'Q2717882', 'brand:wikipedia': 'ar:هليدي إن', 'brand:wikipedia:ar': 'هليدي إن', 'building': 'hotel'}"
+89395a4b213ffff,way,561840258,36.7484938,2.9510384,,,,,,hotel,,,,,"{'addr:city': 'دالي إبراھيم', 'addr:city:ar': 'دالي إبراھيم', 'addr:postcode': '16002', 'addr:street': 'طريق أولاد فايت', 'addr:street:ar': 'طريق أولاد فايت', 'brand': 'هليدي إن', 'brand:ar': 'هليدي إن', 'brand:wikidata': 'Q2717882', 'brand:wikipedia': 'ar:هليدي إن', 'brand:wikipedia:ar': 'هليدي إن', 'building': 'hotel'}"
+89395a4b213ffff,way,781191358,36.7491102,2.9540647,,,,,,,,motorway_link,,,"{'highway': 'motorway_link', 'oneway': 'yes', 'surface': 'asphalt'}"
+89395a4b213ffff,way,781191359,36.7487416,2.9564188,,,,,,,,motorway_link,,,"{'highway': 'motorway_link', 'oneway': 'yes', 'surface': 'asphalt'}"
+89395a4b213ffff,way,784961768,36.7481323,2.9506233,مسكن الأبراج,,,,,,,residential,,,"{'highway': 'residential', 'name': 'مسكن الأبراج', 'name:ar': 'مسكن الأبراج', 'name:fr': 'Allée du Phare', 'name:kab': 'Abrid n Tafat'}"
+89395a4b213ffff,way,785473464,36.7472359,2.9520127,,,,,,,,service,,,"{'brand': 'Naftal', 'brand:ar': 'نفطال', 'brand:fr': 'Naftal', 'brand:website': 'https://www.naftal.dz/fr/', 'brand:wikidata': 'Q3335043', 'brand:wikipedia': 'fr:Naftal', 'highway': 'service', 'oneway': 'yes', 'operator': 'نفطال', 'operator:ar': 'نفطال', 'operator:wikidata': 'Q3335043', 'operator:wikipedia': 'ar:نفطال'}"
+89395a4b213ffff,way,785811919,36.7492238,2.9509523,,,,,,,,service,,,{'highway': 'service'}
+89395a4b213ffff,way,1171780107,36.7477168,2.9519492,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+89395a4b213ffff,way,1171780165,36.7482236,2.9526702,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+89395a4b213ffff,way,1171780292,36.7477543,2.9523038,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+89395a4b213ffff,way,1171780327,36.7479454,2.9511825,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+89395a4b213ffff,way,1171780344,36.7475342,2.9519483,محطة وقود البهجة,fuel,,,,yes,,,,,"{'addr:city': 'دالي إبراھيم', 'addr:city:ar': 'دالي إبراھيم', 'addr:street': 'التجنب الجنوبي الأول', 'addr:street:ar': 'التجنب الجنوبي الأول', 'amenity': 'fuel', 'brand': 'Naftal', 'brand:ar': 'نفطال', 'brand:fr': 'Naftal', 'brand:website': 'https://www.naftal.dz/fr/', 'brand:wikidata': 'Q3335043', 'brand:wikipedia': 'fr:Naftal', 'building': 'yes', 'language:ar': 'main', 'name': 'محطة وقود البهجة', 'name:ar': 'محطة وقود البهجة', 'name:fr': 'Naftal', 'opening_hours': '24/7', 'operator': 'نفطال', 'operator:ar': 'نفطال', 'operator:wikidata': 'Q3335043', 'operator:wikipedia': 'ar:نفطال'}"
+89395a4b213ffff,way,1171780389,36.7478392,2.9511491,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+89395a4b213ffff,way,1171780488,36.7476967,2.9522061,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+89395a4b213ffff,way,1171780567,36.7481278,2.9521747,,,,,,yes,,,,,"{'building': 'yes', 'source': 'FB: Algerie Mapper Team : (Superadlen)'}"
+89395a4b213ffff,way,1174102021,36.749177,2.9527166,,,,,,yes,,,,,"{'building': 'yes', 'source': 'Algerie Mapper Team'}"
+89395a4b213ffff,way,1174102025,36.748968,2.9528701,,,,,,yes,,,,,"{'building': 'yes', 'source': 'Algerie Mapper Team'}"
+89395a4b213ffff,way,1174102028,36.7487148,2.9524627,,,,,,yes,,,,,"{'building': 'yes', 'source': 'Algerie Mapper Team'}"
+89395a4b213ffff,way,1174102032,36.7489802,2.9525232,,,,,,yes,,,,,"{'building': 'yes', 'source': 'Algerie Mapper Team'}"
+89395a4b213ffff,way,1174102042,36.7489305,2.9531778,,,,,,yes,,,,,"{'building': 'yes', 'source': 'Algerie Mapper Team'}"
+89395a4b213ffff,way,1174102052,36.7497089,2.9511459,,,,,,yes,,,,,"{'building': 'yes', 'source': 'Algerie Mapper Team'}"
+89395a4b213ffff,way,1174102067,36.7485007,2.95271,,,,,,yes,,,,,"{'building': 'yes', 'source': 'Algerie Mapper Team'}"
+89395a4b213ffff,way,1174102072,36.7488578,2.9536203,,,,,,yes,,,,,"{'building': 'yes', 'source': 'Algerie Mapper Team'}"
+89395a4b213ffff,way,1174102073,36.748405,2.9516948,,,,,,yes,,,,,"{'building': 'yes', 'source': 'Algerie Mapper Team'}"
+89395a4b213ffff,way,1174102082,36.7496323,2.9535381,,,,,,yes,,,,,"{'building': 'yes', 'source': 'Algerie Mapper Team'}"
+89395a4b213ffff,way,1174102090,36.7493997,2.9510725,,,,,,yes,,,,,"{'building': 'yes', 'source': 'Algerie Mapper Team'}"
+89395a4b213ffff,way,1174102093,36.7487699,2.9526834,,,,,,yes,,,,,"{'building': 'yes', 'source': 'Algerie Mapper Team'}"
+89395a4b213ffff,way,1174102102,36.7493794,2.9520489,,,,,,yes,,,,,"{'building': 'yes', 'source': 'Algerie Mapper Team'}"
+89395a4b213ffff,way,1174102104,36.7491532,2.9523713,,,,,,yes,,,,,"{'building': 'yes', 'source': 'Algerie Mapper Team'}"
+89395a4b213ffff,way,1174102106,36.748323,2.9513257,,,,,,yes,,,,,"{'building': 'yes', 'source': 'Algerie Mapper Team'}"
+89395a4b213ffff,way,1174102113,36.7491502,2.9530009,,,,,,yes,,,,,"{'building': 'yes', 'source': 'Algerie Mapper Team'}"
+89395a4b213ffff,way,1174102120,36.7491202,2.9510816,,,,,,yes,,,,,"{'building': 'yes', 'source': 'Algerie Mapper Team'}"
+89395a4b213ffff,way,1194214073,36.747507,2.9519424,,,,,,,,service,,,"{'highway': 'service', 'oneway': 'yes'}"
+89395a4b213ffff,way,1194214074,36.7474433,2.9523103,,,,,,,,service,,,"{'highway': 'service', 'oneway': 'yes'}"
+89395a4b213ffff,way,1284894885,36.7489211,2.9522857,,,,,,yes,,,,,"{'building': 'yes', 'source': 'Algerie Mapper Team'}"
+89395a4b213ffff,way,1284894886,36.7491403,2.952114,,,,,,yes,,,,,"{'building': 'yes', 'source': 'Algerie Mapper Team'}"
+89395a4b213ffff,way,1284894887,36.7487449,2.9530421,,,,,,yes,,,,,"{'building': 'yes', 'source': 'Algerie Mapper Team'}"
+89395a4b213ffff,way,1284894888,36.7490974,2.9517859,,,,,,yes,,,,,"{'building': 'yes', 'source': 'Algerie Mapper Team'}"
+89395a4b213ffff,way,1284894889,36.748891,2.9519522,,,,,,yes,,,,,"{'building': 'yes', 'source': 'Algerie Mapper Team'}"
+89395a4b213ffff,way,1284894890,36.7486998,2.9521131,,,,,,yes,,,,,"{'building': 'yes', 'source': 'Algerie Mapper Team'}"
+89395a4b213ffff,way,1284894891,36.7494955,2.9520516,,,,,,yes,,,,,"{'building': 'yes', 'source': 'Algerie Mapper Team'}"
+89395a4b213ffff,way,1284894892,36.749603,2.9520489,,,,,,yes,,,,,"{'building': 'yes', 'source': 'Algerie Mapper Team'}"
+89395a4b213ffff,way,1284894893,36.7493557,2.9515661,,,,,,yes,,,,,"{'building': 'yes', 'source': 'Algerie Mapper Team'}"
+89395a4b213ffff,way,1284894894,36.7494675,2.9515661,,,,,,yes,,,,,"{'building': 'yes', 'source': 'Algerie Mapper Team'}"
+89395a4b213ffff,way,1284894895,36.7495433,2.9515654,,,,,,yes,,,,,"{'building': 'yes', 'source': 'Algerie Mapper Team'}"
+89395a4b213ffff,way,1284894896,36.7498389,2.9515688,,,,,,yes,,,,,"{'building': 'yes', 'source': 'Algerie Mapper Team'}"
+89395a4b213ffff,way,1284894897,36.7496588,2.9515661,,,,,,yes,,,,,"{'building': 'yes', 'source': 'Algerie Mapper Team'}"
+89395a4b213ffff,way,1284894898,36.7497357,2.9515654,,,,,,yes,,,,,"{'building': 'yes', 'source': 'Algerie Mapper Team'}"
+89395a4b213ffff,way,1284894899,36.749787,2.9515348,,,,,,yes,,,,,{'building': 'yes'}
+89395a4b213ffff,way,1284894900,36.7496004,2.9515322,,,,,,yes,,,,,{'building': 'yes'}
+89395a4b213ffff,way,1284894901,36.7494113,2.9515348,,,,,,yes,,,,,{'building': 'yes'}
+89395a4b213ffff,way,1284906190,36.7501153,2.9521064,,,,,,,,service,,,"{'highway': 'service', 'oneway': 'yes'}"
+89395a4b213ffff,way,1284906196,36.7492358,2.9521502,,,,,,,,service,,,{'highway': 'service'}
+89395a4b213ffff,way,1284906197,36.7489221,2.9529771,,,,,,,,residential,,,{'highway': 'residential'}
+89395a4b213ffff,way,1284906198,36.7487414,2.9533414,,,,,,yes,,,,,"{'building': 'yes', 'source': 'Algerie Mapper Team'}"
+89395a4b213ffff,way,1284906199,36.7488995,2.9523377,,,,,,,,residential,,,{'highway': 'residential'}
+89395a4b213ffff,way,1284906200,36.7497426,2.9526772,,,,,,,,service,,,{'highway': 'service'}
+89395a4b213ffff,way,1284906208,36.7500665,2.9527082,,,mall,,,yes,,,,,"{'building': 'yes', 'shop': 'mall', 'website': 'https://gardencityalgeria.com/'}"
+89395a4b213ffff,way,1284906209,36.7502298,2.9528029,,,,,,yes,,,,,{'building': 'yes'}
+89395a4b213ffff,way,1284906212,36.750262,2.953063,,,,,,yes,,,,,{'building': 'yes'}
+89395a4b213ffff,way,1284906214,36.7498363,2.9535145,,,,,,yes,,,,,{'building': 'yes'}
+89395a4b213ffff,way,1284906215,36.7498363,2.9536214,,,,,,yes,,,,,{'building': 'yes'}
+89395a4b213ffff,way,1284906216,36.7497097,2.9533581,,,,,,roof,,,,,"{'building': 'roof', 'layer': '1'}"
+89395a4b213ffff,way,1284906217,36.7501087,2.952815,,,,,,yes,,,,,{'building': 'yes'}
+89395a4b213ffff,way,1284906224,36.7504395,2.9528036,,,,,,,,service,,,{'highway': 'service'}
+89395a4b213ffff,way,1284906225,36.7494459,2.9531881,,parking,,,,,,,,,{'amenity': 'parking'}
+89395a4b213ffff,way,1284906226,36.7500938,2.9519984,,,,,,apartments,,,,,{'building': 'apartments'}
+89395a4b213ffff,way,1284906227,36.7500481,2.9517129,,,,,,,,service,,,{'highway': 'service'}
+89395a4b213ffff,way,1284906228,36.7498636,2.9521445,,,,,,,,service,,,{'highway': 'service'}
+89395a4b213ffff,way,1284906229,36.7497671,2.952357,,,,,,,,service,,,{'highway': 'service'}
+89395a4b213ffff,way,1284906230,36.7497709,2.9526017,,,,,,yes,,,,,{'building': 'yes'}
+89395a4b213ffff,way,1284906231,36.7496547,2.9525291,,,,,,,,service,,,{'highway': 'service'}
+89395a4b213ffff,way,1284906232,36.749727,2.9524248,,,,,,,,service,,,{'highway': 'service'}
+89395a4b213ffff,way,1284906233,36.7495811,2.9523256,,,,,,,,footway,,,{'highway': 'footway'}
+89395a4b213ffff,way,1284906234,36.7493662,2.9527052,,,,,,,,service,,,{'highway': 'service'}
+89395a4b213ffff,way,1284906235,36.7493583,2.9529168,,,,,,,,service,,,{'highway': 'service'}
+89395a4b213ffff,way,1284906238,36.7488691,2.9517308,,parking,,,,,,,,,{'amenity': 'parking'}
+89395a4b213ffff,way,1284906239,36.7488665,2.9515957,,,,,,roof,,,,,"{'building': 'roof', 'layer': '1'}"
+89395a4b213ffff,way,1284906240,36.7495497,2.9520983,,,,,,yes,,,,,{'building': 'yes'}
+89395a4b213ffff,way,1284906241,36.749438,2.9520997,,,,,,yes,,,,,{'building': 'yes'}
+89395a4b213ffff,way,1284906250,36.7498182,2.95136,,,,,,,,service,,,{'highway': 'service'}
+89395a4b213ffff,way,1284906251,36.7497833,2.9519636,,,,,,,,service,,,{'highway': 'service'}
+89395a4b213ffff,way,1284907305,36.7495591,2.9517948,,,,,,,,pedestrian,,,"{'area': 'yes', 'highway': 'pedestrian'}"
+89395a4b213ffff,way,1284907306,36.7493052,2.9517981,,,,,,,,footway,,,{'highway': 'footway'}
+89395a4b213ffff,way,1284907307,36.749782,2.951844,,,,,,,,footway,,,{'highway': 'footway'}
+89395a4b213ffff,way,1284907308,36.7499103,2.9531731,,,,,,,,pedestrian,,,"{'area': 'yes', 'highway': 'pedestrian', 'lit': 'yes'}"
+89395a4b213ffff,way,1284907311,36.750497,2.9525423,,,,,,,,pedestrian,,,"{'area': 'yes', 'highway': 'pedestrian', 'lit': 'yes'}"
+89395a4b213ffff,way,1284907313,36.7496843,2.9533907,,,,,,,,pedestrian,,,"{'area': 'yes', 'highway': 'pedestrian'}"
+89395a4b213ffff,way,1284907314,36.7492654,2.9537924,,,,,,yes,,,,,{'building': 'yes'}
+89395a4b213ffff,way,1284907315,36.7493213,2.9538963,,,,,,yes,,,,,{'building': 'yes'}
+89395a4b213ffff,way,1284907316,36.7494061,2.9539151,,,,,,yes,,,,,{'building': 'yes'}
+89395a4b213ffff,way,1284907317,36.7494921,2.9539352,,,,,,yes,,,,,{'building': 'yes'}
+89395a4b213ffff,way,1284911100,36.7489059,2.9523789,,,,,,,,,grass,,{'landuse': 'grass'}
+89395a4b213ffff,way,1284911101,36.7489269,2.9530132,,,,,,,,,grass,,{'landuse': 'grass'}
+89395a4b213ffff,way,1284911102,36.7489016,2.953538,,,,,,,,,grass,,{'landuse': 'grass'}
+89395a4b213ffff,way,1284911103,36.7488825,2.9519304,,,,,,,,,grass,,{'landuse': 'grass'}
+89395a4b213ffff,way,1284911104,36.7485773,2.9530901,,,,,,,,,grass,,{'landuse': 'grass'}
+89395a4b213ffff,way,1284911105,36.7491638,2.9533692,,,,,,,,,grass,,{'landuse': 'grass'}
+89395a4b213ffff,way,1284911106,36.7494385,2.9537334,,,,,,,,,grass,,{'landuse': 'grass'}
+89395a4b213ffff,way,1284911553,36.7505328,2.9526113,Garden City Mall,,,,,,,,retail,,"{'landuse': 'retail', 'name': 'Garden City Mall', 'name:ar': 'المركز التجاري غاردن سيتي'}"
+89395a4b213ffff,way,1323799423,36.747999,2.9543921,,,,,,,,motorway_link,,,"{'highway': 'motorway_link', 'oneway': 'no'}"
+89395a4b213ffff,way,1425918361,36.7501641,2.9529013,,,,,,,,footway,,,"{'bridge': 'yes', 'highway': 'footway', 'layer': '1'}"
+89395a4b213ffff,way,1425918363,36.7495612,2.9530047,,,,,,,,service,,,"{'highway': 'service', 'oneway': 'yes'}"
+89395a4b213ffff,way,1425920129,36.7504748,2.9536491,,,,,,,,,construction,,{'landuse': 'construction'}
+89395a4b213ffff,way,1425920130,36.7503222,2.9538382,,,,,,construction,,,,,{'building': 'construction'}
+89395a4b213ffff,way,1471778113,36.7488832,2.9542487,,,,,,,,,construction,,{'landuse': 'construction'}
+89395a4b213ffff,relation,17614897,36.7504428,2.9525968,,,,,,jj,,,,,"{'building': 'jj', 'type': 'building'}"
