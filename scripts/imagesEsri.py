@@ -16,7 +16,7 @@ PADDING_RATIO = 0.08      # même logique que Bing
 REQUEST_TIMEOUT = 120
 
 # ✅ token via variable d'environnement
-ESRI_TOKEN = "AAPTap7aX_3AihjbJY8RZjL66-Q..Hn2b_jidlMOKMQB7OyEMoqiUdrwk8YO_8MPrWVRL4iUWbeJ6xMtCSnnHBTNGRdBdko35tP_ASGGHAiELBpYhP9atOQTwJE44Gmt8y25wurvJWmt6SNvMFyzEIQy2nJOipW3z5l0carBGvpMoQrsJVSGmAu6RcPO5-i24BsoxyuS_eYyHHROO85O9uPlrFCvOYJPXCHuhYnBCkMTbhA4VvoTJOqAUO10FsU_4M3C2FcT47BKISP5tp-TOhw..AT1_J1fxR9uB"
+ESRI_TOKEN = ""
 if not ESRI_TOKEN:
     print("⚠️ ESRI_TOKEN non défini. Exemple Mac: export ESRI_TOKEN='TON_TOKEN'")
 
