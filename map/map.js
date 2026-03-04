@@ -7,8 +7,8 @@ const GeoUtils = {
     degreesToRadians: (d) => d * Math.PI / 180,
 
     getDistanceOnEarthInMeters: (lat1, lon1, lat2, lon2) => {
-        const lat1Rad  = GeoUtils.degreesToRadians(lat1);
-        const lat2Rad  = GeoUtils.degreesToRadians(lat2);
+        const lat1Rad = GeoUtils.degreesToRadians(lat1);
+        const lat2Rad = GeoUtils.degreesToRadians(lat2);
         const lonDelta = GeoUtils.degreesToRadians(lon2 - lon1);
         const x = Math.sin(lat1Rad) * Math.sin(lat2Rad) +
             Math.cos(lat1Rad) * Math.cos(lat2Rad) * Math.cos(lonDelta);
@@ -106,19 +106,19 @@ var app = new Vue({
 
     methods: {
 
-        h3ToInteger: function(h3id) {
+        h3ToInteger: function (h3id) {
             return BigInt('0x' + h3id).toString();
         },
 
-        integerToH3: function(intStr) {
+        integerToH3: function (intStr) {
             return BigInt(intStr).toString(16);
         },
 
-        isIntegerFormat: function(str) {
+        isIntegerFormat: function (str) {
             return /^\d+$/.test(str);
         },
 
-        normalizeH3Input: function(input) {
+        normalizeH3Input: function (input) {
             if (!input) return input;
             if (this.isIntegerFormat(input)) {
                 return this.integerToH3(input);
@@ -126,7 +126,7 @@ var app = new Vue({
             return input;
         },
 
-        computeAverageEdgeLengthInMeters: function(vertexLocations) {
+        computeAverageEdgeLengthInMeters: function (vertexLocations) {
             let totalLength = 0;
             let edgeCount = 0;
             for (let i = 1; i < vertexLocations.length; i++) {
@@ -139,7 +139,7 @@ var app = new Vue({
             return totalLength / edgeCount;
         },
 
-        updateMapDisplay: function() {
+        updateMapDisplay: function () {
             if (hexLayer) {
                 hexLayer.remove();
             }
@@ -147,22 +147,22 @@ var app = new Vue({
             hexLayer = L.canvas({ padding: 0.5 }).addTo(map);
 
             const zoom = map.getZoom();
-            
+
             // On ne dessine les H3 qu'à partir du zoom 12 pour plus de fluidité
             if (zoom < 13) {
-                this.currentH3Res = "Zoom trop faible (min 12)";
+                this.currentH3Res = "Zoom trop faible (min 13)";
                 return;
             }
 
             this.currentH3Res = 8;
-            const { _southWest: sw, _northEast: ne} = map.getBounds();
+            const { _southWest: sw, _northEast: ne } = map.getBounds();
 
-            const boundsPolygon =[
-                [ sw.lat, sw.lng ],
-                [ ne.lat, sw.lng ],
-                [ ne.lat, ne.lng ],
-                [ sw.lat, ne.lng ],
-                [ sw.lat, sw.lng ],
+            const boundsPolygon = [
+                [sw.lat, sw.lng],
+                [ne.lat, sw.lng],
+                [ne.lat, ne.lng],
+                [sw.lat, ne.lng],
+                [sw.lat, sw.lng],
             ];
 
             const h3s = h3.polygonToCells(boundsPolygon, this.currentH3Res);
@@ -179,14 +179,14 @@ var app = new Vue({
                     renderer: hexLayer,
                     interactive: true // Permet de capturer le clic sans forcer l'état hover complexe
                 })
-                .on('click', (e) => {
-                    copyToClipboard(this.useIntegerFormat ? h3idInt : h3id);
-                    L.popup()
-                        .setLatLng(e.latlng)
-                        .setContent(`H3 ID: <b>${h3id}</b><br><small>Copié dans le presse-papier</small>`)
-                        .openOn(map);
-                })
-                .addTo(map);
+                    .on('click', (e) => {
+                        copyToClipboard(this.useIntegerFormat ? h3idInt : h3id);
+                        L.popup()
+                            .setLatLng(e.latlng)
+                            .setContent(`H3 ID: <b>${h3id}</b><br><small>Copié dans le presse-papier</small>`)
+                            .openOn(map);
+                    })
+                    .addTo(map);
 
                 // On supprime l'affichage massif de texte SVG qui tue les performances
                 if (isSelected) {
@@ -199,7 +199,7 @@ var app = new Vue({
             }
         },
 
-        gotoLocation: function() {
+        gotoLocation: function () {
             const [lat, lon] = (this.gotoLatLon || "").split(",").map(Number);
             if (Number.isFinite(lat) && Number.isFinite(lon)
                 && lat <= 90 && lat >= -90 && lon <= 180 && lon >= -180) {
@@ -211,7 +211,7 @@ var app = new Vue({
             }
         },
 
-        findH3: function() {
+        findH3: function () {
             const normalizedId = this.normalizeH3Input(this.searchH3Id);
             if (!h3.isValidCell(normalizedId)) {
                 return;
@@ -266,11 +266,18 @@ var app = new Vue({
                 maxZoom: 24
             });
 
+            const esriLabels = L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Reference/World_Boundaries_and_Places/MapServer/tile/{z}/{y}/{x}',{
+                    attribution: 'Labels &copy; Esri',
+                    pane: 'overlayPane'
+            });
+
+            const satelliteWithLabels = L.layerGroup([satellite, esriLabels]);
+
             osm.addTo(map); // Fond par défaut
 
             const baseMaps = {
                 "OpenStreetMap": osm,
-                "Satellite (Esri)": satellite,
+                "Satellite (Esri)": satelliteWithLabels,
                 "Dark Mode": dark
             };
 
@@ -278,9 +285,10 @@ var app = new Vue({
 
             pointsLayer = L.layerGroup([]).addTo(map);
 
-            const initialLat = queryParams.lat ?? 0;
-            const initialLng = queryParams.lng ?? 0;
-            const initialZoom = queryParams.zoom ?? 5;
+            const initialLat = queryParams.lat ?? 34.03;
+            const initialLng = queryParams.lng ?? 1.66;
+            const initialZoom = queryParams.zoom ?? 6;
+
             map.setView([initialLat, initialLng], initialZoom);
             map.on("zoomend", this.updateMapDisplay);
             map.on("moveend", this.updateMapDisplay);
