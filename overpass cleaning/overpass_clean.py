@@ -566,12 +566,11 @@ def clean_osm_duplicates(
 
     return cleaned, groups_df
 
-
 # =========================
 # 4) Exemple d'utilisation
 # =========================
 if __name__ == "__main__":
-    h3_id = "88395a4831fffff"
+    h3_id = "88395a4819fffff"
 
     df = osm_tabular_from_h3(h3_id)
     print("Avant nettoyage:", len(df))
@@ -587,17 +586,142 @@ if __name__ == "__main__":
     print("Après nettoyage:", len(df_clean))
     print("Doublons fusionnés:", len(df) - len(df_clean))
 
-    print(df_clean.head(10)[[
-        "h3_id", "osm_type", "osm_id", "name", "brand", "operator",
-        "amenity", "shop", "building", "building_levels",
-        "highway", "landuse", "natural", "lat", "lon",
-        "merged_count", "merged_from"
-    ]])
+    # =========================
+    # Séparation routes / reste
+    # =========================
+
+    has_highway = df_clean["highway"].notna() & (df_clean["highway"].astype(str).str.strip() != "")
+    df_roads = df_clean[has_highway].copy()
+    df_other = df_clean[~has_highway].copy()
+
+    print("Routes:", len(df_roads))
+    print("Autres (POI + buildings):", len(df_other))
+
+    # =========================
+    # Nombre de routes par type
+    # =========================
+    road_counts = df_roads["highway"].value_counts()
+    print("\nNombre de routes par type :")
+    for htype, count in road_counts.items():
+        print(f"  {htype}: {count}")
+    print(f"  TOTAL: {road_counts.sum()}")
+
+    # =========================
+    # Nombre de POI par catégorie
+    # =========================
+    POI_CATEGORIES = {
+        "Éducation": {
+            "amenity": ["school", "university", "college", "kindergarten", "library",
+                        "language_school", "music_school", "driving_school", "training"],
+        },
+        "Culte / Religieux": {
+            "amenity": ["place_of_worship", "church", "mosque", "temple", "synagogue"],
+        },
+        "Poste": {
+            "amenity": ["post_office", "post_box"],
+            "office": ["postal"],
+        },
+        "Police / Sécurité": {
+            "amenity": ["police", "fire_station", "courthouse"],
+        },
+        "Stations-service": {
+            "amenity": ["fuel"],
+        },
+        "Santé": {
+            "amenity": ["hospital", "clinic", "doctors", "dentist", "pharmacy",
+                        "veterinary", "nursing_home", "health_centre", "health_post"],
+            "office": ["physician", "therapist"],
+        },
+        "Transport / Voyage": {
+            "amenity": ["bus_station", "taxi", "car_rental", "parking",
+                        "bicycle_parking", "ferry_terminal", "bicycle_rental"],
+            "office": ["travel_agent"],
+        },
+        "Commerce": {
+            "shop": ["supermarket", "convenience", "mall", "department_store",
+                    "clothes", "shoes", "bakery", "butcher", "greengrocer",
+                    "electronics", "mobile_phone", "hardware", "furniture",
+                    "jewelry", "cosmetics", "optician", "books", "stationery",
+                    "interior_decoration", "carpet", "fabric", "variety_store",
+                    "general", "kiosk", "newsagent", "gift", "toys",
+                    "sports", "outdoor", "car", "car_parts", "car_repair",
+                    "tyres", "motorcycle", "bicycle"],
+            "amenity": ["marketplace"],
+            "landuse": ["retail", "commercial"],
+        },
+        "Restauration": {
+            "amenity": ["restaurant", "fast_food", "cafe", "bar", "pub",
+                        "ice_cream", "food_court", "biergarten"],
+        },
+        "Services économiques": {
+            "amenity": ["bank", "atm", "bureau_de_change", "money_transfer"],
+            "office": ["company", "insurance", "estate_agent", "lawyer",
+                    "accountant", "notary", "telecommunication", "it",
+                    "financial", "government", "ngo", "association"],
+            "shop": ["hairdresser", "beauty", "laundry", "dry_cleaning",
+                    "tailor", "copyshop", "travel_agency", "funeral_directors"],
+        },
+        "Loisirs / Sport / Culture": {
+            "amenity": ["cinema", "theatre", "community_centre", "social_facility",
+                        "fountain", "swimming_pool", "gym", "sports_centre",
+                        "playground", "park", "stadium", "library"],
+            "leisure": ["garden", "park", "playground", "pitch", "stadium",
+                        "track", "swimming_pool", "sports_hall", "fitness_centre",
+                        "golf_course", "nature_reserve", "amusement_park"],
+            "tourism": ["hotel", "guest_house", "hostel", "motel", "camp_site",
+                        "museum", "attraction", "viewpoint", "zoo", "theme_park",
+                        "picnic_site"],
+            "historic": ["monument", "castle", "memorial", "archaeological_site"],
+            "landuse": ["recreation_ground", "park", "garden"],
+        },
+    }
+
+    def classify_poi(row):
+        for cat_name, tag_map in POI_CATEGORIES.items():
+            for tag_col, values in tag_map.items():
+                cell = row.get(tag_col)
+                if pd.notna(cell) and str(cell).strip() != "" and str(cell).strip() in values:
+                    return cat_name
+        return "Autre"
+
+    df_other["poi_category"] = df_other.apply(classify_poi, axis=1)
+
+    poi_counts = df_other["poi_category"].value_counts()
+    print("\nNombre de POI par catégorie :")
+    for cat, count in poi_counts.items():
+        print(f"  {cat}: {count}")
+    print(f"  TOTAL: {poi_counts.sum()}")
+
+    # Détail par sous-type dans chaque catégorie
+    print("\nDétail par sous-type :")
+    for cat_name in POI_CATEGORIES:
+        subset = df_other[df_other["poi_category"] == cat_name]
+        if subset.empty:
+            continue
+        print(f"\n  [{cat_name}]")
+        for tag_col in ["amenity", "shop", "tourism", "office", "landuse"]:
+            if tag_col in subset.columns:
+                vals = subset[tag_col].loc[
+                    subset[tag_col].notna() & (subset[tag_col].astype(str).str.strip() != "")
+                ]
+                if not vals.empty:
+                    for v, c in vals.value_counts().items():
+                        print(f"    {tag_col}={v}: {c}")
+
+    # =========================
+    # Sauvegarde
+    # =========================
 
     df.to_csv(f"osm_raw_{h3_id}.csv", index=False, encoding="utf-8")
     df_clean.to_csv(f"osm_clean_{h3_id}.csv", index=False, encoding="utf-8")
+
+    df_roads.to_csv(f"osm_roads_{h3_id}.csv", index=False, encoding="utf-8")
+    df_other.to_csv(f"osm_poi_buildings_{h3_id}.csv", index=False, encoding="utf-8")
+
     df_groups.to_csv(f"osm_merge_groups_{h3_id}.csv", index=False, encoding="utf-8")
 
     print("Saved:", f"osm_raw_{h3_id}.csv")
     print("Saved:", f"osm_clean_{h3_id}.csv")
+    print("Saved:", f"osm_roads_{h3_id}.csv")
+    print("Saved:", f"osm_poi_buildings_{h3_id}.csv")
     print("Saved:", f"osm_merge_groups_{h3_id}.csv")
