@@ -31,11 +31,15 @@ def overpass_query(poly_str: str) -> str:
       nwr(poly:"{poly_str}")["office"];
       nwr(poly:"{poly_str}")["building"];
       nwr(poly:"{poly_str}")["building:levels"];
-      way(poly:"{poly_str}")["highway"];
       nwr(poly:"{poly_str}")["landuse"];
       nwr(poly:"{poly_str}")["natural"];
+            nwr(poly:"{poly_str}")["leisure"];
+            nwr(poly:"{poly_str}")["historic"];
+            nwr(poly:"{poly_str}")["railway"];
     );
     out tags center;
+        way(poly:"{poly_str}")["highway"];
+        out tags geom;
     """
 
 
@@ -51,11 +55,31 @@ def elements_to_table(osm_json: dict, h3_id: str) -> pd.DataFrame:
     for el in osm_json.get("elements", []):
         tags = el.get("tags", {}) or {}
 
+        geometry = el.get("geometry")
+
         if el.get("type") == "node":
             lat, lon = el.get("lat"), el.get("lon")
         else:
             center = el.get("center") or {}
             lat, lon = center.get("lat"), center.get("lon")
+            if (lat is None or lon is None) and isinstance(geometry, list) and geometry:
+                lats = [p.get("lat") for p in geometry if isinstance(p, dict) and p.get("lat") is not None]
+                lons = [p.get("lon") for p in geometry if isinstance(p, dict) and p.get("lon") is not None]
+                if lats and lons:
+                    lat = sum(lats) / len(lats)
+                    lon = sum(lons) / len(lons)
+
+        road_length_m = None
+        if tags.get("highway") and isinstance(geometry, list) and len(geometry) >= 2:
+            seg_len = 0.0
+            for p1, p2 in zip(geometry[:-1], geometry[1:]):
+                if (
+                    isinstance(p1, dict) and isinstance(p2, dict)
+                    and p1.get("lat") is not None and p1.get("lon") is not None
+                    and p2.get("lat") is not None and p2.get("lon") is not None
+                ):
+                    seg_len += haversine_m(p1["lat"], p1["lon"], p2["lat"], p2["lon"])
+            road_length_m = seg_len
 
         rows.append({
             "h3_id": h3_id,
@@ -73,6 +97,11 @@ def elements_to_table(osm_json: dict, h3_id: str) -> pd.DataFrame:
             "highway": tags.get("highway"),
             "landuse": tags.get("landuse"),
             "natural": tags.get("natural"),
+            "leisure": tags.get("leisure"),
+            "historic": tags.get("historic"),
+            "railway": tags.get("railway"),
+            "road_length_m": road_length_m,
+            "geometry": geometry,
             "tags": tags,
         })
 
@@ -179,7 +208,10 @@ def haversine_m(lat1, lon1, lat2, lon2):
 
 
 def pick_category(row) -> str:
-    for col in ["amenity", "shop", "tourism", "office", "building", "highway", "landuse", "natural"]:
+    for col in [
+        "amenity", "shop", "tourism", "office", "building",
+        "highway", "landuse", "natural", "leisure", "historic", "railway"
+    ]:
         val = row.get(col)
         if pd.notna(val) and str(val).strip() != "":
             return f"{col}:{val}"
@@ -245,6 +277,7 @@ def non_null_count(row) -> int:
     cols = [
         "name", "amenity", "shop", "tourism", "office",
         "building", "building_levels", "highway", "landuse", "natural",
+        "leisure", "historic", "railway",
         "brand", "operator"
     ]
     score = 0
@@ -267,6 +300,7 @@ def merge_two_rows(base: pd.Series, other: pd.Series) -> pd.Series:
     cols_priority = [
         "name", "amenity", "shop", "tourism", "office",
         "building", "building_levels", "highway", "landuse", "natural",
+        "leisure", "historic", "railway", "road_length_m", "geometry",
         "brand", "operator"
     ]
 
@@ -326,6 +360,21 @@ def merge_two_rows(base: pd.Series, other: pd.Series) -> pd.Series:
         val = get_tag_value(merged_tags, "natural")
         if val:
             merged["natural"] = val
+
+    if pd.isna(merged.get("leisure")) or str(merged.get("leisure")).strip() == "":
+        val = get_tag_value(merged_tags, "leisure")
+        if val:
+            merged["leisure"] = val
+
+    if pd.isna(merged.get("historic")) or str(merged.get("historic")).strip() == "":
+        val = get_tag_value(merged_tags, "historic")
+        if val:
+            merged["historic"] = val
+
+    if pd.isna(merged.get("railway")) or str(merged.get("railway")).strip() == "":
+        val = get_tag_value(merged_tags, "railway")
+        if val:
+            merged["railway"] = val
 
     if pd.isna(merged.get("highway")) or str(merged.get("highway")).strip() == "":
         val = get_tag_value(merged_tags, "highway")
@@ -443,6 +492,9 @@ def clean_osm_duplicates(
     df["highway"] = df.apply(lambda r: fill_from_tags(r, "highway", "highway"), axis=1)
     df["landuse"] = df.apply(lambda r: fill_from_tags(r, "landuse", "landuse"), axis=1)
     df["natural"] = df.apply(lambda r: fill_from_tags(r, "natural", "natural"), axis=1)
+    df["leisure"] = df.apply(lambda r: fill_from_tags(r, "leisure", "leisure"), axis=1)
+    df["historic"] = df.apply(lambda r: fill_from_tags(r, "historic", "historic"), axis=1)
+    df["railway"] = df.apply(lambda r: fill_from_tags(r, "railway", "railway"), axis=1)
 
     df["brand"] = df["tags"].apply(lambda t: get_tag_value(t, "brand", "brand:fr", "brand:ar"))
     df["operator"] = df["tags"].apply(lambda t: get_tag_value(t, "operator", "operator:fr", "operator:ar"))
@@ -566,6 +618,218 @@ def clean_osm_duplicates(
 
     return cleaned, groups_df
 
+def count_equals(df: pd.DataFrame, col: str, value: str) -> int:
+    if col not in df.columns:
+        return 0
+    s = df[col].fillna("").astype(str).str.strip()
+    return int((s == value).sum())
+
+
+def count_in(df: pd.DataFrame, col: str, values: set[str]) -> int:
+    if col not in df.columns:
+        return 0
+    s = df[col].fillna("").astype(str).str.strip()
+    return int(s.isin(values).sum())
+
+
+def count_non_empty(df: pd.DataFrame, col: str) -> int:
+    if col not in df.columns:
+        return 0
+    s = df[col].fillna("").astype(str).str.strip()
+    return int((s != "").sum())
+
+
+def compute_intersection_count(df_roads: pd.DataFrame) -> int:
+    if df_roads.empty or "geometry" not in df_roads.columns:
+        return 0
+
+    node_to_way_ids: dict[tuple[float, float], set[str]] = {}
+
+    for _, row in df_roads.iterrows():
+        geom = row.get("geometry")
+        if not isinstance(geom, list) or len(geom) < 2:
+            continue
+
+        way_id = f"{row.get('osm_type')}/{row.get('osm_id')}"
+        for p in geom:
+            if not isinstance(p, dict) or p.get("lat") is None or p.get("lon") is None:
+                continue
+            key = (round(float(p["lat"]), 6), round(float(p["lon"]), 6))
+            node_to_way_ids.setdefault(key, set()).add(way_id)
+
+    return int(sum(1 for ways in node_to_way_ids.values() if len(ways) >= 2))
+
+
+def compute_population_proxy_features(
+    df_other: pd.DataFrame,
+    h3_id: str,
+    df_roads: pd.DataFrame | None = None,
+    df_all: pd.DataFrame | None = None,
+) -> pd.DataFrame:
+    if df_roads is None:
+        if df_all is not None and "highway" in df_all.columns:
+            has_highway = df_all["highway"].notna() & (df_all["highway"].astype(str).str.strip() != "")
+            df_roads = df_all[has_highway].copy()
+        else:
+            df_roads = pd.DataFrame()
+
+    area_km2 = h3.cell_area(h3_id, unit="km^2")
+
+    features = {
+        "h3_id": h3_id,
+        "school": 0,
+        "university": 0,
+        "college": 0,
+        "kindergarten": 0,
+        "library": 0,
+        "hospital": 0,
+        "clinic": 0,
+        "pharmacy": 0,
+        "doctors": 0,
+        "dentist": 0,
+        "restaurant": 0,
+        "cafe": 0,
+        "fast_food": 0,
+        "bar": 0,
+        "pub": 0,
+        "food_court": 0,
+        "supermarket": 0,
+        "convenience": 0,
+        "mall": 0,
+        "clothes": 0,
+        "bakery": 0,
+        "butcher": 0,
+        "pharmacy_shop": 0,
+        "electronics": 0,
+        "general_shop": 0,
+        "place_of_worship": 0,
+        "community_centre": 0,
+        "social_facility": 0,
+        "hotel": 0,
+        "guest_house": 0,
+        "museum": 0,
+        "theatre": 0,
+        "cinema": 0,
+        "park": 0,
+        "stadium": 0,
+        "sports_centre": 0,
+        "post_office": 0,
+        "police": 0,
+        "fire_station": 0,
+        "townhall": 0,
+        "courthouse": 0,
+        "bank": 0,
+        "atm": 0,
+        "bus_stop": 0,
+        "station": 0,
+        "parking": 0,
+        "taxi": 0,
+        "fuel": 0,
+        "primary_roads": 0,
+        "secondary_roads": 0,
+        "tertiary_roads": 0,
+        "residential_roads": 0,
+        "road_length_total": 0.0,
+        "intersection_count": 0,
+        "building_count": 0,
+        "building_density": 0.0,
+        "poi_total": 0,
+        "shop_total": 0,
+        "amenity_total": 0,
+        "tourism_total": 0,
+    }
+
+    # 1) Éducation
+    features["school"] = count_equals(df_other, "amenity", "school")
+    features["university"] = count_equals(df_other, "amenity", "university")
+    features["college"] = count_equals(df_other, "amenity", "college")
+    features["kindergarten"] = count_equals(df_other, "amenity", "kindergarten")
+    features["library"] = count_equals(df_other, "amenity", "library")
+
+    # 2) Santé
+    features["hospital"] = count_equals(df_other, "amenity", "hospital")
+    features["clinic"] = count_equals(df_other, "amenity", "clinic")
+    features["pharmacy"] = count_equals(df_other, "amenity", "pharmacy")
+    features["doctors"] = count_equals(df_other, "amenity", "doctors")
+    features["dentist"] = count_equals(df_other, "amenity", "dentist")
+
+    # 3) Nourriture / vie sociale
+    features["restaurant"] = count_equals(df_other, "amenity", "restaurant")
+    features["cafe"] = count_equals(df_other, "amenity", "cafe")
+    features["fast_food"] = count_equals(df_other, "amenity", "fast_food")
+    features["bar"] = count_equals(df_other, "amenity", "bar")
+    features["pub"] = count_equals(df_other, "amenity", "pub")
+    features["food_court"] = count_equals(df_other, "amenity", "food_court")
+
+    # 4) Commerce
+    features["supermarket"] = count_equals(df_other, "shop", "supermarket")
+    features["convenience"] = count_equals(df_other, "shop", "convenience")
+    features["mall"] = count_equals(df_other, "shop", "mall")
+    features["clothes"] = count_equals(df_other, "shop", "clothes")
+    features["bakery"] = count_equals(df_other, "shop", "bakery")
+    features["butcher"] = count_equals(df_other, "shop", "butcher")
+    features["pharmacy_shop"] = count_equals(df_other, "shop", "pharmacy")
+    features["electronics"] = count_equals(df_other, "shop", "electronics")
+    features["general_shop"] = count_equals(df_other, "shop", "general")
+
+    # 5) Religion / communauté
+    features["place_of_worship"] = count_equals(df_other, "amenity", "place_of_worship")
+    features["community_centre"] = count_equals(df_other, "amenity", "community_centre")
+    features["social_facility"] = count_equals(df_other, "amenity", "social_facility")
+
+    # 6) Tourisme / loisirs
+    features["hotel"] = count_equals(df_other, "tourism", "hotel")
+    features["guest_house"] = count_equals(df_other, "tourism", "guest_house")
+    features["museum"] = count_equals(df_other, "tourism", "museum") + count_equals(df_other, "amenity", "museum")
+    features["theatre"] = count_equals(df_other, "amenity", "theatre")
+    features["cinema"] = count_equals(df_other, "amenity", "cinema")
+    features["park"] = count_equals(df_other, "leisure", "park") + count_equals(df_other, "landuse", "park")
+    features["stadium"] = count_equals(df_other, "leisure", "stadium") + count_equals(df_other, "amenity", "stadium")
+    features["sports_centre"] = count_equals(df_other, "leisure", "sports_centre") + count_equals(df_other, "amenity", "sports_centre")
+
+    # 7) Services publics
+    features["post_office"] = count_equals(df_other, "amenity", "post_office")
+    features["police"] = count_equals(df_other, "amenity", "police")
+    features["fire_station"] = count_equals(df_other, "amenity", "fire_station")
+    features["townhall"] = count_equals(df_other, "amenity", "townhall") + count_equals(df_other, "amenity", "town_hall")
+    features["courthouse"] = count_equals(df_other, "amenity", "courthouse")
+    features["bank"] = count_equals(df_other, "amenity", "bank")
+    features["atm"] = count_equals(df_other, "amenity", "atm")
+
+    # 8) Transport
+    features["bus_stop"] = count_equals(df_other, "highway", "bus_stop")
+    features["station"] = count_equals(df_other, "railway", "station")
+    features["parking"] = count_equals(df_other, "amenity", "parking")
+    features["taxi"] = count_equals(df_other, "amenity", "taxi")
+    features["fuel"] = count_equals(df_other, "amenity", "fuel")
+
+    # 9) Routes
+    features["primary_roads"] = count_in(df_roads, "highway", {"primary", "primary_link"})
+    features["secondary_roads"] = count_in(df_roads, "highway", {"secondary", "secondary_link"})
+    features["tertiary_roads"] = count_in(df_roads, "highway", {"tertiary", "tertiary_link"})
+    features["residential_roads"] = count_in(df_roads, "highway", {"residential", "living_street", "unclassified"})
+
+    if "road_length_m" in df_roads.columns:
+        features["road_length_total"] = float(pd.to_numeric(df_roads["road_length_m"], errors="coerce").fillna(0).sum())
+
+    features["intersection_count"] = compute_intersection_count(df_roads)
+
+    # 10) Features géographiques utiles
+    features["building_count"] = count_non_empty(df_other, "building")
+    features["building_density"] = (features["building_count"] / area_km2) if area_km2 else 0.0
+
+    poi_mask = pd.Series(False, index=df_other.index)
+    for col in ["amenity", "shop", "tourism", "office", "leisure", "historic"]:
+        if col in df_other.columns:
+            poi_mask = poi_mask | (df_other[col].fillna("").astype(str).str.strip() != "")
+    features["poi_total"] = int(poi_mask.sum())
+
+    features["shop_total"] = count_non_empty(df_other, "shop")
+    features["amenity_total"] = count_non_empty(df_other, "amenity")
+    features["tourism_total"] = count_non_empty(df_other, "tourism")
+
+    return pd.DataFrame([features])
+
 # =========================
 # 4) Exemple d'utilisation
 # =========================
@@ -593,6 +857,7 @@ if __name__ == "__main__":
     has_highway = df_clean["highway"].notna() & (df_clean["highway"].astype(str).str.strip() != "")
     df_roads = df_clean[has_highway].copy()
     df_other = df_clean[~has_highway].copy()
+    df_features = compute_population_proxy_features(df_other, h3_id, df_roads=df_roads, df_all=df_clean)
 
     print("Routes:", len(df_roads))
     print("Autres (POI + buildings):", len(df_other))
@@ -717,6 +982,8 @@ if __name__ == "__main__":
 
     df_roads.to_csv(f"osm_roads_{h3_id}.csv", index=False, encoding="utf-8")
     df_other.to_csv(f"osm_poi_buildings_{h3_id}.csv", index=False, encoding="utf-8")
+    df_features.to_csv(f"osm_features_{h3_id}.csv", index=False, encoding="utf-8")
+    print("Saved:", f"osm_features_{h3_id}.csv")
 
     df_groups.to_csv(f"osm_merge_groups_{h3_id}.csv", index=False, encoding="utf-8")
 
