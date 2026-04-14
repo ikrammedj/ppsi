@@ -317,8 +317,7 @@ def main():
 
     elapsed = time.time() - start_time
     mins = elapsed / 60
-
-    log("\n===== TERMINÉ =====")
+    
     log(f"Saved   : {progress['saved']}")
     log(f"Skipped : {progress['skipped']}")
     log(f"Failed  : {progress['failed']}")
